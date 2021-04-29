@@ -1,0 +1,41 @@
+.all {
+    margin: auto 40px auto 40px;
+    padding: 15px 10px 15px 10px;
+    font-family: 'Shadows Into Light', cursive, sans-serif;
+    margin: auto 40px auto 40px;
+    background-color: #f0f0f0;
+
+}
+
+.top,
+footer {
+    max-width: 1080px;
+    margin: 10px 5px 10px 5px;
+    background-color: #5f9ea0;
+    border: 20px solid #5f9ea0;
+    border-radius: 5px;
+}
+
+#cit {
+    max-width: 1080px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    border-bottom: 8px solid #a9a9a9;
+}
+
+.list {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.image {
+    width: 150px;
+    height: 180px;
+    margin-top: -60px;
+    float: right;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: center;
+}
