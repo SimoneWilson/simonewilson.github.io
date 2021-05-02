@@ -5,7 +5,8 @@
 
     nav ul li {
         flex-basis: auto;
-        margin: 0 1rem;
+        padding-left: 2%;
+        padding-right: 1%;
     }
 
     main figure {
