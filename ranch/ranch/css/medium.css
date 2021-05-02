@@ -4,7 +4,8 @@
     }
 
     nav ul li {
-        flex-basis: 25%;
+        flex-basis: auto;
+        margin: 0 1rem;
     }
 
     main figure {

@@ -6,12 +6,7 @@
         margin: auto;
     }
 
-    nav ul li {
-        flex-basis: 25%;
-    }
-
     nav ul {
-
         padding-left: 2%
     }
 
