@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1028px) {
+
+    main figure img {
+        width: 35%;
+        margin-right: 100px;
+        margin-left: 150px;
+        align-items: right;
+    }
+
+    .container {
+        margin: 45px 20px 25px 20px;
+        column-count: 2;
+        column-rule: 1px solid transparent;
+    }
+
+    main div h3 {
+        font-size: 30px;
+    }
+
+    main div p {
+        margin-left: 60px;
+        font-size: 20px;
+
+    }
+}

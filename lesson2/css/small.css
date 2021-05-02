@@ -1,0 +1,60 @@
+/* body rules here*/
+body {
+    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+
+}
+
+/* header rules here*/
+header,
+footer {
+    margin: 5px 10px 5px 10px;
+    padding: 20px 10px;
+    text-align: center;
+    background-color: #4287f5;
+    border-style: double;
+    border-radius: 16px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: bolder;
+}
+
+header h2 {
+    margin: 0;
+}
+
+.container {
+    display: block;
+    margin: 15px 20px 15px 20px;
+    padding: 15px 2%;
+
+}
+
+main div h3 {
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+main div p {
+    color: #000;
+    text-align: justify;
+    line-height: 1.5;
+    padding-bottom: 10px;
+}
+
+main figure img {
+    width: 80%;
+    margin-left: 25px;
+    align-items: center;
+}
+
+main figure {
+    width: 100%;
+    margin: 0;
+}
+
+main figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
