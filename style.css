@@ -33,6 +33,7 @@ h2 {
 
 .image {
     width: 170px;
+    height: auto;
     margin-top: -60px;
     float: right;
     padding-bottom: 15px;

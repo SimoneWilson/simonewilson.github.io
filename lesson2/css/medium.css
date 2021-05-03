@@ -1,19 +1,40 @@
-@media only screen and (min-width: 560px) {
-
-    main figure img {
-        width: 50%;
-        margin-left: 100px;
-        align-items: right;
+@media only screen and (min-width: 32em) {
+    main {
+        margin: 20px;
     }
 
-    .container {
-        margin: 15px 20px 15px 20px;
-        column-count: 2;
-        column-rule: 1px solid transparent;
+    img {
+        width: 100%;
     }
 
-    main div p {
-        margin-left: 30px;
-       
+    p {
+        margin-left: 50px;
     }
+
+    .div-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 50px;
+    }
+
+    .column-one {
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+    }
+
+    .column-two {
+        grid-column-start: 2;
+    }
+
+    .column-three {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    main figcaption {
+        display: none;
+
+    }
+
 }

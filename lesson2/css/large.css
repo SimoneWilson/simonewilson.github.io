@@ -1,26 +1,23 @@
-@media only screen and (min-width: 1028px) {
-
-    main figure img {
-        width: 45%;
-        margin-right: 50px;
-        margin-left: 100px;
-        align-items: right;
+@media only screen and (min-width: 70em) {
+    .div-container {
+        display: grid;
+        grid-template-columns: 33% 33% 34%;
+        grid-gap: 20px;
     }
 
-    .container {
-        margin: 45px 20px 25px 20px;
+    .column-one {
+        grid-column-start: 1;
 
-        column-count: 3;
-        column-rule: 2px solid transparent;
+
     }
 
-    main div h3 {
-        font-size: 20px;
+    .column-two {
+        grid-column-start: 2;
     }
 
-    main div p {
-        margin-left: 30px;
-        font-size: 20px;
+    .column-three {
+        grid-column-start: 3;
+        grid-row-start: 1;
 
     }
 }
