@@ -4,9 +4,10 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
-/*----------- apply a natural box layout model to all elements --------------*/
-    {
 
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing;
