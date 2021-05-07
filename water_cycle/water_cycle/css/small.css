@@ -24,7 +24,7 @@ body {
 /*----------- HEADER --------------*/
 header {
     padding: 1rem 4%;
-    background-color: #ddd;
+    background-color: #0081a7;
 }
 
 header img {
@@ -45,7 +45,7 @@ header h2 {
 
 /*----------- NAVIGATION --------------*/
 nav {
-    background-color: #666;
+    background-color: #00afb9;
 }
 
 nav ul {
@@ -85,7 +85,7 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: #00afb9;
     padding: .5rem 4%;
     text-align: center;
 }
