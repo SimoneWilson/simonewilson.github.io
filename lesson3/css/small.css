@@ -63,7 +63,6 @@ nav ul li a {
     text-align: center;
 }
 
-
 nav ul li a:hover {
     background-color: #aaa;
     color: #333;
@@ -80,7 +79,6 @@ main {
     padding: 5% 2%;
     min-height: 10rem;
     display: block;
-
 }
 
 
