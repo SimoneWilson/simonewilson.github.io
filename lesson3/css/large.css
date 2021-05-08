@@ -15,10 +15,6 @@
     /*----------- NAVIGATION --------------*/
 
 
-    nav {
-       
-    }
-
     nav ul {
         margin-left: 2%;
     }
@@ -31,19 +27,14 @@
         padding: .5rem 1rem;
     }
 
-
     /*----------- MAIN --------------*/
     main {
-        width: 95%;
-
-
+        width: 90%;
     }
 
-
-
-
-
-
+    main p {
+        line-height: 1.2rem;
+    }
 
 
     .personas {

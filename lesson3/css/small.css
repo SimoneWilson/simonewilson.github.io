@@ -79,6 +79,11 @@ main {
     padding: 5% 2%;
     min-height: 10rem;
     display: block;
+    line
+}
+
+main p {
+    line-height: 1.2rem;
 }
 
 
@@ -108,12 +113,13 @@ main img {
 /*----------- FOOTER --------------*/
 footer {
     background-color: #CCE6F4;
-    padding: 1rem 4%;
+    padding: 1rem 2%;
+}
 
 
-    /*----- Clearfix: Force an Element not to collapse -----*/
-    .clearfix:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
