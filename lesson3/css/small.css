@@ -16,37 +16,36 @@ html {
 
 /*----------- BODY --------------*/
 body {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*----------- HEADER --------------*/
 header {
-    padding: 1rem 4%;
+    padding: 1rem 2%;
     background-color: #4BA3C3;
 }
 
 header img {
-    width: 50px;
+    width: 60px;
     float: left;
     margin-right: 10px;
 }
 
 header h1 {
     margin: 0;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+
 }
 
 header h2 {
     margin: 0;
+    font-size: 1.2rem;
     font-weight: normal;
 }
 
 /*----------- NAVIGATION --------------*/
-nav {
-    background-color: #175676;
-}
+
 
 nav ul {
     list-style-type: none;
@@ -57,6 +56,7 @@ nav ul {
 nav ul li a {
     display: block;
     color: #eee;
+    background-color: #175676;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
@@ -77,23 +77,45 @@ nav ul li.active a {
 /*----------- MAIN --------------*/
 main {
     width: 100%;
-    padding: 0 2%;
+    padding: 5% 2%;
     min-height: 10rem;
     display: block;
 
 }
 
 
+main img {
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#domain_img {
+    width: 50%;
+
+}
+
+#decor {
+    font-weight: bold;
+}
+
+
+.personas {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: #CCE6F4;
-    padding: .5rem 4%;
-    text-align: center;
-}
+    padding: 1rem 4%;
 
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
+    /*----- Clearfix: Force an Element not to collapse -----*/
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
