@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<div id="headerWrapper">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="WDD230 Lesson4">
+        <meta name="author" content="Simone McKee">
+
+        <!-- This start file was build by Paul Cheney  -->
+        <title>Weather Site Project</title>
+
+        <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+        <meta name="viewport" content="width=device-width , initial-scale=1, maximum-scale=1">
+
+
+        <!-- STYLE SHEETS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+        <!-- phone-default -->
+        <link href="css/small.css" rel="stylesheet">
+        <!-- enhance-tablet -->
+        <link href="css/medium.css" rel="stylesheet">
+        <!-- enhance-desktop -->
+        <link href="css/large.css" rel="stylesheet">
+
+    </head>
+</div>
+
+<body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+        <img src="images/weather_icon_128px.png" alt="icon" />
+        <h1>Weather Today Utah</h1>
+        <h2>Your portal for weather in Utah</h2>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+    <div id="navWrapper">
+        <nav class="clearfix">
+            <button onclick="toggleMenu()"></button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li class="active"><a href="sodaSpring.html">Soda Spring</a></li>
+                <li><a href="fishHaven.html">Fish Haven</a></li>
+                <li><a href="stormCenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- CONTENT HERE -->
+    <main>
+        <h1>Soda Spring</h1>
+        <div>Weather summary will be here
+        </div>
+        <div>Article and image will be here</div>
+        <div>Contact us, map and other info will be here</div>
+
+    </main>
+
+    <!-- FOOTER HERE -->
+    <div id="footerWrapper">
+        <footer>
+            <div id="footerWrapper">
+                <footer>
+                    <p>Current Date: <label id="currentDate"></label></p>
+                </footer>
+            </div>
+            <script src="script.js"></script>
+</body>
+</footer>
+</div>
+</body>
+
+</html>

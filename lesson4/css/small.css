@@ -1,0 +1,119 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+/*----------- BODY --------------*/
+body {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----------- HEADER --------------*/
+
+header {
+    padding: 1rem 2%;
+    background-color: #4BA3C3;
+}
+
+header img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.6rem;
+
+}
+
+header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+/*----------- NAVIGATION --------------*/
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #eee;
+    background-color: #175676;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #aaa;
+    color: #333;
+}
+
+nav ul li.active a {
+    background-color: #000;
+    color: #fff;
+}
+
+/*----------- MAIN --------------*/
+main {
+    width: 100%;
+    padding: 5% 2%;
+    min-height: 10rem;
+    display: block;
+    line
+}
+
+main img {
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#home_img {
+    width: 60%;
+
+}
+
+#decor {
+    font-weight: bold;
+}
+
+
+.personas {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #CCE6F4;
+    padding: 1rem 2%;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
