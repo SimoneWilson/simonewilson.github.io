@@ -1,34 +1,32 @@
 <!doctype html>
 <html lang="en">
+<div id="headerWrapper">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="description" content="WDD230 Lesson4 ">
-    <meta name="author" content="Simone McKee">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="WDD230 Lesson4">
+        <meta name="author" content="Simone McKee">
 
-    <!-- This start file was build by Paul Cheney  -->
-    <title>Weather Site Project</title>
+        <!-- This start file was build by Paul Cheney  -->
+        <title>Weather Site Project</title>
 
-    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
-    <meta name="viewport" content="width=device-width , initial-scale=1, maximum-scale=1">
-
-
-
-
-    <!-- STYLE SHEETS -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-    <!-- phone-default -->
-    <link href="css/small.css" rel="stylesheet">
-    <!-- enhance-tablet -->
-    <link href="css/medium.css" rel="stylesheet">
-    <!-- enhance-desktop -->
-    <link href="css/large.css" rel="stylesheet">
+        <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+        <meta name="viewport" content="width=device-width , initial-scale=1, maximum-scale=1">
 
 
+        <!-- STYLE SHEETS -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+        <!-- phone-default -->
+        <link href="css/small.css" rel="stylesheet">
+        <!-- enhance-tablet -->
+        <link href="css/medium.css" rel="stylesheet">
+        <!-- enhance-desktop -->
+        <link href="css/large.css" rel="stylesheet">
 
-</head>
+    </head>
+</div>
 
 <body>
     <!-- HEADER HERE -->
@@ -40,44 +38,42 @@
 
 
     <!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-        <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="preston.html">Preston</a></li>
-            <li><a href="sodaSpring.html">Soda Spring</a></li>
-            <li><a href="fishHaven.html">Fish Haven</a></li>
-            <li><a href="stormCenter.html">Storm Center</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+    <div id="navWrapper">
+        <nav class="clearfix">
 
-        </ul>
-    </nav>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodaSpring.html">Soda Spring</a></li>
+                <li><a href="fishHaven.html">Fish Haven</a></li>
+                <li><a href="stormCenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <!-- CONTENT HERE -->
     <main>
         <h1>Home</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cum ab corrupti quo, possimus eligendi vero
-            veritatis provident repudiandae, dicta delectus harum, ex suscipit vel explicabo officia natus! Totam
-            praesentium, id debitis maxime ut earum facilis ipsa omnis excepturi. Similique, ullam nisi ipsa
-            perferendis, id nostrum quos blanditiis repudiandae quo necessitatibus quam. Perferendis neque quaerat
-            exercitationem, odio sunt dolores debitis necessitatibus, aspernatur quis atque cumque laudantium minima
-            beatae dolorum dolor minus temporibus possimus eum laboriosam perspiciatis error incidunt officia! Neque
-            perferendis accusantium illum omnis? Blanditiis, suscipit officiis in harum officia placeat facere voluptas
-            error corporis illo repellendus, facilis id laudantium!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe dolores sit deserunt sapiente vero a in?
+            Voluptate fuga, debitis fugiat assumenda excepturi similique, rem sit perspiciatis blanditiis deserunt
+            doloremque nemo nostrum voluptatum delectus mollitia dolorem iusto quis vel exercitationem laboriosam
+            praesentium temporibus non ipsa distinctio. Enim suscipit accusamus veniam eligendi natus mollitia non
+            soluta omnis sequi vitae odit hic quae nobis qui saepe ut atque eveniet, provident maiores. Cupiditate
+            facere odio molestias autem ipsum nobis iusto dicta, nihil voluptatum voluptatibus, dolorem dignissimos,
+            magni tempora amet libero sit cum vitae delectus. Quasi explicabo saepe debitis veniam animi voluptatibus
+            cupiditate fugiat. Sapiente.</p>
 
-
-        <img id="home_img" src="images/homeImage.png" alt="home_image" />
     </main>
 
     <!-- FOOTER HERE -->
     <footer>
-        <div id="footerWrapper">
-            <footer>
-                <p>Current Date: <label id="currentDate"></label></p>
-            </footer>
-        </div>
-        <script src="script.js"></script>
-</body>
-
+        <p>Current Date: &nbsp; <span id="currentDate"></span>
+        </p>
+    </footer>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

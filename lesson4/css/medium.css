@@ -21,18 +21,36 @@
 
     /*----------- NAVIGATION --------------*/
 
-    nav ul {
-        margin-left: 2%;
-    }
 
     nav ul li {
         float: left;
     }
 
+
     nav ul li a {
         padding: .5rem 1rem;
-        background-color: #175676;
+
     }
+
+    .navigation {
+        display: flex;
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+
+
+
+
+
 
 
     /*----------- MAIN --------------*/

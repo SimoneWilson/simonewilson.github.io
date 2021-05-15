@@ -40,9 +40,12 @@
     <!-- NAVIGATION HERE -->
     <div id="navWrapper">
         <nav class="clearfix">
-            <button onclick="toggleMenu()"></button>
-            <ul>
-                <li><a href="index.html">Home</a></li>
+
+            <ul class="navigation">
+                <button class="responsive">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                </button>
+                <li><a href="home.html">Home</a></li>
                 <li class="active"><a href="preston.html">Preston</a></li>
                 <li><a href="sodaSpring.html">Soda Spring</a></li>
                 <li><a href="fishHaven.html">Fish Haven</a></li>
@@ -66,10 +69,12 @@
     <!-- FOOTER HERE -->
     <div id="footerWrapper">
         <footer>
-            <p>Current Date: <label id="currentDate"></label></p>
+
+            <p>Current Date: &nbsp; <span id="currentDate"></span>
+            </p>
         </footer>
     </div>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -8,7 +8,7 @@
     main,
     footer {
         max-width: 70rem;
-        margin: 0;
+        margin: 0 10%;
     }
 
 
@@ -22,7 +22,7 @@
 
 
     nav ul {
-        margin-left: 2%;
+        margin: 0;
     }
 
     nav ul li {
@@ -32,6 +32,11 @@
 
     nav ul li a {
         padding: .5rem 1rem;
+
+    }
+
+    .navigation li:first-child {
+        display: none;
     }
 
     /*----------- MAIN --------------*/

@@ -54,23 +54,41 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #eee;
+    color: #fff;
     background-color: #175676;
-    padding: .5rem 0;
+    padding: .8rem 1rem;
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
 }
 
-nav ul li a:hover {
-    background-color: #aaa;
-    color: #333;
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.navigation a:hover {
+    color: #000;
 }
 
 nav ul li.active a {
-    background-color: #000;
-    color: #fff;
+    background-color: #cce6f4;
+    color: #000;
 }
+
+
+.navigation button {
+    width: 100%;
+    display: block;
+    margin: 0;
+    border: none;
+}
+
 
 /*----------- MAIN --------------*/
 main {
@@ -87,29 +105,13 @@ main img {
     padding-bottom: 2rem;
 }
 
-#home_img {
-    width: 60%;
-
-}
-
-#decor {
-    font-weight: bold;
-}
-
-
-.personas {
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-}
 
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #CCE6F4;
-    padding: 1rem 2%;
+    background-color: #4ba3c3;
+    padding: 0.5rem 2%;
 }
-
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

@@ -1,3 +1,37 @@
+
+function toggleMenu() {
+    document.getElementByClassName("navigation")[0].classList.toggle("responsive");
+
+
+}
+
+
+
 var today = new Date();
-var date = today.getWeekDay() + ',' + todayDate() + ' ' + (today.getMonth() + 1) + ' ' + today.getFullYear();
-document.getElementById("currentDate").innerHTML = date;
+var day = today.getDay();
+var d = "";
+if (day == 0) {
+    d += "Sunday";
+}
+else if (day == 1) {
+    d += "Monday";
+}
+else if (day == 2) {
+    d += "Tuesday";
+}
+else if (day == 3) {
+    d += "Wednesday";
+}
+else if (day == 4) {
+    d += "Thursday";
+}
+else if (day == 5) {
+    d += "Friday";
+}
+else if (day == 6) {
+    d += "Saturday";
+}
+
+d += ', ' + today.getDate() + ' ' + today.toLocaleString('default', { month: 'long' }) + ' ' + today.getFullYear();
+document.getElementById("currentDate").innerHTML = d;
+
