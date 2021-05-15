@@ -1,11 +1,10 @@
+/*----------- Toggle Menu -----------*/
 
 function toggleMenu() {
-    document.getElementByClassName("navigation")[0].classList.toggle("responsive");
-
-
+    document.getElementById("navigation").classList.toggle("hide");
 }
 
-
+/*-----------Complete Date String -----------*/
 
 var today = new Date();
 var day = today.getDay();

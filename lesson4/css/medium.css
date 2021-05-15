@@ -13,14 +13,21 @@
         width: 70px;
     }
 
+
+    header h1 {
+        padding-top: 0.5rem;
+    }
+
+
     header h2 {
         font-size: 1.5rem;
     }
 
-
-
     /*----------- NAVIGATION --------------*/
 
+    nav ul {
+        list-style-type: none;
+    }
 
     nav ul li {
         float: left;
@@ -32,28 +39,39 @@
 
     }
 
-    .navigation {
+    nav button {
+        display: none;
+    }
+
+
+    #navigation {
         display: flex;
         text-align: center;
     }
 
-    .navigation li:first-child {
-        display: none;
-    }
 
-    .navigation li {
+    #navigation li {
         display: block;
         flex: 1 1 100%;
     }
 
 
-
-
-
-
-
-
     /*----------- MAIN --------------*/
+
+    main {
+        padding-top: 10%;
+        min-height: 10rem;
+    }
+
+    main h1 {
+        text-align: justify;
+    }
+
+
+    main div {
+        text-align: justify;
+
+    }
 
 
     /*----------- FOOTER --------------*/

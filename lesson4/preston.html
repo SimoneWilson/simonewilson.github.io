@@ -38,29 +38,27 @@
 
 
     <!-- NAVIGATION HERE -->
-    <div id="navWrapper">
-        <nav class="clearfix">
+    <div id="navWrapper"></div>
+    <nav class="clearfix">
 
-            <ul class="navigation">
-                <button class="responsive">
-                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-                </button>
-                <li><a href="home.html">Home</a></li>
-                <li class="active"><a href="preston.html">Preston</a></li>
-                <li><a href="sodaSpring.html">Soda Spring</a></li>
-                <li><a href="fishHaven.html">Fish Haven</a></li>
-                <li><a href="stormCenter.html">Storm Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+
+        <ul id="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston.html">Preston</a></li>
+            <li><a href="sodaSpring.html">Soda Spring</a></li>
+            <li><a href="fishHaven.html">Fish Haven</a></li>
+            <li><a href="stormCenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
     </div>
 
     <!-- CONTENT HERE -->
     <main>
         <h1>Preston</h1>
-        <div>Weather summary and hero image will be here
+        <div>Weather summary will be here
         </div>
-        <div>5-day forecast will be here</div>
         <div>Article and image will be here</div>
         <div>Contact us, map and other info will be here</div>
 
@@ -69,12 +67,14 @@
     <!-- FOOTER HERE -->
     <div id="footerWrapper">
         <footer>
-
             <p>Current Date: &nbsp; <span id="currentDate"></span>
             </p>
         </footer>
     </div>
     <script src="js/script.js"></script>
+</body>
+</footer>
+</div>
 </body>
 
 </html>

@@ -7,7 +7,7 @@
     nav,
     main,
     footer {
-        max-width: 70rem;
+        max-width: 80rem;
         margin: 0 10%;
     }
 
@@ -35,14 +35,13 @@
 
     }
 
-    .navigation li:first-child {
+    nav button {
         display: none;
     }
 
+
     /*----------- MAIN --------------*/
-    main {
-        width: 100%;
-    }
+
 
 
 
