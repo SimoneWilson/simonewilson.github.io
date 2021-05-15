@@ -13,7 +13,6 @@
         width: 70px;
     }
 
-
     header h1 {
         padding-top: 0.5rem;
     }
@@ -36,10 +35,15 @@
 
     nav ul li a {
         padding: .5rem 1rem;
+        font-size: 0.9em;
 
     }
 
     nav button {
+        display: none;
+    }
+
+    nav h1 {
         display: none;
     }
 
@@ -58,18 +62,14 @@
 
     /*----------- MAIN --------------*/
 
-    main {
-        padding-top: 10%;
-        min-height: 10rem;
-    }
+    .principal {
+        padding-top: 40px;
 
-    main h1 {
-        text-align: justify;
     }
 
 
     main div {
-        text-align: justify;
+        margin: 0;
 
     }
 
