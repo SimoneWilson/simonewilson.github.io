@@ -7,8 +7,9 @@
     nav,
     main,
     footer {
-        max-width: 80rem;
+        width: 100% !important;
         margin: 0;
+
     }
 
 
