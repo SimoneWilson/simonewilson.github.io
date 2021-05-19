@@ -53,6 +53,11 @@
         display: none;
     }
 
+    nav ul li.active a {
+        border-style: ridge;
+        border-color: #175676;
+    }
+
 
     #navigation {
         display: flex;
