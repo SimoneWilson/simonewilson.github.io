@@ -52,7 +52,7 @@ header h2 {
 nav button {
     width: 100%;
     border: none;
-    color: #000;
+    color: #fff;
     background-color: #175676;
     text-decoration: none;
     font-size: 1.3rem;
@@ -73,7 +73,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #000;
+    color: #fff;
     background-color: #175676;
     text-decoration: none;
     font-size: 1.3rem;
@@ -87,7 +87,7 @@ nav ul li a:hover {
 }
 
 nav ul li.active a {
-    background-color: #000;
+    background-color: #808080;
     color: #fff;
 }
 
