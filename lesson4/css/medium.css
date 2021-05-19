@@ -56,8 +56,8 @@
     nav ul li.active a {
         border-style: ridge;
         border-color: #175676;
+        color: #000;
     }
-
 
     #navigation {
         display: flex;
