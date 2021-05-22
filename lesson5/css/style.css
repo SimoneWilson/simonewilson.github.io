@@ -40,6 +40,7 @@ input {
 
 label {
   font-size: 0.9rem;
+  margin-left: 2rem;
 }
 .listcontainer {
   border: 1px solid #bbb;
