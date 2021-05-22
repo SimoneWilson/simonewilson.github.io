@@ -11,8 +11,7 @@
 
     <!-- STYLE SHEETS -->
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
 
 </head>
@@ -28,16 +27,16 @@
 
     <main>
         <div class="input">
-            <label for="chapter">Enter Book and Chapter</label>
-            <input id="chapter" type="text" id="fav" placeholder="Alma 5">
-            <button type="button">Add Chapter</button>
+            <label>Enter Book and Chapter<br>
+                <input type="text" id="favchap" placeholder="Alma 5" required></label>
+            <button id="add-to-list" type="submit">Add Chapter</button>
         </div>
-        <div class="list">
-            <ul>
-
+        <div class="listcontainer">
+            <ul id="favs" class="list">
             </ul>
         </div>
     </main>
+    <script src="js/bom.js"></script>
 </body>
 
 </html>
