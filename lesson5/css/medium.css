@@ -1,87 +1,86 @@
 /* 35em is also 560px (if basefont is 16px) */
 @media only screen and (min-width: 560px) {
+  /*----------- BODY --------------*/
 
+  /*----------- HEADER --------------*/
 
-    /*----------- BODY --------------*/
+  Header img {
+    width: 70px;
+  }
 
+  header h1 {
+    padding-top: 0.5rem;
+  }
 
+  header h2 {
+    font-size: 1.5rem;
+  }
 
-    /*----------- HEADER --------------*/
+  /*----------- NAVIGATION --------------*/
 
+  nav ul {
+    list-style-type: none;
+  }
 
-    Header img {
-        width: 70px;
-    }
+  nav ul li {
+    float: left;
+  }
 
-    header h1 {
-        padding-top: 0.5rem;
-    }
+  nav ul li a {
+    padding: 0.5rem 1rem;
+    font-size: 0.9em;
+  }
 
-    header h2 {
-        font-size: 1.5rem;
-    }
+  nav button {
+    display: none;
+  }
 
-    /*----------- NAVIGATION --------------*/
+  nav ul li.active a {
+    border-style: ridge;
+    border-color: #175676;
+    color: #000;
+  }
 
-    nav ul {
-        list-style-type: none;
-    }
+  #navigation {
+    display: flex;
+    text-align: center;
+  }
 
-    nav ul li {
-        float: left;
-    }
+  #navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
 
+  /*----------- MAIN --------------*/
 
-    nav ul li a {
-        padding: .5rem 1rem;
-        font-size: 0.9em;
+  .principal {
+    padding-top: 20px;
+  }
 
-    }
+  main div {
+    margin: 0;
+  }
 
-    nav button {
-        display: none;
-    }
+  .weathersum {
+    top: 16em;
+    left: 2rem;
+  }
+  #forecast {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    width: 90%;
+    margin-left: 0.8rem;
+  }
 
-    nav h1 {
-        display: none;
-    }
+  .grid-col {
+    background-color: #4ba3c3;
+  }
+  /*----------- FOOTER --------------*/
 
-    nav ul li.active a {
-        border-style: ridge;
-        border-color: #175676;
-        color: #000;
-    }
-
-    #navigation {
-        display: flex;
-        text-align: center;
-    }
-
-
-    #navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
-
-
-    /*----------- MAIN --------------*/
-
-    .principal {
-        padding-top: 40px;
-
-    }
-
-
-    main div {
-        margin: 0;
-
-    }
-
-
-    /*----------- FOOTER --------------*/
-
-
-
+  section figure img {
+    width: 22rem;
+    height: 9rem;
+  }
 }
 
 /* end of media query */

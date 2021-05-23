@@ -40,7 +40,7 @@
     <nav class="clearfix">
 
         <button onclick="toggleMenu()">&#9776; Menu</button>
-        <h1>Preston</h1>
+       
         <ul id="navigation">
             <li><a href="index.html">Home</a></li>
             <li class="active"><a href="preston.html">Preston</a></li>
@@ -55,19 +55,90 @@
     <!-- CONTENT HERE -->
     <main class="principal">
         <h1> Preston Town</h1>
+        <section class="weathersum">
+            <p>Weather Summary</p>
+            <p>High: XX</p>
+            <p>Low: XX</p>
+            <p>Wind: XX</p>
+        </section>
+           
+          <figure>  
+            <img src="images/pexels-jimmy-chan-1150px.jpg" width="75" height="40" alt="City Image" class="city" />
+        </figure>  
+    
         <div>
-            <p></p>
-            <img src="images/pexels-jimmy-chan-978807.jpg"
-            alt="City Image" class="city" />
+            <h2>Five Day Forecast</h2>
+            <div id="forecast">
+
+                <div class="grid-col">
+                    <span class="col-head">1</span>
+                    <img src="https://placekitten.com/50/50" alt="kitten!">
+                    <span class="data">Kitten 1</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">2</span>
+                    <img src="https://placekitten.com/50/50" alt="kitten!">
+                    <span class="data">Kitten 2</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">3</span>
+                    <img src="https://placekitten.com/50/50" alt="kitten!">
+                    <span class="data">Kitten 3</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">4</span>
+                    <img src="https://placekitten.com/50/50" alt="kitten!">
+                    <span class="data">Kitten 4</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">5</span>
+                    <img src="http://placekitten.com/50/50" alt="kitten!">
+                    <span class="data">Kitten 5</span>
+                </div>
+             
+
+
+
+
             </div>
-        <div>Article and image will be here</div>
-        <div>Contact us, map and other info will be here</div>
+
+        </div>    
+        <article>
+            <h2>How the climate change</h2>
+            <aside>
+                <img src="images/pexels-andrea-piacquadio-3783094.jpg"
+                alt="Girl Image" class="girl" />
+            </aside>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias magnam cumque cum excepturi corporis rerum totam, architecto maxime! Veniam ipsum vero quos eum ut aliquid, libero labore culpa molestias commodi minima cupiditate nostrum, rem eos sed corporis, beatae rerum neque non modi? Quos, rerum consectetur in, eveniet molestiae odit doloribus aspernatur, blanditiis ullam placeat deleniti! Perferendis, beatae laborum. Quidem velit quam adipisci quis pariatur possimus, animi voluptatibus temporibus delectus? Nemo reprehenderit velit, et officia, fugit quos dolorum odit corrupti odio consequatur quis maxime? Nemo, nesciunt, numquam quasi sint sequi assumenda ut debitis necessitatibus expedita nihil voluptatem cum ipsam ea impedit!Molestias magnam cumque cum excepturi corporis rerum totam, architecto maxime! Veniam ipsum vero quos eum ut aliquid, libero labore culpa molestias commodi minima cupiditate nostrum, rem eos sed corporis, beatae rerum neque non modi? Quos, rerum consectetur in, eveniet molestiae odit doloribus aspernatur, blanditiis ullam placeat deleniti! Perferendis, beatae laborum. Quidem velit quam adipisci quis pariatur possimus, animi voluptatibus temporibus delectus? Nemo reprehenderit velit, et officia, fugit quos dolorum odit corrupti odio consequatur quis maxime? Nemo, nesciunt, numquam quasi sint sequi assumenda ut debitis necessitatibus expedita nihil voluptatem cum ipsam ea impedit!</p>
+        </article>        
+        <section>
+                    <h2>Contact us</h2>
+        <div class="contact_info">        
+    
+        <div>
+            <span class="info" >Address:</span><br>
+            <span>The Weather Center</span><br>
+            <span>123 Main Street</span><br>
+            <span>Preston, UT 84000</span><br>
+        </div>
+        <div>
+            <span class="info">Phone:</span><br>
+            <span>+1-385-333-4444</span><br>
+            <br>
+            <span class="info" >Email:</span><br>
+            <span>contact@wtu.com</span><br><br>
+        </div>      
+        <div>
+            <figure><img src="images/map.png" width="60" height="20" alt="City Map" /></figure>    
+        </div>       
+              
+        </section>            
     </main>
 
     <!-- FOOTER HERE -->
 
     <footer>
-         <p> © <label id="year"></label> The Weather Site Utah | Attributions | Simone McKee 
+         <p> © <label id="year"></label> The Weather Site Utah | Simone McKee 
         <p> &nbsp; <span id="currentDate"></span>
         </p>
     </footer>

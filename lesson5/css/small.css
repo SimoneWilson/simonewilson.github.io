@@ -13,7 +13,6 @@ html {
 
 /*----------- BODY --------------*/
 body {
-  font-size: 1.1rem;
   font-family: "Roboto", sans-serif;
 }
 
@@ -58,10 +57,6 @@ nav button {
   text-align: center;
 }
 
-nav h1 {
-  text-align: center;
-}
-
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -90,32 +85,91 @@ nav ul li.active a {
 /*----------- MAIN --------------*/
 main {
   width: 100%;
-  padding: 15% 6%;
   min-height: 10rem;
   display: block;
-  line-height: 1.8rem;
+  line-height: 1.5rem;
 }
 
 main h1 {
-  display: none;
+  float: left;
+  padding-left: 1rem;
+}
+
+main h2,
+h3,
+p,
+span {
+  margin-left: 1rem;
 }
 
 .principal {
-  padding-top: 10px;
-  text-decoration: underline;
-  text-align: center;
+  padding-top: 5px;
 }
 
-.city {
+main figure img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+main figure {
+  margin: 0;
+  width: 100%;
+}
+
+.weathersum {
+  position: absolute;
+  width: 11.5rem;
+  top: 27rem;
+  left: 1rem;
+  line-height: 0.5rem;
+  border: 1px solid #000;
+  background-color: #cce6f4;
+  font-size: 18px;
+}
+
+#forecast {
+  display: none;
+}
+
+aside {
+  width: 100%;
+  align-items: center;
+}
+
+.girl {
   width: 100%;
   height: auto;
   object-fit: contain;
+  margin: 0 0.9rem;
+  border: 1px solid #808080;
+}
+
+.contact_info {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 2px;
+}
+
+.info {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+section figure img {
+  width: 27rem;
+  height: 9rem;
+  object-fit: cover;
+  border: 1px solid #808080;
 }
 
 /*----------- FOOTER --------------*/
 footer {
   background-color: #4ba3c3;
-  padding: 0.5rem 2%;
+  min-width: 100%;
+  margin-top: 0.3rem;
+  maring-right: 0;
+  padding: 0.5rem;
 }
 
 footer p {
