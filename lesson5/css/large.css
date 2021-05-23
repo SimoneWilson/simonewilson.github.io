@@ -1,0 +1,61 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 1141px) {
+
+
+    /*----------- BODY --------------*/
+    header,
+    nav,
+    main,
+    footer {
+        width: 100% !important;
+        margin: 0;
+
+    }
+
+
+    /*----------- HEADER --------------*/
+
+
+
+
+
+    /*----------- NAVIGATION --------------*/
+
+
+    nav ul {
+        margin: 0;
+    }
+
+    nav ul li {
+        flex-basis: auto;
+        -ms-flex: 0 0 auto;
+    }
+
+    nav ul li a {
+        padding: .5rem 1rem;
+
+    }
+
+    nav button {
+        display: none;
+    }
+
+
+
+    /*----------- MAIN --------------*/
+
+
+    .principal {
+        text-align: left;
+        padding-top: 60px;
+        ;
+
+    }
+
+
+
+    /*----------- FOOTER --------------*/
+
+}
+
+/* end of media query */

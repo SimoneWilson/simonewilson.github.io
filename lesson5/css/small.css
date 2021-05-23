@@ -1,0 +1,130 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/*----------- BODY --------------*/
+body {
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/*----------- HEADER --------------*/
+
+header {
+  padding: 2rem 2%;
+  background-color: #4ba3c3;
+}
+
+header img {
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+/*----------- NAVIGATION --------------*/
+
+.hide {
+  display: none;
+}
+
+nav button {
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: #175676;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+nav h1 {
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  background-color: #175676;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #aaa;
+  color: #333;
+}
+
+nav ul li.active a {
+  background-color: #4ba3c3;
+  color: #fff;
+}
+
+/*----------- MAIN --------------*/
+main {
+  width: 100%;
+  padding: 15% 6%;
+  min-height: 10rem;
+  display: block;
+  line-height: 1.8rem;
+}
+
+main h1 {
+  display: none;
+}
+
+.principal {
+  padding-top: 10px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.city {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+  background-color: #4ba3c3;
+  padding: 0.5rem 2%;
+}
+
+footer p {
+  text-align: center;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
