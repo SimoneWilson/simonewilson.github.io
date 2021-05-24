@@ -1,5 +1,5 @@
 /* 35em is also 560px (if basefont is 16px) */
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 768px) {
   /*----------- BODY --------------*/
 
   /*----------- HEADER --------------*/
@@ -67,20 +67,49 @@
   }
   #forecast {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
     width: 90%;
     margin-left: 0.8rem;
+  }
+
+  article p {
+    min-width: 25rem;
+  }
+
+  aside {
+    width: 30%;
+  }
+
+  .girl {
+    display: block;
+    width: 30%;
+    height: auto;
+    border: 1px solid #808080;
+    float: right;
+    margin: 0 5px 0 15px;
+  }
+
+  .girl-small {
+    display: none;
   }
 
   .grid-col {
     background-color: #4ba3c3;
   }
-  /*----------- FOOTER --------------*/
+
+  .contact_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin: 10px;
+  }
 
   section figure img {
     width: 22rem;
     height: 9rem;
   }
+
+  /*----------- FOOTER --------------*/
 }
 
 /* end of media query */
