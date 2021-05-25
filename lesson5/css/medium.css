@@ -61,6 +61,10 @@
     margin: 0;
   }
 
+  div#message {
+    height: 7.2rem;
+  }
+
   .weathersum {
     top: 16em;
     left: 2rem;

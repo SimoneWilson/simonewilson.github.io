@@ -90,6 +90,22 @@ main {
   line-height: 1.5rem;
 }
 
+div#message {
+  background-color: #ba324f;
+  height: 8.5rem;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+div.showme {
+  display: block;
+}
+
+div.hideme {
+  display: none;
+}
+
 main h1 {
   float: left;
   padding-left: 1rem;
@@ -122,7 +138,7 @@ main figure {
   width: 11.5rem;
   top: 27rem;
   left: 1rem;
-  line-height: 0.5rem;
+  line-height: 0.3rem;
   border: 1px solid #000;
   background-color: #cce6f4;
   font-size: 18px;

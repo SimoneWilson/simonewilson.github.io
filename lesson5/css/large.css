@@ -32,6 +32,10 @@
 
   /*----------- MAIN --------------*/
 
+  div#message {
+    height: 5rem;
+  }
+
   .principal {
     padding-top: 30px;
   }
