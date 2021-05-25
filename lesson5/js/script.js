@@ -41,7 +41,7 @@ console.log();
 const dayNumber = hoje.getDay();
 console.log(dayNumber);
 const element = document.getElementById("message");
-if (dayNumber == 1) {
+if (dayNumber == 6) {
   element.classList.add("showme");
 } else {
   element.classList.add("hideme");
