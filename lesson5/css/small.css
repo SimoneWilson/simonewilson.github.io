@@ -136,7 +136,7 @@ main figure {
 .weathersum {
   position: absolute;
   width: 11.5rem;
-  top: 27rem;
+  top: 26rem;
   left: 1rem;
   line-height: 0.3rem;
   border: 1px solid #000;
@@ -168,12 +168,12 @@ article aside {
 
 .contact_info {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 40%;
   margin: 2px;
 }
 
 .info {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
