@@ -122,26 +122,22 @@ span {
   padding-top: 5px;
 }
 
-main figure img {
+main picture img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-main figure {
-  margin: 0;
-  width: 100%;
-}
-
 .weathersum {
   position: absolute;
-  width: 11.5rem;
+  width: 12rem;
+  height: 7.5rem;
   top: 26rem;
   left: 1rem;
   line-height: 0.3rem;
   border: 1px solid #000;
   background-color: #cce6f4;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #forecast {
