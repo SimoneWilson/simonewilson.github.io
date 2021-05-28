@@ -1,51 +1,49 @@
 body {
-    margin: auto 40px auto 40px;
-    padding: 15px 10px 15px 10px;
-    font-family: 'Shadows Into Light', cursive, sans-serif;
-
-    margin: auto 40px auto 40px;
-    background-color: #f0f0f0;
-
+  margin: auto 40px auto 40px;
+  padding: 15px 10px 15px 10px;
+  font-family: "Roboto", sans-serif;
+  margin: auto 40px auto 40px;
+  background-color: #f0f0f0;
 }
 
 header,
 footer {
-    max-width: 1080px;
-    margin: 10px 5px 10px 15px;
-    background-color: #5f9ea0;
-    border: 20px solid #5f9ea0;
-    border-radius: 5px;
-    font-size: 1.2rem;
+  max-width: 1080px;
+  margin: 10px 5px 10px 15px;
+  background-color: #5f9ea0;
+  border: 20px solid #5f9ea0;
+  border-radius: 5px;
+  font-size: 1.2rem;
 }
 
 h2 {
-    max-width: 1080px;
-    margin: 0px;
-    margin-left: 40px;
-    border-bottom: 8px solid #a9a9a9;
-    font-size: 1.8rem;
+  max-width: 1080px;
+  margin: 0px;
+  margin-left: 40px;
+  border-bottom: 8px solid #a9a9a9;
+  font-size: 1.8rem;
 }
 
 .list {
-    display: inline-block;
-    margin-left: 25px;
+  display: inline-block;
+  margin-left: 25px;
 }
 
 .image {
-    width: 170px;
-    height: auto;
-    margin-top: -60px;
-    float: right;
-    padding-bottom: 15px;
+  width: 170px;
+  height: auto;
+  margin-top: -60px;
+  float: right;
+  padding-bottom: 15px;
 }
 
 footer {
-    font-size: 0.9rem;
-    text-align: center;
+  font-size: 0.9rem;
+  text-align: center;
 }
 
 @media only screen and (min-width: 560px) {
-    .image {
-        max-height: 250px;
-    }
+  .image {
+    max-height: 250px;
+  }
 }
