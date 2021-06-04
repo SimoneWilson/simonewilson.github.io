@@ -1,0 +1,7 @@
+@media only screen and (min-width: 560px) {
+  .flowers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
