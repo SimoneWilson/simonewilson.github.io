@@ -11,6 +11,7 @@
 
 
   <!-- STYLE SHEETS -->
+  
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/small.css" rel="stylesheet">
   <link href="css/medium.css" rel="stylesheet">
@@ -22,18 +23,20 @@
 <main>
     <h1>Lazy Loading</h1>
     <div class="flowers">     
-    <img src="images/image01-300-400px.jpg" loading="lazy" alt="flower01">      
-    <img src="images/image02-300-400px.jpg" loading="lazy" alt="flower02">    
-    <img src="images/image03-300-400px.jpg" loading="lazy" alt="flower03">    
-    <img src="images/image04-300-400px.jpg" loading="lazy" alt="flower04">  
-    <img src="images/image05-300-400px.jpg" loading="lazy"alt="flower05">    
-    <img src="images/image06-300-400px.jpg" loading="lazy" alt="flower06">
+    <img src="images/placeholder.jpg" data-src="images/image01-300-400px.jpg" alt="flower01">      
+    <img src="images/placeholder.jpg" data-src="images/image02-300-400px.jpg" alt="flower02">    
+    <img src="images/placeholder.jpg" data-src="images/image03-300-400px.jpg" alt="flower03">    
+    <img src="images/placeholder.jpg" data-src="images/image04-300-400px.jpg" alt="flower04">  
+    <img src="images/placeholder.jpg" data-src="images/image05-300-400px.jpg" alt="flower05">    
+    <img src="images/placeholder.jpg" data-src="images/image06-300-400px.jpg" alt="flower06">
 </div>
 </main> 
 
   <footer>
     &copy; Simone McKee 2021
   </footer>
+  
+  <script src="script.js"></script>
 </body>
 
 </html>

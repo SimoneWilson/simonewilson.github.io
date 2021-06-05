@@ -21,7 +21,6 @@ main {
 
 main h1 {
     color: #000;
-
     text-align: center;
     padding-bottom: 20px;
     text-decoration: underline;
@@ -31,7 +30,14 @@ img {
     width: 100%;
 }
 
-
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+img {
+    filter: blur(0em);
+    transition: filter 0.7s;
+  }
 
 
 
