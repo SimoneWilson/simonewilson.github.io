@@ -1,32 +1,83 @@
 <!doctype html>
 <html lang="en-us">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="description"
-        content="Native Support for Lazy Loading (No JS)">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/small.css">
 
-    <title>WDD 230 example</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="WDD230 Lesson4">
+    <meta name="author" content="Simone McKee">
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>Weather Site Project</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width , initial-scale=1, maximum-scale=1">
+
+
+    <!-- STYLE SHEETS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+
 </head>
 
-<body>
-    <main>
-        <h1>Native Loading of Images</h1>
-      <p>Native  <a href="https://addyosmani.com/blog/lazy-loading/" target="_blank">browser support lazy loading</a> works now!</p>
-        
-      <img src="images/fall.jpg" loading="lazy" width="300" height="400" alt="fall">
-      <img src="images/boat.jpg" loading="lazy" width="300" height="400" alt="boat">
-      <img src="images/light-house.jpg" loading="lazy" width="300" height="400" alt="light-house">
-      <img src="images/mountain.jpg" loading="lazy" width="300" height="400" alt="mountain">
-      <img src="images/rainbow.jpg" loading="lazy" width="300" height="400" alt="rainbow">
-      <img src="images/snow-flower.jpg" loading="lazy" width="300" height="400" alt="snow-flower">
-      <img src="images/spring.jpg" loading="lazy" width="300" height="400" alt="spring">
-      <img src="images/snow-one.jpg" loading="lazy" width="300" height="400" alt="snow-one">
 
-<img src="images/tech01.jpg" loading="lazy" width="300" height="400" alt="Tech Image">
-</main>
+<body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+        <img src="images/weather_icon_128px.png" alt="icon" />
+        <h1>Weather Today Utah</h1>
+        <h2>Your portal for weather</h2>
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+
+    <nav class="clearfix">
+        <button onclick="toggleMenu()"> &#9776; Menu</button>
+        
+
+        <ul id="navigation">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-6.html">Preston</a></li>
+            <li><a href="sodaSpring.html">Soda Spring</a></li>
+            <li><a href="fishHaven.html">Fish Haven</a></li>
+            <li><a href="stormCenter.html">Storm Center</a></li>
+            <li class="active"><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- CONTENT HERE -->
+    <main>  
+        <div class="gallery">
+       <img src="images/fall.jpg" loading="lazy" width="300" height="400" alt="fall">
+       <img src="images/boat.jpg" loading="lazy" width="300" height="400" alt="boat">
+       <img src="images/light-house.jpg" loading="lazy" width="300" height="400" alt="light-house">
+       <img src="images/mountain.jpg" loading="lazy" width="300" height="400" alt="mountain">
+       <img src="images/rainbow.jpg" loading="lazy" width="300" height="400" alt="rainbow">
+       <img src="images/snow-flower.jpg" loading="lazy" width="300" height="400" alt="snow-flower">
+       <img src="images/spring.jpg" loading="lazy" width="300" height="400" alt="spring">
+       <img src="images/snow-one.jpg" loading="lazy" width="300" height="400" alt="snow-one">
+       <img src="images/tech01.jpg" loading="lazy" width="200" height="300" alt="snow-road">
+       </div>
+    
+    </main>
+
+    <!-- FOOTER HERE -->
+   
+    <footer>
+        <p>Current Date: &nbsp; <span id="currentDate"></span>
+        </p>
+    </footer>
 
 </body>
+
 </html>
