@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="WDD230 Lesson6">
+    <meta name="author" content="Simone McKee">
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>Weather Site Project</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width , initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- STYLE SHEETS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+        <img src="images/weather_icon_128px.png" alt="icon" />
+        <h1>Weather Today Utah</h1>
+        <h2>Your portal for weather</h2>
+       
+      
+    </header>
+
+
+    <!-- NAVIGATION HERE -->
+
+    <nav class="clearfix">
+
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+       
+        <ul id="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="preston-6.html">Preston</a></li>
+            <li><a href="sodaSpring.html">Soda Spring</a></li>
+            <li><a href="fishHaven.html">Fish Haven</a></li>
+            <li><a href="stormCenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENT HERE -->
+    <main class="principal">
+        <h1> Preston Town</h1>
+        <section class="weathersum">
+            <p>Weather Summary</p>
+            <p>High:<span id="temp">38</span>&deg;</p>           
+            <p>Wind Speed:<span id="speed">23</span>mph</p>
+            <p>Wind Chill:<span id="chill"></span>&deg;</p>
+        </section>
+           
+          <picture class="hero">  
+            <source media="(max-width: 400px)" srcset="images/image_franklinOriginal_280.jpeg" class="city">
+            <source media="(max-width: 1000px)" srcset="images/image_franklinOriginal_768.jpeg" class="city">
+            <source media="(max-width: 2500px)" srcset="images/image_franklinOriginal_1150.jpeg" class="city">
+            <img src="images/image_franklinOriginal_1150px.jpg"  alt="City Image" class="city" />    
+        </picture>  
+    
+        <div>
+            <h2>Five Day Forecast</h2>
+            <div id="forecast">
+                <div class="grid-col">
+                    <span class="col-head">Mon</span>
+                    <img src="images/iconfinder_weather-01_1530392.png" alt="sunny">
+                    <span class="data">High Temp</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Tue</span>
+                    <img src="images/iconfinder_weather-02_1530391.png" alt="cloudy">
+                    <span class="data">High Temp</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Wed</span>
+                    <img src="images/iconfinder_weather-03_1530390.png" alt="rain">
+                    <span class="data">High Temp</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Thu</span>
+                    <img src="images/iconfinder_weather-03_1530390.png" alt="rain">
+                    <span class="data">High Temp</span>
+                </div>
+                <div class="grid-col">
+                    <span class="col-head">Fri</span>
+                    <img src="images/iconfinder_weather-01_1530392.png" alt="sunny">
+                    <span class="data">High Temp</span>
+                </div>
+            </div>
+        </div>   
+
+        <article>
+            <br>
+            <h2>How the climate change</h2>
+            <aside>
+                <img src="images/pexels-andrea-piacquadio-3783094.jpg"
+                alt="Girl Image" class="girl" />            
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis aspernatur odit est quas minima praesentium vero dolore reprehenderit porro voluptatum ipsum placeat cupiditate voluptate nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga qui quos? Numquam sit quos temporibus, neque officia earum, quae tempora aspernatur ullam itaque asperiores! Sapiente vero quaerat sunt autem praesentium repudiandae, odio, quo error debitis delectus soluta dolores sit in aperiam. Voluptates rerum repellendus facilis quidem quaerat esse enim sit animi earum nisi velit inventore maiores excepturi aperiam deserunt libero debitis facere, nesciunt in ex, nam quod. Magni laborum beatae saepe quaerat possimus deleniti ipsam. Nobis aspernatur odit est quas minima praesentium vero dolore reprehenderit porro voluptatum ipsum placeat cupiditate voluptate nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga qui quos? Numquam sit quos temporibus, neque officia earum, quae tempora aspernatur ullam itaque asperiores! Nobis aspernatur odit est quas minima praesentium vero dolore reprehenderit porro voluptatum ipsum placeat cupiditate voluptate nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga qui quos? Numquam sit quos temporibus, neque officia earum, quae tempora aspernatur ullam itaque asperiores! Nobis aspernatur odit est quas minima praesentium vero dolore reprehenderit porro voluptatum ipsum placeat cupiditate voluptate nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga qui quos? Numquam sit quos temporibus, neque officia earum, quae tempora aspernatur ullam itaque asperiores!</p>
+            </aside>            
+           
+            <img src="images/pexels-andrea-piacquadio-3783094.jpg"
+            alt="Girl Image" class="girl-small" />           
+        </article> 
+           
+        <section>
+            <h2>Contact us</h2>
+            <div class="contact_info">       
+                <div>
+                    <span class="info" >Address:</span><br>
+                    <span>The Weather Center</span><br>
+                    <span>123 Main Street</span><br>
+                    <span>Preston, UT 84000</span><br>
+                </div> 
+                <div>           
+                    <span class="info">Phone:</span><br>
+                    <span>+1-385-333-4444</span><br><br>
+                    <span class="info" >Email:</span><br>
+                    <span>contact@wtu.com</span><br><br>
+                </div>     
+               
+            <div>
+                <figure><img src="images/map.png" width="60" height="20" alt="City Map" /></figure>    
+            </div> 
+            </div>              
+        </section> 
+            <div id="message">       
+                <h2>Preston Dayzz</h2>
+                <p>It doesn't matter the weather, every Saturday is Jazz Day in Preston Gallery at 6PM</p>           
+            </div>
+            <br>
+            </main>
+
+    <!-- FOOTER HERE -->
+
+   <footer>
+        <p> © <label id="year"></label> The Weather Site Utah | Simone McKee 
+        <p> &nbsp; <span id="currentDate"></span>
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script> WebFont.load({google: {families: ['Roboto']}}); 
+    </script>
+
+</body>
+</html>
