@@ -41,7 +41,7 @@ console.log();
 const dayNumber = hoje.getDay();
 console.log(dayNumber);
 const element = document.getElementById("message");
-if (dayNumber == 6) {
+if (dayNumber == 5) {
   element.classList.add("showme");
 } else {
   element.classList.add("hideme");
@@ -69,4 +69,25 @@ if (tempNumber <= 50 && speedNumber > 3) {
   document.getElementById("chill").textContent = windchill + "\xB0F";
 } else {
   document.getElementById("chill").textContent = "No Wind Chill Today";
+}
+
+let mostRecent = localStorage.getItem("date");
+if (!mostRecent) {
+  mostRecent = new Date();
+}
+
+let parsed = Date.parse(mostRecent);
+
+let days = getNumberOfDays(parsed, new Date().getTime());
+
+document.getElementById("lastDate").innerHTML = days;
+localStorage.setItem("date", new Date());
+//Professor
+
+function getNumberOfDays(start, end) {
+  const oneDay = 1000 * 60 * 60 * 24;
+
+  let diffInDays = (end - start) / oneDay;
+
+  return Math.round(diffInDays);
 }

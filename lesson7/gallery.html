@@ -13,7 +13,7 @@
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
     <meta name="viewport" content="width=device-width , initial-scale=1, maximum-scale=1">
 
-
+    <link rel="shortcut icon" href="favicon.ico">
     <!-- STYLE SHEETS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
@@ -44,7 +44,6 @@
         
 
         <ul id="navigation">
-
             <li><a href="index.html">Home</a></li>
             <li><a href="preston-6.html">Preston</a></li>
             <li><a href="sodaSpring.html">Soda Spring</a></li>
@@ -57,30 +56,57 @@
 
     <!-- CONTENT HERE -->
     <main>  
-        <div class="gallery">
-    
-       <figure>
-           <img src="images/fall.jpg" loading="lazy" width="300" height="400" alt="fall">
-           <figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption>
+        <div class="gallery">    
+       <figure class="box">
+           <img  src="images/fall.jpg" loading="lazy" width="300" height="400" alt="fall">
+           <figcaption>Fig.1 - Preston, Utah, USA</figcaption>
         </figure>  
-
-       <img src="images/boat.jpg" loading="lazy" width="300" height="400" alt="boat">
-       <img src="images/light-house.jpg" loading="lazy" width="300" height="400" alt="light-house">
-       <img src="images/mountain.jpg" loading="lazy" width="300" height="400" alt="mountain">
-       <img src="images/rainbow.jpg" loading="lazy" width="300" height="400" alt="rainbow">
-       <img src="images/snow-flower.jpg" loading="lazy" width="300" height="400" alt="snow-flower">
-       <img src="images/spring.jpg" loading="lazy" width="300" height="400" alt="spring">
-       <img src="images/snow-one.jpg" loading="lazy" width="300" height="400" alt="snow-one">
-       <img src="images/snow-road.jpg" loading="lazy" width="300" height="400" alt="snow-one">
-       </div>
-    
+        <figure class="box">
+            <img src="images/boat.jpg" loading="lazy" width="300" height="400" alt="boat">
+            <figcaption>Fig.2 - Preston, Utah, USA</figcaption>
+        </figure>
+        <figure class="box"> 
+            <img src="images/light-house.jpg" loading="lazy" width="300" height="400" alt="light-house">
+            <figcaption>Fig.3 - Preston, Utah, USA</figcaption>
+        </figure>
+        <figure class="box">
+            <img src="images/mountain.jpg" loading="lazy" width="300" height="400" alt="mountain">
+            <figcaption>Fig.4 - Preston, Utah, USA</figcaption>
+        </figure>
+        <figure class="box">
+            <img src="images/rainbow.jpg" loading="lazy" width="300" height="400" alt="rainbow">
+            <figcaption>Fig.5 - Preston, Utah, USAy</figcaption>
+        </figure>
+        <figure class="box">
+            <img src="images/snow-flower.jpg" loading="lazy" width="300" height="400" alt="snow-flower">
+            <figcaption>Fig.6 - Preston, Utah, USA</figcaption>
+        </figure>
+        <figure>
+            <img src="images/spring.jpg" loading="lazy" width="300" height="400" alt="spring">
+            <figcaption>Fig.7 -Preston, Utah, USA</figcaption>
+        </figure>
+        <figure class="box">
+            <img src="images/snow-one.jpg" loading="lazy" width="300" height="400" alt="snow-one">
+            <figcaption>Fig.8 - TPreston, Utah, USA</figcaption>
+        </figure>
+        <figure class="box">
+            <img src="images/snow-road.jpg" loading="lazy" width="300" height="400" alt="snow-one">
+            <figcaption>Fig.8 - Preston, Utah, USA</figcaption>
+        </figure>            
+       </div>    
     </main>
 
     <!-- FOOTER HERE -->   
     <footer>
-        <p>Current Date: &nbsp; <span id="currentDate"></span>
-        </p>
+        <p> © <label id="year"></label> The Weather Site Utah | Simone McKee 
+            <p> &nbsp; <span id="currentDate"></span>
+            </p>
     </footer>
+    
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script> WebFont.load({google: {families: ['Roboto']}}); 
+    </script>
 
 </body>
 

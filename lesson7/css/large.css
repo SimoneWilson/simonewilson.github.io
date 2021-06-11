@@ -58,6 +58,11 @@
     height: 6rem;
   }
 
+  .box:hover {
+    width: 300px;
+    box-shadow: 0 0 40px #888;
+  }
+
   /*----------- FOOTER --------------*/
 }
 
