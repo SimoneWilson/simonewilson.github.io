@@ -46,10 +46,10 @@ th {
   background-color: #628ca6;
 }
 
-#id tr:nth-child(even) {
-  background-color: #e7ffed;
+#all tr:nth-child(even) {
+  background-color: #e7f0ed;
 }
 
-#id tr:nth-child(odd) {
-  background-color: #888;
+#all tr:nth-child(odd) {
+  background-color: #e7ffed;
 }
