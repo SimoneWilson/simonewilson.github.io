@@ -20,6 +20,9 @@ body {
 /*----------- MAIN --------------*/
 
 table {
+  width: 300px;
+  height: 340px;
+  margin: 2%;
   text-indent: initial;
   border-spacing: 3px;
 }
