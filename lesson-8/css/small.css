@@ -35,7 +35,11 @@ td {
   text-align: center;
 }
 
-thead tfoot {
+thead tr td {
+  background-color: #7fb9c2;
+}
+
+tfoot tr td {
   background-color: #7fb9c2;
 }
 
@@ -54,5 +58,5 @@ th {
 
 .change {
   color: #ffffff;
-  background-color: #7fb9c2;
+  background-color: #628ca6;
 }
