@@ -21,8 +21,8 @@ main {
   width: 100%;
 }
 table {
-  width: 350px;
-  margin: 2%;
+  text-indent: initial;
+  border-spacing: 3px;
 }
 
 table,
@@ -32,12 +32,10 @@ tr,
 td {
   border: 1px solid #888;
   border-collapse: collapse;
-
   text-align: center;
 }
 
-thead,
-tfoot {
+thead tfoot {
   background-color: #7fb9c2;
 }
 
@@ -54,6 +52,7 @@ th {
   background-color: #e7f0ed;
 }
 
-td .class {
+.change {
   color: #ffffff;
+  background-color: #7fb9c2;
 }
