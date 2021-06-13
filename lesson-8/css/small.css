@@ -21,7 +21,7 @@ main {
   width: 100%;
 }
 table {
-  width: 375px;
+  width: 350px;
   margin: 2%;
 }
 
@@ -52,4 +52,8 @@ th {
 
 #all tr:nth-child(odd) {
   background-color: #e7ffed;
+}
+
+td .class {
+  color: #ffffff;
 }

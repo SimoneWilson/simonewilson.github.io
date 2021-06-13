@@ -1,114 +1,13 @@
-/* 35em is also 560px (if basefont is 16px) */
+
 @media only screen and (min-width: 768px) {
-  /*----------- BODY --------------*/
 
-  /*----------- HEADER --------------*/
+/*----------- MAIN --------------*/
 
-  Header img {
-    width: 70px;
-  }
-
-  header h1 {
-    padding-top: 0.5rem;
-  }
-
-  header h2 {
-    font-size: 1.5rem;
-  }
-
-  /*----------- NAVIGATION --------------*/
-
-  nav ul {
-    list-style-type: none;
-  }
-
-  nav ul li {
-    float: left;
-  }
-
-  nav ul li a {
-    padding: 0.5rem 1rem;
-    font-size: 0.9em;
-  }
-
-  nav button {
-    display: none;
-  }
-
-  nav ul li.active a {
-    border-style: ridge;
-    border-color: #175676;
-    color: #000;
-  }
-
-  #navigation {
-    display: flex;
-    text-align: center;
-  }
-
-  #navigation li {
-    display: block;
-    flex: 1 1 100%;
-  }
-
-  /*----------- MAIN --------------*/
-
-  .principal {
-    padding-top: 20px;
-  }
-
-  main div {
-    margin: 0;
-  }
-
-  div#message {
-    height: 7.2rem;
-  }
-
-  .weathersum {
-    top: 17.5em;
-    left: 2rem;
-  }
-  #forecast {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
-    width: 90%;
-    margin-left: 0.8rem;
-  }
-
-  article p {
-    min-width: 25rem;
-  }
-
-  aside {
-    width: 30%;
-  }
-
-  .girl {
-    display: block;
-    width: 30%;
-    height: auto;
-    border: 1px solid #808080;
-    float: right;
-    margin: 0 5px 0 15px;
-  }
-
-  .girl-small {
-    display: none;
-  }
-
-  .grid-col {
-    background-color: #4ba3c3;
-  }
-
-  .contact_info {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
-    margin: 10px;
-  }
-
-  /*----------- FOOTER --------------*/
+table {
+  width: 450px;
+  margin: 5%;
 }
 
-/* end of media query */
+
+  
+  
