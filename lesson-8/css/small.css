@@ -47,11 +47,11 @@ th {
 }
 
 #all tr:nth-child(even) {
-  background-color: #e7f0ed;
+  background-color: #e7ffed;
 }
 
 #all tr:nth-child(odd) {
-  background-color: #e7ffed;
+  background-color: #e7f0ed;
 }
 
 td .class {
