@@ -14,12 +14,11 @@ html {
 /*----------- BODY --------------*/
 body {
   font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
 }
 
 /*----------- MAIN --------------*/
-main {
-  width: 100%;
-}
+
 table {
   text-indent: initial;
   border-spacing: 3px;
