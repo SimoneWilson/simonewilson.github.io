@@ -185,6 +185,16 @@ section figure img {
   border: 1px solid #808080;
 }
 
+form fieldset {
+  max-width: 350px;
+  margin: 2rem 0 0 1rem;
+}
+
+form label.field,
+form p {
+  display: block;
+  padding: 35px auto;
+}
 /*----------- FOOTER --------------*/
 footer {
   background-color: #4ba3c3;
