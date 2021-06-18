@@ -55,87 +55,132 @@
 
     <!-- CONTENT HERE -->
     <main>
-    
       <form method="get" action="thanks.html">
         <fieldset>
-          <legend> Applicant Information</legend>
+          <legend>Applicant Information</legend>
           <label class="field">
-            Full Name: <input type="text" name="fullName" pattern="^(\w+\s+\w+)" required>
+            Full Name:
+            <input
+              type="text"
+              name="fullName"
+              pattern="^(\w+\s+\w+)"
+              required
+            />
           </label>
           <label class="field">
-            Email: <input type="email" name="email"
-            placeholder="userId@email.com">
+            Email:
+            <input type="email" name="email" placeholder="userId@email.com" />
           </label>
+
           <label class="field">
-              Phone:
+            Phone:
             <input
               type="tel"
               name="phone"
               placeholder="(XXX)-XXX-XXXX"
-              required >
-          </label class="field">
+              required
+            />
+          </label>
           <label class="field">
-              Zip Code: 
-              <input type="number" name="zipCode"/>
+            Zip Code:
+            <input type="number" name="zipCode" />
           </label>
         </fieldset>
         <fieldset>
           <legend>Storm Information</legend>
-          <label class="field"> Date: <input type="date" name="todayDate"> </label>
-          <label class="field"> Storm Type: <input type="text" list="storm"></label>
+          <label class="field">
+            Date: <input type="date" name="todayDate" />
+          </label>
+          <label class="field">
+            Storm Type: <input type="text" list="storm"
+          /></label>
           <datalist id="storm">
             <option value="Flash Flood">Flash Flood</option>
             <option value="Hail">Hail</option>
             <option value="Hurricane">Hurricane</option>
             <option value="Thunderstorm">Thunderstorm</option>
-            <option value="Tornado">Tornado</option>
-          </datalist><br>       
-            <label class="rate" for="rating">Rating: &nbsp;
-                <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                <span id="ratingvalue">5</span>
-            </label>
-            <datalist id="tickmarks">
-                <option value="0">
-                <option value="1">
-                <option value="2">
-                <option value="3">
-                <option value="4">
-                <option value="5">
-                <option value="6">
-                <option value="7">
-                <option value="8">
-                <option value="9">
-                <option value="10">
-            </datalist>
+            <option value="Tornado">Tornado</option></datalist
+          ><br />
+          <label class="rate" for="rating"
+            >Rating: &nbsp;
+            <input
+              type="range"
+              id="rating"
+              value="5"
+              min="1"
+              max="10"
+              step="1"
+              list="tickmarks"
+              oninput="adjustRating(this.value)"
+              onchange="adjustRating(this.value)"
+            />
+            <span id="ratingvalue">5</span>
+          </label>
+          <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+          </datalist>
+
           <label class="field">
             Region:
             <select name="region">
-                <option value>Select Region...</option>
-                <option value="preston">Preston</option>
-                <option value="soda springs">Soda Springs</option>
-                <option value="fish haven ">Fish Haven</option>
-            </select>         
-            </label>
+              <option value>Select Region...</option>
+              <option value="preston">Preston</option>
+              <option value="soda springs">Soda Springs</option>
+              <option value="fish haven ">Fish Haven</option>
+            </select>
+          </label>
         </fieldset>
         <fieldset>
-            <legend>Additional Information</legend>
-            <span>Are you in danger?</span><br>
-            <label>
-            <input class="select" type="radio" name="danger" value="yes">Yes</label>
-            <br>
-            <label>
-            <input class="select" type="radio" name="danger" value="maybe">Maybe</label>
-            <br>
-            <label>
-            <input class="select" type="radio" name="danger" value="no">No</label>
-            </label>            
-            <div>Additional Comments: </div>
+          <legend>Additional Information</legend>
+          <span>Are you in danger?</span><br />
           <label>
-            <textarea id="comments" name="comments"  cols="34" rows="5" placeholder="Comment..."></textarea>
-        </label>  
+            <input
+              class="select"
+              type="radio"
+              name="danger"
+              value="yes"
+            />Yes</label
+          >
+          <br />
+          <label>
+            <input
+              class="select"
+              type="radio"
+              name="danger"
+              value="maybe"
+            />Maybe</label
+          >
+          <br />
+          <label>
+            <input
+              class="select"
+              type="radio"
+              name="danger"
+              value="no"
+            />No</label
+          >
+          <div>Additional Comments:</div>
+          <label>
+            <textarea
+              id="comments"
+              name="comments"
+              cols="34"
+              rows="5"
+              placeholder="Comment..."
+            ></textarea>
+          </label>
         </fieldset>
-            <button class="btn" type="submit">Submit</button>
-              
+        <button class="btn" type="submit">Submit</button>
       </form>
     </main>
 
