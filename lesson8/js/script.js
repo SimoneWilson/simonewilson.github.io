@@ -91,3 +91,9 @@ function getNumberOfDays(start, end) {
 
   return Math.round(diffInDays);
 }
+
+// Rating
+
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}

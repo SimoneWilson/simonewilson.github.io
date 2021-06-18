@@ -60,36 +60,34 @@
         <fieldset>
           <legend> Applicant Information</legend>
           <label class="field">
-            Full Name: <input type:"text" name:"fullName" pattern="^(\w\w)\sw+)$
-            required">
-          </label><br><br>
+            Full Name: <input type="text" name="fullName" pattern="^(\w+\s+\w+)" required>
+          </label>
           <label class="field">
-            Email: <input type:"email" name:"email"
+            Email: <input type="email" name="email"
             placeholder="userId@email.com">
-          </label><br><br>
+          </label>
           <label class="field">
               Phone:
             <input
               type="tel"
               name="phone"
               placeholder="(XXX)-XXX-XXXX"
-              pattern="(\d{6}([\-]\d{4})?)"
               required >
-
-          </label class="field"><br><br>
-          <labe class="field"> Zip Code: <input type:"text" name:"zipCode"
-            pattern="[0-9]{5}" autocomplete="shipping postal-codep"/>
+          </label class="field">
+          <label class="field">
+              Zip Code: 
+              <input type="number" name="zipCode"/>
           </label>
-        </fieldset><br>
+        </fieldset>
         <fieldset>
           <legend>Storm Information</legend>
-          <label> Date: <input type:"date" name:"todayDate"> </label><br><br>
-          <label> Storm Type: <input type:"text" list="stormList"></label><br><br>
+          <label class="field"> Date: <input type="date" name="todayDate"> </label>
+          <label class="field"> Storm Type: <input type="text" list="storm"></label>
           <datalist id="storm">
-            <option value="preston">Preston</option>
-            <option value="preston">Preston</option>
+            <option value="Flash Flood">Flash Flood</option>
+            <option value="Hail">Hail</option>
             <option value="Hurricane">Hurricane</option>
-            <option value="ThunderStorm">Thunderstorm</option>
+            <option value="Thunderstorm">Thunderstorm</option>
             <option value="Tornado">Tornado</option>
           </datalist><br>       
             <label class="rate" for="rating">Rating: &nbsp;
@@ -108,34 +106,32 @@
                 <option value="8">
                 <option value="9">
                 <option value="10">
-            </datalist><br><br>   
+            </datalist>
           <label class="field">
             Region:
-            </label><br>
-            <select name:"region">
+            <select name="region">
                 <option value>Select Region...</option>
                 <option value="preston">Preston</option>
                 <option value="soda springs">Soda Springs</option>
                 <option value="fish haven ">Fish Haven</option>
-            </select><br><br>          
+            </select>         
+            </label>
         </fieldset>
         <fieldset>
             <legend>Additional Information</legend>
             <p>Are you in danger?</p>
             <label>
             <input class="select" type="radio" name="danger" value="yes">Yes</label>
-            <labe><br>
+            <labe>
             <input class="select" type="radio" name="danger" value="maybe">Maybe</label>
-            <label><br>
+            <label>
             <input class="select" type="radio" name="danger" value="no">No</label>
-            </label><br>
-            
-            <span>Additional Comments: </span><br>
+            </label>            
+            <div>Additional Comments: </div>
           <label>
-            <textarea id="comments" name="comments"  cols="36" rows="10" placeholder="Comment..."></textarea></fieldset><br>
-            <input class="btn" type="submit" value="Send" >
-          </label>
-       
+            <textarea id="comments" name="comments"  cols="30" rows="5" placeholder="Comment..."></textarea></fieldset>
+            <button class="btn" type="submit">Submit</button>
+          </label>       
       </form>
     </main>
 

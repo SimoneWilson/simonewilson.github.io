@@ -63,6 +63,10 @@
     box-shadow: 0 0 40px #888;
   }
 
+  legend {
+    font-size: 30px;
+  }
+
   /*----------- FOOTER --------------*/
 }
 

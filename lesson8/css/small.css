@@ -186,15 +186,27 @@ section figure img {
 }
 
 form fieldset {
-  max-width: 350px;
-  margin: 2rem 0 0 1rem;
+  width: 350px;
+  height: 250px;
+  margin: 3rem auto;
 }
 
-form label.field,
-form p {
+form label.field {
   display: block;
-  padding: 35px auto;
 }
+form label.field input,
+form label.field select {
+  width: 100%;
+}
+
+legend {
+  font-size: 18px;
+}
+
+label datalist {
+  padding: 5rem;
+}
+
 /*----------- FOOTER --------------*/
 footer {
   background-color: #4ba3c3;
