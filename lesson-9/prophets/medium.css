@@ -1,0 +1,8 @@
+@media only screen and (min-width: 32em) {
+  .cards {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    justify-content: center;
+  }
+}
