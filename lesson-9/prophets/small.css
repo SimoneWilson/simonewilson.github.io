@@ -18,7 +18,7 @@ body {
     margin: 1rem;
     padding: 0;
   }
-  
+
   h2,
   p,
   footer {
@@ -30,7 +30,7 @@ body {
     margin-left: 0.2rem;
 
   }  
-    
+
   section {
     border: 1px solid #000;
     background-color: #e0e0eb;
