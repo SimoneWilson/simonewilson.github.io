@@ -63,6 +63,7 @@ let windchill =
   (35.75 * Math.pow(speedNumber, 0.16) +
     0.4275 * tempNumber * Math.pow(speedNumber, 0.16));
 windchill = Math.round(windchill);
+
 //console.log(windchill);
 
 if (tempNumber <= 50 && speedNumber > 3) {
@@ -82,6 +83,7 @@ let days = getNumberOfDays(parsed, new Date().getTime());
 
 document.getElementById("lastDate").innerHTML = days;
 localStorage.setItem("date", new Date());
+
 //Professor
 
 function getNumberOfDays(start, end) {
