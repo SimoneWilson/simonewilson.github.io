@@ -158,6 +158,10 @@ article aside {
   display: none;
 }
 
+.home {
+  display: none;
+}
+
 .girl-small {
   width: 90%;
   height: auto;
@@ -165,6 +169,14 @@ article aside {
   margin-left: 1rem;
   margin-right: 1rem;
   border: 1px solid #808080;
+}
+
+.home-small {
+  display: none;
+}
+
+.nova {
+  display: none;
 }
 
 .contact_info {

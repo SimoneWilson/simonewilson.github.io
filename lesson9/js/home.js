@@ -12,8 +12,8 @@ fetch(requestURL)
     for (let i = 0; i < city.length; i++) {
       if (i == 0 || i == 2 || i == 6) {
         let card = document.createElement("section");
-        let name = document.createElement("h3");
-        let motto = document.createElement("h4");
+        let name = document.createElement("h2");
+        let motto = document.createElement("h3");
         let yearFounded = document.createElement("p");
         let currentPopulation = document.createElement("p");
         let averageRainfall = document.createElement("p");
