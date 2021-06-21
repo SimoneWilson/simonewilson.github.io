@@ -115,7 +115,7 @@ main h2,
 h3,
 p,
 span {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
 }
 
 .principal {
@@ -183,6 +183,7 @@ article aside {
   display: grid;
   grid-template-columns: 50% 40%;
   margin: 2px;
+  font-size: 18px;
 }
 
 .info {
@@ -229,11 +230,19 @@ label datalist {
   background-color: #cce6f4;
 }
 
+.city {
+  line-height: 0.7rem;
+  background-color: #4ba3c3;
+  padding-top: 1.8rem;
+  padding-bottom: 1.2rem;
+}
+
 #comments {
   background-color: #cce6f4;
 }
 
-.wireframe {
+#map_two {
+  display: none;
 }
 
 /*----------- FOOTER --------------*/

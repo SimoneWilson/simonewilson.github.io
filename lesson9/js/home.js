@@ -22,9 +22,11 @@ fetch(requestURL)
 
         name.textContent = city[i].name;
         motto.textContent = city[i].motto;
-        yearFounded.textContent = city[i].yearFounded;
-        currentPopulation = document.createElement("p");
-        averageRainfall = document.createElement("p");
+        yearFounded.textContent = "Year Founded" + " " + city[i].yearFounded;
+        currentPopulation.textContent =
+          "Population:" + " " + city[i].currentPopulation;
+        averageRainfall.textContent =
+          "Annual Rain Fall:" + " " + city[i].averageRainfall;
         photo.setAttribute("src", "images/" + city[i].photo);
         photo.setAttribute("alt", city[i].name + currentCity);
 

@@ -122,18 +122,43 @@
     background-color: #4ba3c3;
   }
 
+  #contact_uni {
+    margin: 10px;
+  }
+
   .contact_info {
+    font-size: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2rem;
+    gap: 0.5rem;
     margin: 10px;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+
+  #map_two {
+    display: block;
   }
 
   .btn {
     margin-left: 18rem;
   }
 
+  .nova {
+    font-size: 18px;
+    margin-left: 1%;
+    margin-right: 2%;
+  }
+
   /*----------- FOOTER --------------*/
 }
 
 /* end of media query */
+.display_here div section {
+  height: 220px;
+}
+.display_here div img {
+  height: 220px;
+}
