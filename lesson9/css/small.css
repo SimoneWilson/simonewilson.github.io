@@ -180,15 +180,17 @@ article aside {
 }
 
 .contact_info {
+  width: 100%;
+  background-color: #ccE6f4;
   display: grid;
-  grid-template-columns: 50% 40%;
-  margin: 2px;
-  font-size: 18px;
+  grid-template-columns: 50% 50%;
+  font-size: 16px;
 }
 
 .info {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
+  line-height: 3.5rem;;
 }
 
 section figure img {
@@ -230,11 +232,20 @@ label datalist {
   background-color: #cce6f4;
 }
 
-.city {
-  line-height: 0.7rem;
-  background-color: #4ba3c3;
+section, div, .city h2, .city h3, .city p {
+width: 100%;  
+height:auto;
+margin:0;
+padding: 0; 
+text-align: center;
+}
+
+section, img .city:hover { 
   padding-top: 1.8rem;
   padding-bottom: 1.2rem;
+  border: 1px solid #000;
+  object-fit: contain;
+  box-shadow: 3px 3px 1px 0px #808080; 
 }
 
 #comments {
@@ -248,10 +259,11 @@ label datalist {
 /*----------- FOOTER --------------*/
 footer {
   background-color: #4ba3c3;
-  min-width: 100%;
+  width: 100%;
   margin-top: 0.3rem;
-  margin-right: 0;
+  margin-right: -10px;;
   padding: 0.5rem;
+  padding-right: unset;
 }
 
 footer p {

@@ -52,22 +52,34 @@
     float: right;
   }
 
+  .city {
+    width: 90%;
+    margin-left: 5rem;    
+    flex-direction: row-reverse;     
+  }
+
+
   .contact_info {
-    font-size: 22px;
+    font-size: 25px;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.9rem;
-    margin: 25px;
+    gap: 0.9rem; 
+   
   }
 
   .info {
-    font-size: 22px;
+    font-size: 25px;;
+    line-height: 6rem;
   }
 
   section figure img {
     width: 33rem;
-    height: 7rem;
+    height: 9rem;
+    margin-top: 15px;
+    margin-bottom: 15px;;
   }
+
   #forecast {
     grid-template-columns: repeat(auto-fill, minmax(5.5rem, 1fr));
   }

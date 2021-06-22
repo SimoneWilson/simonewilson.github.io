@@ -122,20 +122,28 @@
     background-color: #4ba3c3;
   }
 
-  #contact_uni {
-    margin: 10px;
+  .city {
+    width: 95%;   
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:1rem;  
   }
+
+
 
   .contact_info {
     font-size: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.5rem;
-    margin: 10px;
+    margin: 0 auto;  
   }
 
   .info {
     font-size: 14px;
+    line-height: 3rem;
   }
 
   #map_two {

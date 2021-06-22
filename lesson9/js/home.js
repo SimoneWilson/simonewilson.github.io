@@ -12,6 +12,7 @@ fetch(requestURL)
     for (let i = 0; i < city.length; i++) {
       if (i == 0 || i == 2 || i == 6) {
         let card = document.createElement("section");
+        let text = document.createElement("div");
         let name = document.createElement("h2");
         let motto = document.createElement("h3");
         let yearFounded = document.createElement("p");
@@ -30,6 +31,7 @@ fetch(requestURL)
         photo.setAttribute("src", "images/" + city[i].photo);
         photo.setAttribute("alt", city[i].name + currentCity);
 
+        card.appendChild(text);
         card.appendChild(name);
         card.appendChild(motto);
         card.appendChild(yearFounded);
