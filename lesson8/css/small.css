@@ -200,6 +200,14 @@ form label.field select {
   background-color: #cce6f4;
 }
 
+input:invalid {
+  border: 2pz solid #ba324f;
+}
+
+input:valid {
+  background-color: #cce6f4;
+}
+
 legend {
   font-size: 18px;
 }
