@@ -194,18 +194,24 @@ form fieldset {
 form label.field {
   display: block;
 }
+
+
 form label.field input,
 form label.field select {
   width: 100%;
   background-color: #cce6f4;
 }
 
-input:invalid {
-  border: 2pz solid #ba324f;
+ form label.field input:required {
+  border-left: 4px solid #ba324f;
 }
 
-input:valid {
+form label.field input:required:valid {
   background-color: #cce6f4;
+}
+
+form label.field input:required:invalid {
+  background-color: #ffe6e6;
 }
 
 legend {
