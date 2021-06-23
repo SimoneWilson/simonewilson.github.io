@@ -210,8 +210,9 @@ form label.field input:required:valid {
 }
 
 form label.field input:required:invalid {
-  background-color: #ffe6e6;
+  background-color: #f7e4e8 ;
 }
+
 
 legend {
   font-size: 18px;
