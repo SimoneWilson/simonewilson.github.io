@@ -12,7 +12,8 @@ fetch(requestURL)
     for (let i = 0; i < city.length; i++) {
       if (i == 0 || i == 2 || i == 6) {
         let card = document.createElement("section");
-        let text = document.createElement("div");
+        let div = document.createElement("div");
+        let div2 = document.createElement("div");
         let name = document.createElement("h2");
         let motto = document.createElement("h3");
         let yearFounded = document.createElement("p");
@@ -28,16 +29,20 @@ fetch(requestURL)
           "Population:" + " " + city[i].currentPopulation;
         averageRainfall.textContent =
           "Annual Rain Fall:" + " " + city[i].averageRainfall;
+        div.setAttribute("class", "cityinfo");
+        div2.setAttribute("class", "photoinfo");
         photo.setAttribute("src", "images/" + city[i].photo);
         photo.setAttribute("alt", city[i].name + currentCity);
 
-        card.appendChild(text);
-        card.appendChild(name);
-        card.appendChild(motto);
-        card.appendChild(yearFounded);
-        card.appendChild(currentPopulation);
-        card.appendChild(averageRainfall);
-        card.appendChild(photo);
+        div.appendChild(name);
+        div.appendChild(motto);
+        div.appendChild(yearFounded);
+        div.appendChild(currentPopulation);
+        div.appendChild(averageRainfall);
+        div2.appendChild(photo);
+
+        card.appendChild(div);
+        card.appendChild(div2);
 
         document.querySelector("div.city").appendChild(card);
       }

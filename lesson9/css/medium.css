@@ -122,23 +122,30 @@
     background-color: #4ba3c3;
   }
 
-  .city {
-    width: 95%;   
-    margin-left: 1rem;
+  section {
     display: flex;
-    flex-direction: column-reverse;
-    grid-template-columns: 1fr 1fr;
-    grid-gap:1rem;  
+    flex-direction: row;
   }
 
+  section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
 
+  section,
+  div img {
+    padding: 10px;
+  }
+
+  div .cityinfo {
+    padding-top: 120px;
+  }
 
   .contact_info {
     font-size: 12px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0.5rem;
-    margin: 0 auto;  
+    margin: 0 auto;
   }
 
   .info {

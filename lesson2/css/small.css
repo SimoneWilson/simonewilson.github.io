@@ -1,63 +1,55 @@
 /* body rules here*/
 body {
-    font-family: 'Mukta', Arial, Helvetica, sans-serif;
+  font-family: "Mukta", Arial, Helvetica, sans-serif;
 }
 
 /* header rules here*/
 header,
 footer {
-    margin: 30px;
-
-
-
-
-
-    padding-top: 20px;
-    padding-bottom: 10px;
-    text-align: center;
-    background-color: #4287f5;
-    border-style: double;
-    border-radius: 16px;
+  margin: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #4287f5;
+  border-style: double;
+  border-radius: 16px;
 }
 
 header h1 {
-    margin: 0;
-    font-weight: bolder;
+  margin: 0;
+  font-weight: bolder;
 }
 
 h2 {
-    margin: 0;
+  margin: 0;
 }
 
 .div-container {
-    display: block;
-    width: 80%;
-    margin: 15px 20px 15px 20px;
-    padding: 15px 2%;
-
+  display: block;
+  width: 80%;
+  margin: 15px 20px 15px 20px;
+  padding: 15px 2%;
 }
 
-
 main div h3 {
-    text-align: center;
-    text-decoration-line: underline;
+  text-align: center;
+  text-decoration-line: underline;
 }
 
 main div p {
-    color: #000;
-    text-align: justify;
-    line-height: 1.5;
-    padding-bottom: 10px;
+  color: #000;
+  text-align: justify;
+  line-height: 1.5;
+  padding-bottom: 10px;
 }
 
 img {
-    width: 90%;
-    margin-left: 25px;
-    align-items: center;
+  width: 90%;
+  margin-left: 25px;
+  align-items: center;
 }
 
 main figure {
-    width: 100%;
-    margin: 0;
+  width: 100%;
+  margin: 0;
 }
-

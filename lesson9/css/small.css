@@ -132,6 +132,7 @@ main picture img {
   width: 100%;
   height: auto;
   object-fit: cover;
+  padding-bottom: 40px;
 }
 
 .weathersum {
@@ -193,6 +194,11 @@ article aside {
   line-height: 3.5rem;;
 }
 
+.contact-option {
+  height: 50px;
+  margin: 0 0 20px 0;
+}
+
 section figure img {
   width: 23rem;
   height: 9rem;
@@ -240,7 +246,7 @@ padding: 0;
 text-align: center;
 }
 
-section, img .city:hover { 
+section, img .city { 
   padding-top: 1.8rem;
   padding-bottom: 1.2rem;
   border: 1px solid #000;
@@ -260,9 +266,8 @@ section, img .city:hover {
 footer {
   background-color: #4ba3c3;
   width: 100%;
-  margin-top: 0.3rem;
   margin-right: -10px;;
-  padding: 0.5rem;
+  padding-top: 0.5rem;
   padding-right: unset;
 }
 
