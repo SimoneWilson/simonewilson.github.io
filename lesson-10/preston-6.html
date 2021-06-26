@@ -56,16 +56,16 @@
     <!-- CONTENT HERE -->
     <main class="principal">
       <h1>Preston Town</h1>
-      <section class="weathersum">
-        <p>Weather Summary</p>
+      <div class="weathersum">
+        <p #id="summary">Weather Summary</p>
         <p>High:<span id="temp">38</span>&deg;</p>
         <p>Wind Speed:<span id="speed">23</span>mph</p>
         <p>Wind Chill:<span id="chill"></span>&deg;</p>
-      </section>
+      </div>
 
       <picture class="hero">
         <source
-          media="(max-width: 400px)"
+          media="(max-width: 450px)"
           srcset="images/image_franklinOriginal_280.jpeg"
           class="city"
         />

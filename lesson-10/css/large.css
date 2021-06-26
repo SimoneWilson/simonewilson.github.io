@@ -41,6 +41,22 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .weathersum {
+    top: 21rem;
+    left: 8rem;
+  }
+
+  #forecast {
+    width: 80%;
+    margin-left: 120px;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-gap: 20px;
+  }
+
+  .grid-col {
+    background-color: #4ba3c3;
+  }
+
   article p {
     min-width: 45rem;
     line-height: 2rem;
@@ -62,13 +78,6 @@
 
   section {
     display: block;
-  }
-
-  .photoinfo,
-  img {
-    width: 100%;
-    height: auto;
-    align-items: center;
   }
 
   div .cityinfo {
@@ -93,10 +102,6 @@
     height: 9rem;
     margin-top: 15px;
     margin-bottom: 15px;
-  }
-
-  #forecast {
-    grid-template-columns: repeat(auto-fill, minmax(5.5rem, 1fr));
   }
 
   div#message {

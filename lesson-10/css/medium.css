@@ -71,14 +71,14 @@
   }
 
   .weathersum {
-    top: 17.5em;
+    top: 19.5em;
     left: 2rem;
   }
   #forecast {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(7rem, 33%));
     width: 90%;
-    margin-left: 0.8rem;
+    margin-left: 3rem;
   }
 
   article p {
