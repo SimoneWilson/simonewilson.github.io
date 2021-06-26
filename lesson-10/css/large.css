@@ -48,7 +48,7 @@
 
   #forecast {
     margin-left: 150px;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 195px 195px 195px 195px 190px;
     grid-gap: 40px;
   }
 
