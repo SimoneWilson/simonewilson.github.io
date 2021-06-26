@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="WDD230 Lesson8" />
+    <meta name="author" content="Simone McKee" />
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>Weather Site Project</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta
+      name="viewport"
+      content="width=device-width , initial-scale=1, maximum-scale=1"
+    />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- STYLE SHEETS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet" />
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet" />
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+      <img src="images/weather_icon_128px.png" alt="icon" />
+      <h1>Weather Today Utah</h1>
+      <h2>Your portal for weather</h2>
+    </header>
+
+    <!-- NAVIGATION HERE -->
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+
+      <ul id="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston-6.html">Preston</a></li>
+        <li><a href="sodaSpring.html">Soda Spring</a></li>
+        <li><a href="fishHaven.html">Fish Haven</a></li>
+        <li class="active"><a href="stormCenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <!-- CONTENT HERE -->
+    <main>
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Applicant Information</legend>
+          <label class="field">
+            Full Name:
+            <input
+              type="text"
+              name="fullName"
+              pattern="^(\w+\s+\w+)"
+              required
+            />
+          </label>
+          <label class="field">
+            Email:
+            <input type="email" name="email" placeholder="userId@email.com" />
+          </label>
+
+          <label class="field">
+            Phone:
+            <input
+              type="tel"
+              name="phone"
+              placeholder="(XXX)-XXX-XXXX"
+              required
+            />
+          </label>
+          <label class="field">
+            Zip Code:
+            <input type="number" name="zipCode" />
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Storm Information</legend>
+          <label class="field">
+            Date: <input type="date" name="todayDate" />
+          </label>
+          <label class="field">
+            Storm Type: <input type="text" list="storm"
+          /></label>
+          <datalist id="storm">
+            <option value="Flash Flood">Flash Flood</option>
+            <option value="Hail">Hail</option>
+            <option value="Hurricane">Hurricane</option>
+            <option value="Thunderstorm">Thunderstorm</option>
+            <option value="Tornado">Tornado</option></datalist
+          ><br />
+          <label class="rate" for="rating"
+            >Rating: &nbsp;
+            <input
+              type="range"
+              id="rating"
+              value="5"
+              min="1"
+              max="10"
+              step="1"
+              list="tickmarks"
+              oninput="adjustRating(this.value)"
+              onchange="adjustRating(this.value)"
+            />
+            <span id="ratingvalue">5</span>
+          </label>
+          <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+          </datalist>
+
+          <label class="field">
+            Region:
+            <select name="region">
+              <option value>Select Region...</option>
+              <option value="preston">Preston</option>
+              <option value="soda springs">Soda Springs</option>
+              <option value="fish haven ">Fish Haven</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Additional Information</legend>
+          <span>Are you in danger?</span><br />
+          <label>
+            <input
+              class="select"
+              type="radio"
+              name="danger"
+              value="yes"
+            />Yes</label
+          >
+          <br />
+          <label>
+            <input
+              class="select"
+              type="radio"
+              name="danger"
+              value="maybe"
+            />Maybe</label
+          >
+          <br />
+          <label>
+            <input
+              class="select"
+              type="radio"
+              name="danger"
+              value="no"
+            />No</label
+          >
+          <div>Additional Comments:</div>
+          <label>
+            <textarea
+              id="comments"
+              name="comments"
+              cols="34"
+              rows="5"
+              placeholder="Comment..."
+            ></textarea>
+          </label>
+        </fieldset>
+        <button class="btn" type="submit">Submit</button>
+      </form>
+    </main>
+
+    <!-- FOOTER HERE -->
+
+    <footer>
+      <p>© <label id="year"></label> The Weather Site Utah</p>
+      <p>&nbsp; <span id="currentDate"></span></p>
+      <p>Last visited <span id="lastDate">0</span> days ago</p>
+    </footer>
+
+    <!-- SCRIPT -->
+
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
+  </body>
+</html>

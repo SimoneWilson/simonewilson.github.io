@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="WDD230 Lesson9" />
+    <meta name="author" content="Simone McKee" />
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>The Weather Site Home Page</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta
+      name="viewport"
+      content="width=device-width , initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- STYLE SHEETS -->
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet" />
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet" />
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+      <img src="images/weather_icon_128px.png" alt="icon" />
+      <h1>Weather Today Utah</h1>
+      <h2>Your portal for weather</h2>
+    </header>
+
+    <!-- NAVIGATION HERE -->
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+
+      <ul id="navigation">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="preston-6.html">Preston</a></li>
+        <li><a href="sodaSpring.html">Soda Spring</a></li>
+        <li><a href="fishHaven.html">Fish Haven</a></li>
+        <li><a href="stormCenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <!-- CONTENT HERE -->
+    <main>
+      <h1>HOME</h1>
+
+      <picture class="hero">
+        <source
+          media="(max-width: 400px)"
+          srcset="images/home_small.jpg"
+          class="hero_one"
+        />
+        <source
+          media="(max-width: 1000px)"
+          srcset="images/home_medium.jpg"
+          class="hero_one"
+        />
+        <source
+          media="(min-width: 1001px)"
+          srcset="images/home_large.jpg"
+          class="hero_one"
+        />
+        <img src="images/home_large.jpg" class="Hero_one" alt ="Main Photo" />
+        
+      </picture> 
+
+      <div class="city"></div>  
+
+      <article class="nova">
+        <br>
+      <h2>The Weather in Utah in the last decade.</h2>      
+      <aside>
+        <img
+          src="images/city_view_medium.jpg"
+          alt="Home Image"
+          class="home"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+          aspernatur odit est quas minima praesentium vero dolore
+          reprehenderit porro voluptatum ipsum placeat cupiditate voluptate
+          nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga
+          qui quos? Numquam sit quos temporibus, neque officia earum, quae
+          tempora aspernatur ullam itaque asperiores! Sapiente vero quaerat
+          sunt autem praesentium repudiandae, odio, quo error debitis delectus
+          soluta dolores sit in aperiam. Voluptates rerum repellendus facilis
+          quidem quaerat esse enim sit animi earum nisi velit inventore
+          maiores excepturi aperiam deserunt libero debitis facere, nesciunt
+          in ex, nam quod. Magni laborum beatae saepe quaerat possimus
+          deleniti ipsam. Nobis aspernatur odit est quas minima praesentium
+          vero dolore reprehenderit porro voluptatum ipsum placeat cupiditate
+          voluptate nam tenetur maiores excepturi rerum sunt magni temporibus
+          unde, fuga qui quos? Numquam sit quos temporibus, neque officia
+          earum, quae tempora aspernatur ullam itaque asperiores! Nobis aspernatur odit est quas minima praesentium
+          vero dolore reprehenderit porro voluptatum ipsum placeat cupiditate
+          voluptate nam tenetur maiores excepturi rerum sunt magni temporibus
+          unde, fuga qui quos? Numquam sit quos temporibus, neque officia
+          earum, quae tempora aspernatur ullam itaque asperiores!
+          
+        </p>
+      </aside>
+      
+      <img
+        src="images/city_view_small.jpg"
+        alt="Home Image"
+        class="home-small"
+      />
+    </article>
+
+
+    <section>     
+      <div class="contact_info">        
+        <div>
+          <h2>Contact us</h2>        
+          <span class="info">Address:</span><br />
+          <span>The Weather Center</span><br />
+          <span>123 Main Street</span><br />
+          <span>Preston, UT, 84000</span><br />
+        </div>
+        <div>
+          <span class="info">Phone:</span><br />
+          <span>+1-385-333-4444</span><br /><br />
+          <span class="info">Email:</span><br />
+          <span>contact@wtu.com</span><br /><br />
+        </div>  
+        <div>
+          <figure id="map_two">
+            <img src="images/map.png" width="60" height="20" alt="City Map" />
+          </figure>
+        </div>    
+      </div>
+    </section>
+  
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+      <p>© <label id="year"></label> The Weather Site Utah</p>
+      <p>&nbsp; <span id="currentDate"></span></p>
+      <p>Last visited <span id="lastDate">0</span> days ago</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/home.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
+  </body>
+</html>

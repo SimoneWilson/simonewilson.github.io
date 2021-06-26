@@ -1,0 +1,122 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 1150px) {
+  /*----------- BODY --------------*/
+  header,
+  nav,
+  main,
+  footer {
+    width: 100% !important;
+    margin: 0;
+  }
+
+  /*----------- HEADER --------------*/
+
+  /*----------- NAVIGATION --------------*/
+
+  nav ul {
+    margin: 0;
+  }
+
+  nav ul li {
+    flex-basis: auto;
+    -ms-flex: 0 0 auto;
+  }
+
+  nav ul li a {
+    padding: 0.5rem 1rem;
+  }
+
+  nav button {
+    display: none;
+  }
+
+  /*----------- MAIN --------------*/
+
+  .principal {
+    padding-top: 30px;
+  }
+
+  .gallery {
+    padding-left: 8.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  article p {
+    min-width: 45rem;
+    line-height: 2rem;
+    font-size: 22px;
+  }
+
+  aside {
+    width: 30%;
+    float: right;
+  }
+
+  .city {
+    width: 90%;
+    margin-left: 5rem;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 15px;
+  }
+
+  section {
+    display: block;
+  }
+
+  .photoinfo,
+  img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  div .cityinfo {
+    padding-top: 20px;
+  }
+
+  .contact_info {
+    font-size: 25px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.9rem;
+  }
+
+  .info {
+    font-size: 25px;
+    line-height: 6rem;
+  }
+
+  section figure img {
+    width: 33rem;
+    height: 9rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  #forecast {
+    grid-template-columns: repeat(auto-fill, minmax(5.5rem, 1fr));
+  }
+
+  div#message {
+    height: 6rem;
+  }
+
+  .box:hover {
+    width: 300px;
+    box-shadow: 0 0 40px #888;
+  }
+
+  legend {
+    font-size: 30px;
+  }
+
+  .btn {
+    margin-left: 42rem;
+  }
+
+  /*----------- FOOTER --------------*/
+}
+
+/* end of media query */
