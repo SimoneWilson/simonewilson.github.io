@@ -76,10 +76,16 @@
   }
 
   #forecast {
+    width: 65%;
+    margin-left: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(7rem, 30%));
-    width: 90%;
-    margin-left: 4rem;
+    grid-gap: 10px;
+  }
+
+  .grid-col {
+    text-align: left;
+    line-height: 2rem;
   }
 
   article p {

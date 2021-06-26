@@ -47,10 +47,9 @@
   }
 
   #forecast {
-    width: 80%;
-    margin-left: 120px;
+    margin-left: 150px;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-gap: 20px;
+    grid-gap: 40px;
   }
 
   .grid-col {
