@@ -74,11 +74,12 @@
     top: 19.5em;
     left: 2rem;
   }
+
   #forecast {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(7rem, 33%));
+    grid-template-columns: repeat(auto-fill, minmax(7rem, 30%));
     width: 90%;
-    margin-left: 3rem;
+    margin-left: 4rem;
   }
 
   article p {
