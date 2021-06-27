@@ -76,8 +76,8 @@
   }
 
   #forecast {
-    width: 65%;
-    margin-left: 50px;
+    width: 250px;
+    margin-left: 220px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(7rem, 30%));
     grid-gap: 10px;
