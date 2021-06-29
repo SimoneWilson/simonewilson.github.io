@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="WDD230 Lesson8" />
+    <meta name="author" content="Simone McKee" />
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>Weather Site Project</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta
+      name="viewport"
+      content="width=device-width , initial-scale=1, maximum-scale=1"
+    />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- STYLE SHEETS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet" />
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet" />
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+      <img src="images/weather_icon_128px.png" alt="icon" />
+      <h1>Weather Today Utah</h1>
+      <h2>Your portal for weather</h2>
+    </header>
+
+    <!-- NAVIGATION HERE -->
+
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+
+      <ul id="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="sodaSpring.html">Soda Spring</a></li>
+        <li><a href="fishHaven.html">Fish Haven</a></li>
+        <li class="active"><a href="stormCenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <!-- CONTENT HERE -->
+    <main>
+      <h3>Thanks for submitting.</h3>
+    </main>
+
+    <!-- FOOTER HERE -->
+
+    <footer>
+      <p>© <label id="year"></label> The Weather Site Utah | Simone McKee</p>
+      <p>&nbsp; <span id="currentDate"></span></p>
+      <p>Last visited <span id="lastDate">0</span> days ago</p>
+    </footer>
+
+    <!-- SCRIPT -->
+
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,294 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/*----------- BODY --------------*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*----------- HEADER --------------*/
+
+header {
+  padding: 2rem 2%;
+  background-color: #4ba3c3;
+}
+
+header img {
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+header h1 {
+  margin: 0;
+  padding-top: 1rem;
+  font-size: 1.6rem;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+/*----------- NAVIGATION --------------*/
+
+.hide {
+  display: none;
+}
+
+nav button {
+  width: 100%;
+  border: none;
+  color: #fff;
+  background-color: #175676;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  background-color: #175676;
+  text-decoration: none;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #aaa;
+  color: #333;
+}
+
+nav ul li.active a {
+  background-color: #4ba3c3;
+  color: #fff;
+}
+
+/*----------- MAIN --------------*/
+main {
+  width: 100%;
+  min-height: 10rem;
+  display: block;
+  line-height: 1.5rem;
+}
+
+div#message {
+  background-color: #ba324f;
+  height: 8.5rem;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+div.showme {
+  display: block;
+}
+
+div.hideme {
+  display: none;
+}
+
+main h1 {
+  float: left;
+  padding-left: 1rem;
+}
+
+main h2,
+h3,
+p,
+span {
+  margin-left: 1.5rem;
+}
+
+.principal {
+  padding-top: 5px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1.5rem;
+}
+
+main picture img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding-bottom: 40px;
+}
+
+.weathersum {
+  position: absolute;
+  width: 12rem;
+  height: 8.7rem;
+  top: 26rem;
+  left: 1rem;
+  line-height: 0.4rem;
+  border: 1px solid #000;
+  background-color: #cce6f4;
+  font-size: 14px;
+  text-align: left;
+}
+
+#forecast {
+  display: block;
+}
+
+article aside {
+  width: 100%;
+}
+
+.girl {
+  display: none;
+}
+
+.home {
+  display: none;
+}
+
+.girl-small {
+  width: 90%;
+  height: auto;
+  object-fit: contain;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1px solid #808080;
+}
+
+.home-small {
+  display: none;
+}
+
+.grid-col {
+  background-color: #4ba3c3;
+  margin: 4px auto 4px auto;
+}
+
+.nova {
+  display: none;
+}
+
+.contact_info {
+  width: 100%;
+  background-color: #cce6f4;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 16px;
+}
+
+.info {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 3.5rem;
+}
+
+.contact-option {
+  height: 50px;
+  margin: 0 0 20px 0;
+}
+
+section figure img {
+  width: 23rem;
+  height: 9rem;
+  object-fit: cover;
+  border: 1px solid #808080;
+}
+
+form fieldset {
+  width: 350px;
+  height: 260px;
+  margin: 3rem auto;
+}
+
+form label.field {
+  display: block;
+}
+form label.field input,
+form label.field select {
+  width: 100%;
+  background-color: #cce6f4;
+}
+
+legend {
+  font-size: 18px;
+}
+
+label datalist {
+  padding: 5rem;
+}
+
+.btn {
+  margin-bottom: 1rem;
+  margin-left: 6rem;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px 70px;
+  background-color: #cce6f4;
+}
+
+section,
+div,
+.city h2,
+.city h3,
+.city p {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+section,
+img .city {
+  padding-top: 1.8rem;
+  padding-bottom: 1.2rem;
+  border: 1px solid #000;
+  object-fit: contain;
+  box-shadow: 3px 3px 1px 0px #808080;
+}
+
+#comments {
+  background-color: #cce6f4;
+}
+
+#map_two {
+  display: none;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+  background-color: #4ba3c3;
+  width: 100%;
+  margin-right: -10px;
+  padding-top: 0.5rem;
+  padding-right: unset;
+}
+
+footer p {
+  text-align: center;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
