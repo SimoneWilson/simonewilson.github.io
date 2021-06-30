@@ -41,15 +41,19 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  main picture img {
+    padding: 50px 70px 50px 70px;
+  }
+
   .weathersum {
-    top: 21rem;
-    left: 8rem;
+    top: 18rem;
+    left: 12rem;
   }
 
   #forecast {
-    margin-left: 150px;
-    grid-template-columns: 195px 195px 195px 195px 190px;
+    grid-template-columns: 140px 130px 130px 130px 130px;
     grid-gap: 40px;
+    text-align: left;
   }
 
   .grid-col {
@@ -117,7 +121,7 @@
   }
 
   .btn {
-    margin-left: 42rem;
+    margin-left: 42%;
   }
 
   /*----------- FOOTER --------------*/
