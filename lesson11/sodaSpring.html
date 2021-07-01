@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="WDD230 Lesson4" />
+    <meta name="description" content="WDD230 Lesson11" />
     <meta name="author" content="Simone McKee" />
 
     <!-- This start file was build by Paul Cheney  -->
@@ -53,16 +53,181 @@
     </nav>
 
     <!-- CONTENT HERE -->
-    <main>
-      <div>In progress...</div>
+    <main class="principal">
+      <span id="townName">Soda Spring</span>
+      <div class="weathersum">
+        <p>Weather Summary</p>
+        <p>Currently:<span id="current"></span></p>
+        <p>High Temp::<span id="high"></span>mph</p>
+        <p>Wind Speed:<span id="speed"></span>mph</p>
+        <p>Wind Chill:<span id="chill"></span></p>
+        <p>Humidity:<span id="humid"></span>%</p>
+      </div>
+
+      <picture class="hero">
+        <source
+          media="(max-width: 450px)"
+          srcset="images/soda_springs_small.jpg"
+          class="city"
+        />
+        <source
+          media="(max-width: 1000px)"
+          srcset="images/soda_springs_medium.jpg"
+          class="city"
+        />
+        <source
+          media="(max-width: 2500px)"
+          srcset="images/soda_springs_large.jpg"
+          class="city"
+        />
+        <img
+          src="images/soda_springs_large.jpg"
+          alt="City Image"
+          class="city"
+        />
+      </picture>
+
+      <div>
+        <h2>Five Day Forecast</h2>
+        <div id="forecast">
+          <div class="grid-col">
+            <span class="col-head" id="dia1">Mon</span>
+            <img
+              id="img1"
+              src="images/iconfinder_weather-01_1530392.png"
+              alt="sunny"
+            />
+            <span class="data" id="day1"></span>
+          </div>
+          <div class="grid-col">
+            <span class="col-head" id="dia2">Tue</span>
+            <img
+              id="img2"
+              src="images/iconfinder_weather-02_1530391.png"
+              alt="cloudy"
+            />
+            <span class="data" id="day2"></span>
+          </div>
+          <div class="grid-col">
+            <span class="col-head" id="dia3">Wed</span>
+            <img
+              id="img3"
+              src="images/iconfinder_weather-03_1530390.png"
+              alt="rain"
+            />
+            <span class="data" id="day3"></span>
+          </div>
+          <div class="grid-col">
+            <span class="col-head" id="dia4">Thu</span>
+            <img
+              id="img4"
+              src="images/iconfinder_weather-03_1530390.png"
+              alt="rain"
+            />
+            <span class="data" id="day4"></span>
+          </div>
+          <div class="grid-col">
+            <span class="col-head" id="dia5">Fri</span>
+            <img
+              id="img5"
+              src="images/iconfinder_weather-01_1530392.png"
+              alt="sunny"
+            />
+            <span class="data" id="day5"></span>
+          </div>
+        </div>
+      </div>
+
+      <article>
+        <br />
+        <h2>How the climate change</h2>
+        <aside>
+          <img
+            src="images/pexels-andrea-piacquadio-3783094.jpg"
+            alt="Girl Image"
+            class="girl"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+            aspernatur odit est quas minima praesentium vero dolore
+            reprehenderit porro voluptatum ipsum placeat cupiditate voluptate
+            nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga
+            qui quos? Numquam sit quos temporibus, neque officia earum, quae
+            tempora aspernatur ullam itaque asperiores! Sapiente vero quaerat
+            sunt autem praesentium repudiandae, odio, quo error debitis delectus
+            soluta dolores sit in aperiam. Voluptates rerum repellendus facilis
+            quidem quaerat esse enim sit animi earum nisi velit inventore
+            maiores excepturi aperiam deserunt libero debitis facere, nesciunt
+            in ex, nam quod. Magni laborum beatae saepe quaerat possimus
+            deleniti ipsam. Nobis aspernatur odit est quas minima praesentium
+            vero dolore reprehenderit porro voluptatum ipsum placeat cupiditate
+            voluptate nam tenetur maiores excepturi rerum sunt magni temporibus
+            unde, fuga qui quos? Numquam sit quos temporibus, neque officia
+            earum, quae tempora aspernatur ullam itaque asperiores! Nobis
+            aspernatur odit est quas minima praesentium vero dolore
+            reprehenderit porro voluptatum ipsum placeat cupiditate voluptate
+            nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga
+            qui quos? Numquam sit quos temporibus, neque officia earum, quae
+            tempora aspernatur ullam itaque asperiores! Nobis aspernatur odit
+            est quas minima praesentium vero dolore reprehenderit porro
+            voluptatum ipsum placeat cupiditate voluptate nam tenetur maiores
+            excepturi rerum sunt magni temporibus unde, fuga qui quos? Numquam
+            sit quos temporibus, neque officia earum, quae tempora aspernatur
+            ullam itaque asperiores!
+          </p>
+        </aside>
+
+        <img
+          src="images/pexels-andrea-piacquadio-3783094.jpg"
+          alt="Girl Image"
+          class="girl-small"
+        />
+      </article>
+      <section id="contact_uni">
+        <div class="contact_info">
+          <div>
+            <h4>Contact us</h4>
+            <span class="info">Address:</span><br />
+            <span>The Weather Center</span><br />
+            <span>123 Main Street</span><br />
+            <span>Preston, UT 84000</span><br />
+          </div>
+          <div>
+            <span class="info">Phone:</span><br />
+            <span>+1-385-333-4444</span><br /><br />
+            <span class="info">Email:</span><br />
+            <span>contact@wtu.com</span><br /><br />
+          </div>
+
+          <div>
+            <figure id="map_two">
+              <img src="images/map.png" width="60" height="20" alt="City Map" />
+            </figure>
+          </div>
+        </div>
+      </section>
+      <div id="message">
+        <h2>Preston Dayzz</h2>
+        <p>
+          It doesn't matter the weather, every Saturday is Jazz Day in Preston
+          Gallery at 6PM
+        </p>
+      </div>
+      <br />
     </main>
 
     <!-- FOOTER HERE -->
 
     <footer>
-      <p>Current Date: &nbsp; <span id="currentDate"></span></p>
+      <p>© <label id="year"></label> The Weather Site Utah</p>
+      <p>&nbsp; <span id="currentDate"></span></p>
+      <p>Last visited <span id="lastDate">0</span> days ago</p>
     </footer>
-
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
   </body>
 </html>
