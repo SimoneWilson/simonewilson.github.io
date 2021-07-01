@@ -37,8 +37,8 @@
   }
 
   .gallery {
-    padding-left: 8.5rem;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 1rem;
   }
 
   main picture img {

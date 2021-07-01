@@ -59,7 +59,6 @@
 
   .gallery {
     grid-template-columns: 1fr 1fr;
-    padding-left: 5.5rem;
   }
 
   main div {
