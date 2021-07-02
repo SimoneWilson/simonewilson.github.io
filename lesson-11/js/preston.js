@@ -17,8 +17,6 @@ weekday[6] = "Saturday";
 
 const apiURL =
   "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=927d130c204aff65e964321c17138067&units=imperial";
-("https://api.openweathermap.org/data/2.5/forecast?id=5607916&appid=927d130c204aff65e964321c17138067&units=imperial");
-("https://api.openweathermap.org/data/2.5/forecast?id=5585000&appid=927d130c204aff65e964321c17138067&units=imperial");
 
 fetch(apiURL)
   .then((response) => response.json())
