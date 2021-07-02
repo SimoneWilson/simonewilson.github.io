@@ -83,6 +83,9 @@ nav ul li.active a {
 }
 
 /*----------- MAIN --------------*/
+
+
+
 main {
   width: 100%;
   min-height: 10rem;
@@ -106,9 +109,9 @@ div.hideme {
   display: none;
 }
 
-main h1 {
-  float: left;
-  padding-left: 1rem;
+main h1 { 
+  padding-top: 10px;
+  padding-left: 43%;
 }
 
 main h2,

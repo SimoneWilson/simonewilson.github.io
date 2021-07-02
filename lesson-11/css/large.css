@@ -37,9 +37,8 @@
   }
 
   main h1 {
-    float: unset;
     padding-top: 20px;
-    padding-left: 33rem;
+    padding-left: 43%;
   }
 
   .gallery {

@@ -57,6 +57,11 @@
     padding-top: 20px;
   }
 
+  main h1 {
+    padding-top: 10px;
+    padding-left: 38%;
+  }
+
   .gallery {
     grid-template-columns: 1fr 1fr;
   }
