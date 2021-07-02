@@ -36,6 +36,11 @@
     padding-top: unset;
   }
 
+  main h1 {
+    float: unset;
+    padding-left: 33rem;
+  }
+
   .gallery {
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 1rem;
@@ -46,7 +51,7 @@
   }
 
   .weathersum {
-    top: 18rem;
+    top: 19rem;
     left: 12rem;
   }
 
