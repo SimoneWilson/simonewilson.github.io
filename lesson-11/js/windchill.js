@@ -22,7 +22,7 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((dayForecast) => {
     console.log(dayForecast);
-    document.getElementById("townName").textContent = dayForecast.name;
+    document.getElementById("townName").textContent = dayForecast.city.name;
 
     let mylist = dayForecast.list;
 

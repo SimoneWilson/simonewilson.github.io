@@ -33,7 +33,7 @@
   /*----------- MAIN --------------*/
 
   .principal {
-    padding-top: 30px;
+    padding-top: unset;
   }
 
   .gallery {

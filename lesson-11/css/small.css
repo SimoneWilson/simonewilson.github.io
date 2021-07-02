@@ -140,16 +140,26 @@ main picture img {
 }
 .weathersum {
   position: absolute;
-  width: 11rem;
-  height: 8.8rem;
-  top: 26rem;
+  width: 12.5rem;
+  height: 9rem;
+  top: 24.5rem;
   left: 1rem;
-  line-height: 0.5rem;
+  line-height: 0.3rem;
   border: 1px solid #000;
   border-radius: 5px;
   background-color: #cce6f4;
   font-size: 12px;
+  font-style: italic;
   text-align: left;
+}
+
+#unico {
+  margin-bottom: 0px;
+  font-weight:bold;
+  text-decoration: underline;
+
+  
+}
 }
 
 #forecast {
