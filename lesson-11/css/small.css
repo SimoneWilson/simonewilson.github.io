@@ -84,8 +84,6 @@ nav ul li.active a {
 
 /*----------- MAIN --------------*/
 
-
-
 main {
   width: 100%;
   min-height: 10rem;
@@ -93,17 +91,16 @@ main {
   line-height: 1.5rem;
 }
 
-main h1 { 
+main h1 {
   padding-top: 10px;
   padding-left: 43%;
-
 }
 
 main h2,
 h3,
 p,
 span {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
 }
 
 div#message {
@@ -121,8 +118,6 @@ div.showme {
 div.hideme {
   display: none;
 }
-
-
 
 .principal {
   padding-top: 5px;
@@ -161,11 +156,8 @@ main picture img {
 
 #unico {
   margin-bottom: 0px;
-  font-weight:bold;
+  font-weight: bold;
   text-decoration: underline;
-
-  
-}
 }
 
 #forecast {
