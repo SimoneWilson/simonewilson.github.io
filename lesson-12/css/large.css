@@ -1,0 +1,55 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 560px) {
+
+
+    /*----------- BODY --------------*/
+
+
+
+    /*----------- HEADER --------------*/
+
+
+
+
+
+    /*----------- NAVIGATION --------------*/
+
+
+    nav ul {
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        float: left;
+    }
+
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+
+    /*----------- MAIN --------------*/
+    main {
+        width: 90%;
+    }
+
+    main p {
+        line-height: 1.2rem;
+    }
+
+
+    .personas {
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.5rem;
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-content: center;
+    }
+
+
+    /*----------- FOOTER --------------*/
+
+}
+
+/* end of media query */
