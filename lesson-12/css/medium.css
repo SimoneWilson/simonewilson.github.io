@@ -1,51 +1,190 @@
 /* 35em is also 560px (if basefont is 16px) */
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 768px) {
+  /*----------- BODY --------------*/
 
+  /*----------- HEADER --------------*/
 
-    /*----------- BODY --------------*/
-    body {}
+  Header img {
+    width: 70px;
+  }
 
+  header h1 {
+    padding-top: 0.5rem;
+  }
 
-    /*----------- HEADER --------------*/
+  header h2 {
+    font-size: 1.5rem;
+  }
 
+  /*----------- NAVIGATION --------------*/
 
-    Header img {
-        width: 70px;
-    }
+  nav ul {
+    list-style-type: none;
+  }
 
-    header h2 {
-        font-size: 1.5rem;
-    }
+  nav ul li {
+    float: left;
+  }
 
+  nav ul li a {
+    padding: 0.5rem 1rem;
+    font-size: 0.9em;
+  }
 
+  nav button {
+    display: none;
+  }
 
-    /*----------- NAVIGATION --------------*/
+  nav ul li.active a {
+    border-style: ridge;
+    border-color: #175676;
+    color: #000;
+  }
 
-    nav ul {
-        margin-left: 2%;
-    }
+  #navigation {
+    display: flex;
+    text-align: center;
+  }
 
-    nav ul li {
-        float: left;
-    }
+  #navigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
 
-    nav ul li a {
-        padding: .5rem 1rem;
-        background-color: #175676;
-    }
+  /*----------- MAIN --------------*/
 
+  .principal {
+    padding-top: 20px;
+  }
 
-    /*----------- MAIN --------------*/
+  main h1 {
+    padding-top: 10px;
+    padding-left: 38%;
+  }
 
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
 
-    /*----------- FOOTER --------------*/
+  main div {
+    margin: 0;
+  }
 
-    .data {
-        margin-left: 160px;
+  div#message {
+    height: 7.2rem;
+  }
 
-    }
+  .weathersum {
+    top: 19rem;
+    left: 2rem;
+  }
 
+  #forecast {
+    width: 250px;
+    margin-left: 220px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(7rem, 30%));
+    grid-gap: 10px;
+  }
 
+  .grid-col {
+    text-align: left;
+    line-height: 2rem;
+  }
+
+  article p {
+    min-width: 25rem;
+  }
+
+  aside {
+    width: 30%;
+  }
+
+  .nova {
+    display: block;
+  }
+
+  .home {
+    display: block;
+    width: 50%;
+    height: auto;
+    border: 1px solid #808080;
+    float: right;
+    margin: 0 5px 0 15px;
+  }
+  .girl {
+    display: block;
+    width: 30%;
+    height: auto;
+    border: 1px solid #808080;
+    float: right;
+    margin: 0 5px 0 15px;
+  }
+
+  .girl-small {
+    display: none;
+  }
+
+  .home-small {
+    display: none;
+  }
+
+  .grid-col {
+    background-color: #4ba3c3;
+  }
+
+  section {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  section,
+  div img {
+    padding: 10px;
+  }
+
+  div .cityinfo {
+    padding-top: 120px;
+  }
+
+  .contact_info {
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem;
+    margin: 0 auto;
+  }
+
+  .info {
+    font-size: 14px;
+    line-height: 3rem;
+  }
+
+  #map_two {
+    display: block;
+  }
+
+  .btn {
+    margin-left: 40%;
+  }
+
+  .nova {
+    font-size: 18px;
+    margin-left: 1%;
+    margin-right: 2%;
+  }
+
+  /*----------- FOOTER --------------*/
 }
 
 /* end of media query */
+.display_here div section {
+  height: 220px;
+}
+.display_here div img {
+  height: 220px;
+}

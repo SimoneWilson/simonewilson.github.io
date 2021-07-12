@@ -1,55 +1,135 @@
 /* 35em is also 560px (if basefont is 16px) */
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 1150px) {
+  /*----------- BODY --------------*/
+  header,
+  nav,
+  main,
+  footer {
+    width: 100% !important;
+    margin: 0;
+  }
 
+  /*----------- HEADER --------------*/
 
-    /*----------- BODY --------------*/
+  /*----------- NAVIGATION --------------*/
 
+  nav ul {
+    margin: 0;
+  }
 
+  nav ul li {
+    flex-basis: auto;
+    -ms-flex: 0 0 auto;
+  }
 
-    /*----------- HEADER --------------*/
+  nav ul li a {
+    padding: 0.5rem 1rem;
+  }
 
+  nav button {
+    display: none;
+  }
 
+  /*----------- MAIN --------------*/
 
+  .principal {
+    padding-top: unset;
+  }
 
+  main h1 {
+    padding-top: 20px;
+    padding-left: 43%;
+  }
 
-    /*----------- NAVIGATION --------------*/
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 1rem;
+  }
 
+  main picture img {
+    padding: 50px 70px 50px 70px;
+  }
 
-    nav ul {
-        margin-left: 2%;
-    }
+  .weathersum {
+    top: 21rem;
+    left: 12rem;
+  }
 
-    nav ul li {
-        float: left;
-    }
+  #forecast {
+    grid-template-columns: 140px 130px 130px 130px 130px;
+    grid-gap: 40px;
+    text-align: left;
+  }
 
-    nav ul li a {
-        padding: .5rem 1rem;
-    }
+  .grid-col {
+    background-color: #4ba3c3;
+  }
 
-    /*----------- MAIN --------------*/
-    main {
-        width: 90%;
-    }
+  article p {
+    min-width: 45rem;
+    line-height: 2rem;
+    font-size: 22px;
+  }
 
-    main p {
-        line-height: 1.2rem;
-    }
+  aside {
+    width: 30%;
+    float: right;
+  }
 
+  .city {
+    width: 90%;
+    margin-left: 5rem;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 15px;
+  }
 
-    .personas {
-        width: 100%;
-        font-size: 20px;
-        line-height: 1.5rem;
-        margin-left: 10px;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        align-content: center;
-    }
+  section {
+    display: block;
+  }
 
+  div .cityinfo {
+    padding-top: 20px;
+  }
 
-    /*----------- FOOTER --------------*/
+  .contact_info {
+    font-size: 25px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.9rem;
+  }
 
+  .info {
+    font-size: 25px;
+    line-height: 6rem;
+  }
+
+  section figure img {
+    width: 33rem;
+    height: 9rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  div#message {
+    height: 6rem;
+  }
+
+  .box:hover {
+    width: 300px;
+    box-shadow: 0 0 40px #888;
+  }
+
+  legend {
+    font-size: 30px;
+  }
+
+  .btn {
+    margin-left: 42%;
+  }
+
+  /*----------- FOOTER --------------*/
 }
 
 /* end of media query */
