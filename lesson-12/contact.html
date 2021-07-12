@@ -50,110 +50,134 @@
     </nav>
 
     <!-- CONTENT HERE -->
-    <main class="principal">
-      <h1>Fish Haven Town</h1>
-      <div class="weathersum">
-        <span id="unico"
-          ><p>Weather Summary:<span id="townName"></span></p>
-        </span>
-        <p>Currently:<span id="current"></span></p>
-        <p>High Temp::<span id="high"></span>mph</p>
-        <p>Wind Speed:<span id="speed"></span>mph</p>
-        <p>Wind Chill:<span id="chill"></span></p>
-        <p>Humidity:<span id="humid"></span>%</p>
-      </div>
+    <main>
+      <form method="get" action="thanks.html">
+        <fieldset>
+          <legend>Applicant Information</legend>
+          <label class="field">
+            Full Name:
+            <input
+              type="text"
+              name="fullName"
+              pattern="^(\w+\s+\w+)"
+              required
+            />
+          </label>
+          <label class="field">
+            Email:
+            <input type="email" name="email" placeholder="userId@email.com" />
+          </label>
 
-      <picture class="hero">
-        <source
-          media="(max-width: 450px)"
-          srcset="images/fish_haven_small.jpg"
-          class="city"
-        />
-        <source
-          media="(max-width: 1000px)"
-          srcset="images/fish_haven_medium.jpg"
-          class="city"
-        />
-        <source
-          media="(max-width: 2500px)"
-          srcset="images/fish_haven_large.jpg"
-          class="city"
-        />
-        <img src="images/fish_haven_large.jpg" alt="City Image" class="city" />
-      </picture>
+          <label class="field">
+            Phone:
+            <input
+              type="tel"
+              name="phone"
+              placeholder="(XXX)-XXX-XXXX"
+              required
+            />
+          </label>
+          <label class="field">
+            Zip Code:
+            <input type="number" name="zipCode" />
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Storm Information</legend>
+          <label class="field">
+            Date: <input type="date" name="todayDate" />
+          </label>
+          <label class="field">
+            Storm Type: <input type="text" list="storm"
+          /></label>
+          <datalist id="storm">
+            <option value="Flash Flood">Flash Flood</option>
+            <option value="Hail">Hail</option>
+            <option value="Hurricane">Hurricane</option>
+            <option value="Thunderstorm">Thunderstorm</option>
+            <option value="Tornado">Tornado</option></datalist
+          ><br />
+          <label class="rate" for="rating"
+            >Rating: &nbsp;
+            <input
+              type="range"
+              id="rating"
+              value="5"
+              min="1"
+              max="10"
+              step="1"
+              list="tickmarks"
+              oninput="adjustRating(this.value)"
+              onchange="adjustRating(this.value)"
+            />
+            <span id="ratingvalue">5</span>
+          </label>
+          <datalist id="tickmarks">
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+          </datalist>
 
-      <article>
-        <br />
-        <h2>How the climate change</h2>
-        <aside>
-          <img
-            src="images/pexels-andrea-piacquadio-3783094.jpg"
-            alt="Girl Image"
-            class="girl"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
-            aspernatur odit est quas minima praesentium vero dolore
-            reprehenderit porro voluptatum ipsum placeat cupiditate voluptate
-            nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga
-            qui quos? Numquam sit quos temporibus, neque officia earum, quae
-            tempora aspernatur ullam itaque asperiores! Sapiente vero quaerat
-            sunt autem praesentium repudiandae, odio, quo error debitis delectus
-            soluta dolores sit in aperiam. Voluptates rerum repellendus facilis
-            quidem quaerat esse enim sit animi earum nisi velit inventore
-            maiores excepturi aperiam deserunt libero debitis facere, nesciunt
-            in ex, nam quod. Magni laborum beatae saepe quaerat possimus
-            deleniti ipsam. Nobis aspernatur odit est quas minima praesentium
-            vero dolore reprehenderit porro voluptatum ipsum placeat cupiditate
-            voluptate nam tenetur maiores excepturi rerum sunt magni temporibus
-            unde, fuga qui quos? Numquam sit quos temporibus, neque officia
-            earum, quae tempora aspernatur ullam itaque asperiores! Nobis
-            aspernatur odit est quas minima praesentium vero dolore
-            reprehenderit porro voluptatum ipsum placeat cupiditate voluptate
-            nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga
-            qui quos? Numquam sit quos temporibus, neque officia earum, quae
-            tempora aspernatur ullam itaque asperiores! Nobis aspernatur odit
-            est quas minima praesentium vero dolore reprehenderit porro
-            voluptatum ipsum placeat cupiditate voluptate nam tenetur maiores
-            excepturi rerum sunt magni temporibus unde, fuga qui quos? Numquam
-            sit quos temporibus, neque officia earum, quae tempora aspernatur
-            ullam itaque asperiores!
-          </p>
-        </aside>
-
-        <img
-          src="images/pexels-andrea-piacquadio-3783094.jpg"
-          alt="Girl Image"
-          class="girl-small"
-        />
-      </article>
-      <div>
-        <h2>Upcoming Events:</h2>
-        <div id="fishEvents"></div>
-      </div>
-      <section id="contact_uni">
-        <div class="contact_info">
-          <div>
-            <h4>Contact us</h4>
-            <span class="info">Address:</span><br />
-            <span>The Weather Center</span><br />
-            <span>123 Main Street</span><br />
-            <span>Preston, UT 84000</span><br />
-          </div>
-          <div>
-            <span class="info">Phone:</span><br />
-            <span>+1-385-333-4444</span><br /><br />
-            <span class="info">Email:</span><br />
-            <span>contact@wtu.com</span><br /><br />
-          </div>
-
-          <div>
-            <figure id="map_two">
-              <img src="images/map.png" width="60" height="20" alt="City Map" />
-            </figure>
-          </div>
-        </div>
-      </section>
+          <label class="field">
+            Region:
+            <select name="region">
+              <option value>Select Region...</option>
+              <option value="preston">Preston</option>
+              <option value="soda springs">Soda Springs</option>
+              <option value="fish haven ">Fish Haven</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Additional Information</legend>
+          <span>Are you in danger?</span><br />
+          <label>
+            <input
+              class="select"
+              type="radio"
+              name="danger"
+              value="yes"
+            />Yes</label
+          >
+          <br />
+          <label>
+            <input
+              class="select"
+              type="radio"
+              name="danger"
+              value="maybe"
+            />Maybe</label
+          >
+          <br />
+          <label>
+            <input
+              class="select"
+              type="radio"
+              name="danger"
+              value="no"
+            />No</label
+          >
+          <div>Additional Comments:</div>
+          <label>
+            <textarea
+              id="comments"
+              name="comments"
+              cols="38"
+              rows="5"
+              placeholder="Comment..."
+            ></textarea>
+          </label>
+        </fieldset>
+        <button class="btn" type="submit">Submit</button>
+      </form>
     </main>
 
     <!-- FOOTER HERE -->
