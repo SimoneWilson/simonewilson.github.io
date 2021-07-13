@@ -38,10 +38,6 @@
 
   /*----------- MAIN --------------*/
 
-  .principal {
-    padding-top: 20px;
-  }
-
   main h1 {
     padding-top: 10px;
     padding-left: 38%;
@@ -65,13 +61,6 @@
     line-height: 2rem;
   }
 
-  article p {
-    min-width: 25rem;
-  }
-
-  aside {
-    width: 30%;
-  }
 
   .home {
     display: block;
@@ -80,18 +69,6 @@
     border: 1px solid #808080;
     float: right;
     margin: 0 5px 0 15px;
-  }
-  .girl {
-    display: block;
-    width: 30%;
-    height: auto;
-    border: 1px solid #808080;
-    float: right;
-    margin: 0 5px 0 15px;
-  }
-
-  .girl-small {
-    display: none;
   }
 
   .home-small {
@@ -112,15 +89,13 @@
     flex-direction: row-reverse;
   }
 
-  
-
+  .shop { 
+    display: block;
+  }
   .contact_info {
-    height: 150px;
-    font-size: 16px;
-    display: grid;
+    height: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
-
   }
 
   .info {
@@ -133,7 +108,7 @@
   }
 
   .btn {
-    margin-left: 40%;
+  margin-left: -20px;
   }
 
   .nova {
