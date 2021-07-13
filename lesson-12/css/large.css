@@ -50,11 +50,6 @@
     padding: 50px 70px 50px 70px;
   }
 
-  .weathersum {
-    top: 21rem;
-    left: 12rem;
-  }
-
   #forecast {
     grid-template-columns: 140px 130px 130px 130px 130px;
     grid-gap: 40px;
@@ -84,32 +79,19 @@
     grid-gap: 15px;
   }
 
-  section {
-    display: block;
-  }
-
   div .cityinfo {
     padding-top: 20px;
   }
 
   .contact_info {
+    height: 200px;
+    padding-top: 20px;
     font-size: 25px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 0.9rem;
   }
 
   .info {
     font-size: 25px;
     line-height: 6rem;
-  }
-
-  section figure img {
-    width: 33rem;
-    height: 9rem;
-    margin-top: 15px;
-    margin-bottom: 15px;
   }
 
   div#message {

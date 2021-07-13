@@ -26,7 +26,7 @@ header {
 header img {
   width: 100px;
   float: left;
-  margin-right: 30px;
+  padding-right: 10px;
 }
 
 /*----------- NAVIGATION --------------*/
@@ -36,12 +36,13 @@ header img {
 }
 
 nav button {
-  width: 50%;
+  width: 100%;
   border: none;
   color: #1f363d;
   background-color: #cfe0c3;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -55,19 +56,16 @@ nav ul li a {
   display: block;
   color: #1f363d;
   background-color: #70a9a1;
-  text-decoration: none;
-  font-size: 1.3rem;
   text-align: center;
-}
-
-nav ul li a:hover {
-  background-color: #aaa;
-  color: #333;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 nav ul li.active a {
   background-color: #cfe0c3;
-  color: #fff;
+  color: #1f363d;
+  border-style: ridge;
+  border-color: #1f363d;
 }
 
 /*----------- MAIN --------------*/
@@ -82,13 +80,6 @@ main {
 main h1 {
   padding-top: 10px;
   padding-left: 43%;
-}
-
-main h2,
-h3,
-p,
-span {
-  margin-left: 0.5rem;
 }
 
 div#message {
@@ -111,12 +102,6 @@ div.hideme {
   padding-top: 5px;
 }
 
-.gallery {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1.5rem;
-}
-
 main picture img {
   width: 100%;
   height: auto;
@@ -125,7 +110,7 @@ main picture img {
 }
 
 .hero_one {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 #unico {
@@ -139,7 +124,8 @@ main picture img {
 }
 
 article aside {
-  width: 100%;
+  margin-left: 0.8rem;
+  width: 95%;
 }
 
 .girl {
@@ -168,15 +154,17 @@ article aside {
   margin: 4px auto 4px auto;
 }
 
-.nova {
-  display: none;
+section,
+.contact-option {
+  border: 1px solid #000;
 }
-
 .contact_info {
   width: 100%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr;
+  justify-items: center;
   font-size: 16px;
+  line-height: 1rem;
 }
 
 .info {
@@ -188,11 +176,6 @@ article aside {
 .contact-option {
   height: 50px;
   margin: 0 0 20px 0;
-}
-
-section figure img {
-  object-fit: cover;
-  border: 1px solid #808080;
 }
 
 form fieldset {
@@ -239,22 +222,12 @@ label datalist {
 section,
 div,
 .city h2,
-.city h3,
-.city p {
+.city h3 {
   width: 100%;
   height: auto;
   margin: 0;
   padding: 0;
   text-align: center;
-}
-
-section,
-img .city {
-  padding-top: 1.8rem;
-  padding-bottom: 1.2rem;
-  border: 1px solid #000;
-  object-fit: contain;
-  box-shadow: 3px 3px 1px 0px #808080;
 }
 
 #comments {
