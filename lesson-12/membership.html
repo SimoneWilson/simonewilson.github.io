@@ -50,107 +50,149 @@
     </nav>
 
     <!-- CONTENT HERE -->
-    <main class="principal">
-      <picture class="hero">
-        <source
-          media="(max-width: 450px)"
-          srcset="images/preston_small.jpg"
-          class="city"
-        />
-        <source
-          media="(max-width: 1000px)"
-          srcset="images/preston_medium.jpg"
-          class="city"
-        />
-        <source
-          media="(max-width: 2500px)"
-          srcset="images/preston_large.jpg"
-          class="city"
-        />
-        <img src="images/preston_large.jpg" alt="City Image" class="city" />
-      </picture>
-
-      <article>
-        <br />
-        <h2>How the climate change</h2>
-        <aside>
-          <img
-            src="images/pexels-andrea-piacquadio-3783094.jpg"
-            alt="Girl Image"
-            class="girl"
-          />
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
-            aspernatur odit est quas minima praesentium vero dolore
-            reprehenderit porro voluptatum ipsum placeat cupiditate voluptate
-            nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga
-            qui quos? Numquam sit quos temporibus, neque officia earum, quae
-            tempora aspernatur ullam itaque asperiores! Sapiente vero quaerat
-            sunt autem praesentium repudiandae, odio, quo error debitis delectus
-            soluta dolores sit in aperiam. Voluptates rerum repellendus facilis
-            quidem quaerat esse enim sit animi earum nisi velit inventore
-            maiores excepturi aperiam deserunt libero debitis facere, nesciunt
-            in ex, nam quod. Magni laborum beatae saepe quaerat possimus
-            deleniti ipsam. Nobis aspernatur odit est quas minima praesentium
-            vero dolore reprehenderit porro voluptatum ipsum placeat cupiditate
-            voluptate nam tenetur maiores excepturi rerum sunt magni temporibus
-            unde, fuga qui quos? Numquam sit quos temporibus, neque officia
-            earum, quae tempora aspernatur ullam itaque asperiores! Nobis
-            aspernatur odit est quas minima praesentium vero dolore
-            reprehenderit porro voluptatum ipsum placeat cupiditate voluptate
-            nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga
-            qui quos? Numquam sit quos temporibus, neque officia earum, quae
-            tempora aspernatur ullam itaque asperiores! Nobis aspernatur odit
-            est quas minima praesentium vero dolore reprehenderit porro
-            voluptatum ipsum placeat cupiditate voluptate nam tenetur maiores
-            excepturi rerum sunt magni temporibus unde, fuga qui quos? Numquam
-            sit quos temporibus, neque officia earum, quae tempora aspernatur
-            ullam itaque asperiores!
-          </p>
-        </aside>
-
-        <img
-          src="images/pexels-andrea-piacquadio-3783094.jpg"
-          alt="Girl Image"
-          class="girl-small"
-        />
-      </article>
-      <div>
-        <h2>Upcoming Events:</h2>
-        <div id="prestonEvents"></div>
-      </div>
-
-      <section id="contact_uni">
+    <main>
+      <h1> SLC Area Chamber of Commerce</h1>
+      <h2>MEMBERSHIP</h2>
+      <h3> Our Mission is </h3>
+      <p>The Membership Committee promotes the Chamber's mission through member recruitment, retention and diversification. While participation on Membership committee is by nomination, play a pat in helping strengthen and increase a diverse membership of the Chamber.
+      </p>
+      <h3> Choose your membership level</h3> 
+      <p>membership level selection that displays the annual fees (only one option is allowed)
+        There are four options: Non-profit ($100), Bronze ($200), Silver ($400), Gold ($1000)
+        The different levels have different perks which you can explain on the page in a key. Things like directory listings, business trainings, social media posts, luncheon tickets, sponsorships with levels of advertising, etc.</p>  
+      <h3>How to became a member?</h3>
+      <p>Fill the form below with your information, choose your membership level
+        Do you still have questions our would prefer talk directly with a committee member,  please contact our office at 333-444-5555. Our business hours are: 
+        Monday-Friday 8AM-5PM</p>  
+     
+          <div> 
+             <form method="get" action="thanks.html">
+            <fieldset>
+              <legend>Personal Info</legend>
+              <label class="field">
+                First Name:
+                <input
+                  type="text"
+                  name="firstName"
+                  pattern="^(\w+\s+\w+)"
+                  required
+                />
+              </label>
+              <label class="field">
+                Last Name:
+                <input
+                  type="text"
+                  name="lastName"
+                  pattern="^(\w+\s+\w+)"
+                  required
+                />
+              </label>
+              <label class="field">
+                Title:
+                <input
+                  type="text"
+                  name="title"
+                  pattern="^(\w+\s+\w+)"
+                  required
+                />
+              </label>
+              <label class="field">
+                Email:
+                <input type="email" name="email" placeholder="userId@email.com" required />
+              </label>
+    
+              <label class="field">
+                Phone:
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder="(XXX)-XXX-XXXX"               
+                />
+              </label>
+            </fieldset>
+              <fieldset>
+              <legend>Business Info</legend>
+              <label class="field">
+                Business Name:
+                <input
+                  type="text"
+                  name="businessName"
+                  pattern="^(\w+\s+\w+)"
+                  required
+                />
+              </label>
+              <label class="field">
+                Business Address:
+                <input
+                  type="text"
+                  name="address"
+                  pattern="^(\w+\s+\w+)"               
+                />
+              </label>  
+              <label class="field">
+                Zip Code:
+                <input type="number" name="zipCode" />
+              </label>
+              <div>Business Discription:</div>
+              <label>
+                <textarea
+                  id="comments"
+                  name="comments"
+                  cols="38"
+                  rows="5"
+                  placeholder="Comment..."
+                ></textarea>
+              </label>
+              <label class="field">
+                Business Website:
+                <input type="url" name="url" placeholder="company.com" />
+              </label>             
+            </fieldset>
+            <fieldset>
+            <legend>Membership Type</legend>
+              <label class="field">
+                Membership Type:
+                <select name="region">
+                  <option value>Select</option>
+                  <option value="non-profit">Non-profit $100</option>
+                  <option value="bronze">Bronze $200</option>
+                  <option value="silver">Silver $400</option>
+                  <option value="gold">Silver $1000</option>
+                </select>
+              </label>
+              <label class="field">
+                Credit Card:
+                <input type="number" name="creditCard" />
+              </label>  
+              <label class="field">
+                Security Code:
+                <input type="number" name="secCode" />
+              </label>  
+                 
+              <label class="field">
+                Expiration Date:
+                <input type="number" name="expDate" />
+              </label>  
+            </fieldset>            
+            <button class="btn" type="submit">Submit</button>                
+        </form>
+          </div>
+      <section>       
         <div class="contact_info">
-          <div>
-            <h4>Contact us</h4>
-            <span class="info">Address:</span><br />
-            <span>The Weather Center</span><br />
-            <span>123 Main Street</span><br />
-            <span>Preston, UT 84000</span><br />
+          <div>    
+            <img src="images/pin_postal_icon.png" alt="icon_address" />
+            <p>201 S Main St</p>
+            <p>Salt Lake City, UT, 84000</p>     
           </div>
           <div>
-            <span class="info">Phone:</span><br />
-            <span>+1-385-333-4444</span><br /><br />
-            <span class="info">Email:</span><br />
-            <span>contact@wtu.com</span><br /><br />
+            <img src="images/phone_icon_64px.png" alt="icon_phone" />
+            <p>+1-333-444-5555</p>
           </div>
-
           <div>
-            <figure id="map_two">
-              <img src="images/map.png" width="60" height="20" alt="City Map" />
-            </figure>
-          </div>
-        </div>
-      </section>
-      <div id="message">
-        <h2>Preston Dayzz</h2>
-        <p>
-          It doesn't matter the weather, every Saturday is Jazz Day in Preston
-          Gallery at 6PM
-        </p>
-      </div>
-      <br />
+            <img src="images/email_icon_64px.png" alt="icon_email" />
+            <p>contact@slchamber.com</p>  
+          </div>               
+      </section>  
     </main>
 
     <!-- FOOTER HERE -->

@@ -47,22 +47,13 @@
     padding-left: 38%;
   }
 
-  .gallery {
-    grid-template-columns: 1fr 1fr;
-  }
 
   main div {
     margin: 0;
   }
 
-  div#message {
-    height: 7.2rem;
-  }
 
-  .weathersum {
-    top: 19rem;
-    left: 2rem;
-  }
+ 
 
   #forecast {
     width: 250px;
