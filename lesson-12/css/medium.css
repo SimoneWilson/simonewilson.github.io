@@ -47,12 +47,9 @@
     padding-left: 38%;
   }
 
-
   main div {
     margin: 0;
   }
-
-
  
 
   #forecast {
@@ -108,15 +105,14 @@
   section {
     display: flex;
     flex-direction: row;
+
   }
 
   section:nth-child(even) {
     flex-direction: row-reverse;
   }
 
-  div .cityinfo {
-    padding-top: 120px;
-  }
+  
 
   .contact_info {
     height: 150px;
@@ -124,7 +120,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1rem;
-    margin-left: 30px;
+
   }
 
   .info {

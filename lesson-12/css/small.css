@@ -85,14 +85,12 @@ main picture img {
   padding: 10px 10px 40px 10px;
 }
 
-.hero_one {
-  padding-top: 10px;
+main h2 {
+  text-align: center;
 }
 
-#unico {
-  margin-bottom: 0px;
-  font-weight: bold;
-  text-decoration: underline;
+.hero_one {
+  padding-top: 10px;
 }
 
 #forecast {
@@ -100,25 +98,12 @@ main picture img {
 }
 
 article aside {
-  margin-left: 0.8rem;
+  margin: 0.8rem;
   width: 95%;
-}
-
-.girl {
-  display: none;
 }
 
 .home {
   display: none;
-}
-
-.girl-small {
-  width: 90%;
-  height: auto;
-  object-fit: contain;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  border: 1px solid #808080;
 }
 
 .home-small {
@@ -130,10 +115,6 @@ article aside {
   margin: 4px auto 4px auto;
 }
 
-section,
-.contact-option {
-  border: 1px solid ##1f363d;
-}
 .contact_info {
   width: 100%;
   display: grid;
@@ -141,6 +122,7 @@ section,
   justify-items: center;
   font-size: 16px;
   line-height: 1rem;
+  background-color: #70a9a1;
 }
 
 .info {
@@ -149,10 +131,6 @@ section,
   line-height: 3.5rem;
 }
 
-.contact-option {
-  height: 50px;
-  margin: 0 0 20px 0;
-}
 
 form fieldset {
   width: 350px;
@@ -161,25 +139,25 @@ form fieldset {
 }
 
 form label.field {
-  display:-ms-flexbox;
+  display:block;
 }
 
 form label.field input,
 form label.field select {
   width: 100%;
-  background-color: #cce6f4;
+  background-color: #cfe0c3;
 }
 
 form label.field input:required {
-  border-left: 4px solid #ba324f;
+  border-left: 6px solid #ba324f;
 }
 
 form label.field input:required:valid {
-  background-color: #cce6f4;
+  background-color: #cfe0c3;
 }
 
 legend {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 label datalist {
@@ -192,7 +170,7 @@ label datalist {
   font-size: 16px;
   text-align: center;
   padding: 10px 70px;
-  background-color: #cce6f4;
+  background-color: #cfe0c3;
 }
 
 section,
@@ -207,7 +185,7 @@ div,
 }
 
 #comments {
-  background-color: #cce6f4;
+  background-color: #cfe0c3;
 }
 
 #map_two {
@@ -216,7 +194,7 @@ div,
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #cfe0c3;
+  background-color: #9fc7a5;
   width: 100%;
   margin-right: -10px;
   padding: 0.5rem;

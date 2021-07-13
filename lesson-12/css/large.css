@@ -84,8 +84,7 @@
   }
 
   .contact_info {
-    height: 200px;
-    padding-top: 20px;
+    height: auto;   
     font-size: 25px;
   }
 
