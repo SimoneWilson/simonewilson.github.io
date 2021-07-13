@@ -29,10 +29,6 @@ header img {
   padding-right: 10px;
 }
 
-#social-header {
-  
-
-}
 
 /*----------- NAVIGATION --------------*/
 
@@ -128,13 +124,18 @@ main h2 {
 
 .contact_info {
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
   font-size: 16px;
-  line-height: 0.6rem;
-  background-color: #70a9a1;
+  line-height: 0.8rem;
+  background-color: #70a9a1;  
 }
+
+
+
 
 .info {
   font-size: 16px;
