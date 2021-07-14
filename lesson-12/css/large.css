@@ -40,7 +40,6 @@
     padding-top: 20px;
     padding-left: 43%;
   }
-
  
   #forecast {
     grid-template-columns: 140px 130px 130px 130px 130px;
@@ -49,21 +48,10 @@
   }
 
   .grid-col {
-    background-color: #4ba3c3;
+    background-color: #40798c;
   }
 
-  article p {
-    min-width: 45rem;
-    line-height: 2rem;
-    font-size: 22px;
-  }
-
-  aside {
-    width: 30%;
-    float: right;
-  }
-
-  .city {
+   .city {
     width: 90%;
     margin-left: 5rem;
     display: grid;
@@ -82,11 +70,6 @@
 
   div#message {
     height: 6rem;
-  }
-
-  .box:hover {
-    width: 300px;
-    box-shadow: 0 0 40px #888;
   }
 
   legend {

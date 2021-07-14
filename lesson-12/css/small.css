@@ -94,6 +94,22 @@ main h2 {
   text-align: center;
 }
 
+section,
+div,
+.city h2,
+.city h3 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#comments {
+  background-color: #cfe0c3;
+}
+
+
 
 #forecast {
   display: block;
@@ -105,16 +121,8 @@ main h2 {
   text-align:justify;
 }
 
-.home {
-  display: none;
-}
-
-.home-small {
-  display: none;
-}
-
 .grid-col {
-  background-color: #4ba3c3;
+  background-color: #40798c;
   margin: 4px auto 4px auto;
 }
 
@@ -124,18 +132,19 @@ main h2 {
 
 .contact_info {
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 10px 0px 5px;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr; 
   justify-items: center;
   font-size: 16px;
   line-height: 0.8rem;
   background-color: #70a9a1;  
 }
 
-
-
+#social {
+grid-column: 2;
+padding-bottom: 5px;
+}
 
 .info {
   font-size: 16px;
@@ -185,19 +194,19 @@ label datalist {
   background-color: #cfe0c3;
 }
 
-section,
-div,
-.city h2,
-.city h3 {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0;
-  text-align: center;
+.nova {
+  display: none;
 }
 
-#comments {
-  background-color: #cfe0c3;
+.home {
+  display: none;
+
+}
+
+
+.home-small {
+
+  display:none;
 }
 
 

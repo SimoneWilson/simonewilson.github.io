@@ -40,12 +40,13 @@
     <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776; Menu</button>
       <ul id="navigation">
-        <li class="active"><a href="index.html">SLC Area Chamber</a></li>
+        <li class="active"><a href="index.html">About</a></li>
         <li><a href="membership.html">Membership</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <img src="images/logo_chamber.png" alt="logo_chamber" />
 
     <!-- CONTENT HERE -->
     <main>
@@ -72,22 +73,96 @@
         />
       </picture>
 
-      <div class="first">
-        <h2>The propose.</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
-          aspernatur odit est quas minima praesentium vero dolore reprehenderit
-          porro voluptatum ipsum placeat cupiditate voluptate nam tenetur
-          maiores excepturi rerum sunt magni temporibus unde, fuga qui quos?
-          Numquam sit quos temporibus, neque officia earum, quae tempora
-          aspernatur ullam itaque asperiores! Sapiente vero quaerat sunt autem
-          praesentium repudiandae, odio, quo error debitis delectus soluta
-          dolores sit in aperiam.
-        </p>
-      </div>
+      <article class="nova">
+        <br />
+        <h2>The Weather in Utah in the last decade.</h2>
+        <aside>
+          <img
+            src="images/city_view_medium.jpg"
+            alt="Home Image"
+            class="home"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+            aspernatur odit est quas minima praesentium vero dolore
+            reprehenderit porro voluptatum ipsum placeat cupiditate voluptate
+            nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga
+            qui quos? Numquam sit quos temporibus, neque officia earum, quae
+            tempora aspernatur ullam itaque asperiores! Sapiente vero quaerat
+            sunt autem praesentium repudiandae, odio, quo error debitis delectus
+            soluta dolores sit in aperiam. Voluptates rerum repellendus facilis
+            quidem quaerat esse enim sit animi earum nisi velit inventore
+            maiores excepturi aperiam deserunt libero debitis facere, nesciunt
+            in ex, nam quod. Magni laborum beatae saepe quaerat possimus
+            deleniti ipsam. Nobis aspernatur odit est quas minima praesentium
+            vero dolore reprehenderit porro voluptatum ipsum placeat cupiditate
+            voluptate nam tenetur maiores excepturi rerum sunt magni temporibus
+            unde, fuga qui quos? Numquam sit quos temporibus, neque officia
+            earum, quae tempora aspernatur ullam itaque asperiores! Nobis
+            aspernatur odit est quas minima praesentium vero dolore
+            reprehenderit porro voluptatum ipsum placeat cupiditate voluptate
+            nam tenetur maiores excepturi rerum sunt magni temporibus unde, fuga
+            qui quos? Numquam sit quos temporibus, neque officia earum, quae
+            tempora aspernatur ullam itaque asperiores!
+          </p>
+        </aside>
+
+        <img
+          src="images/city_view_small.jpg"
+          alt="Home Image"
+          class="home-small"
+        />
+      </article>
 
       <div>
-        <h2>Weather Forecast</h2>
+        <h2>Forecast</h2>
+        <div id="forecast">
+          <div class="grid-col">
+            <span class="col-head" id="dia1">Mon</span>
+            <img
+              id="img1"
+              src="images/iconfinder_weather-01_1530392.png"
+              alt="sunny"
+            />
+            <span class="data" id="day1"></span>
+          </div>
+          <div class="grid-col">
+            <span class="col-head" id="dia2">Tue</span>
+            <img
+              id="img2"
+              src="images/iconfinder_weather-02_1530391.png"
+              alt="cloudy"
+            />
+            <span class="data" id="day2"></span>
+          </div>
+          <div class="grid-col">
+            <span class="col-head" id="dia3">Wed</span>
+            <img
+              id="img3"
+              src="images/iconfinder_weather-03_1530390.png"
+              alt="rain"
+            />
+            <span class="data" id="day3"></span>
+          </div>
+          <div class="grid-col">
+            <span class="col-head" id="dia4">Thu</span>
+            <img
+              id="img4"
+              src="images/iconfinder_weather-03_1530390.png"
+              alt="rain"
+            />
+            <span class="data" id="day4"></span>
+          </div>
+          <div class="grid-col">
+            <span class="col-head" id="dia5">Fri</span>
+            <img
+              id="img5"
+              src="images/iconfinder_weather-01_1530392.png"
+              alt="sunny"
+            />
+            <span class="data" id="day5"></span>
+          </div>
+        </div>
       </div>
       <div>
         <h2>Upcoming Events</h2>
@@ -110,12 +185,10 @@
           <img src="images/email_icon_64px.png" alt="icon_email" />
           <p>contact@slchamber.com</p>
         </div>
-        <div>
-          <span id="social">
-            <img src="images/facebook_icon.png" alt="icon_facebook" />
-            <img src="images/instagram_icon.png" alt="icon_instagram" />
-            <img src="images/twitter_icon.png" alt="icon_twitter" />
-          </span>
+        <div id="social">
+          <img src="images/facebook_icon.png" alt="icon_facebook" />
+          <img src="images/instagram_icon.png" alt="icon_instagram" />
+          <img src="images/twitter_icon.png" alt="icon_twitter" />
         </div>
       </section>
     </main>
