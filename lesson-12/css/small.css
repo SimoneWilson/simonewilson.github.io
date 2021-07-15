@@ -118,9 +118,12 @@ div,
   border: 1px solid #808080;
 }
 
-#comments {
-  background-color: #cfe0c3;
+.member {
+  padding: 0px 1rem 1rem 1.3rem;
+  text-align: justify;  
+
 }
+
 
 #forecast {
   display: block;
@@ -164,11 +167,6 @@ padding-bottom: 5px;
 }
 
 
-form fieldset {
-  width: 350px;
-  height: auto;
-  margin: 3rem auto;
-}
 
 form label.field {
   display:block;
@@ -177,7 +175,7 @@ form label.field {
 form label.field input,
 form label.field select {
   width: 100%;
-  background-color: #cfe0c3;
+
 }
 
 form label.field input:required {
@@ -189,7 +187,7 @@ form label.field input:required:valid {
 }
 
 legend {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 label datalist {
@@ -198,11 +196,12 @@ label datalist {
 
 .btn {
   margin-bottom: 1rem;
-  margin-left: 6rem;
-  font-size: 16px;
-  text-align: center;
+  margin-left: auto;
   padding: 10px 70px;
-  background-color: #cfe0c3;
+  font-size: 16px;
+  text-align: center;  
+  background-color: #9ec1a3;
+  
 }
 
 

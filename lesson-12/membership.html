@@ -50,24 +50,25 @@
     </nav>
 
     <!-- CONTENT HERE -->
-    <main>
-      <h1> SLC Area Chamber of Commerce</h1>
-      <h2>MEMBERSHIP</h2>
-      <h3> Our Mission is </h3>
-      <p>The Membership Committee promotes the Chamber's mission through member recruitment, retention and diversification. While participation on Membership committee is by nomination, play a pat in helping strengthen and increase a diverse membership of the Chamber.
-      </p>
-      <h3> Choose your membership level</h3> 
-      <p>membership level selection that displays the annual fees (only one option is allowed)
-        There are four options: Non-profit ($100), Bronze ($200), Silver ($400), Gold ($1000)
-        The different levels have different perks which you can explain on the page in a key. Things like directory listings, business trainings, social media posts, luncheon tickets, sponsorships with levels of advertising, etc.</p>  
-      <h3>How to became a member?</h3>
-      <p>Fill the form below with your information, choose your membership level
-        Do you still have questions our would prefer talk directly with a committee member,  please contact our office at 333-444-5555. Our business hours are: 
-        Monday-Friday 8AM-5PM</p>  
-     
-          <div> 
-             <form method="get" action="thanks.html">
-            <fieldset>
+    <main> 
+      <div class="member">  
+        <h2>Membership</h2>
+        <h3> Member Advantages </h3>
+        <p>The Membership Committee promotes the Chamber's mission through member recruitment, retention and diversification. While participation on Membership committee is by nomination, play a pat in helping strengthen and increase a diverse membership of the Chamber.
+        </p>
+        <h3>How to became a member?</h3>
+        <p>Fill the form below with your information,step 1-3, choose your membership level and click on Sign up.
+          Do you still have questions our would prefer talk directly with a committee member,  please contact our office at 333-444-5555. Our business hours are: 
+          Monday-Friday 8AM-5PM</p>  
+          <h3> Choose your membership level</h3> 
+          <p>membership level selection that displays the annual fees (only one option is allowed)
+            There are four options: Non-profit ($100), Bronze ($200), Silver ($400), Gold ($1000)
+            The different levels have different perks which you can explain on the page in a key. Things like directory listings, business trainings, social media posts, luncheon tickets, sponsorships with levels of advertising, etc.</p>  
+        </div>        
+         <div> 
+            <form method="get" action="thanks.html">
+          <h3>---STEP 01---</h3>
+        <fieldset>            
               <legend>Personal Info</legend>
               <label class="field">
                 First Name:
@@ -109,8 +110,9 @@
                   placeholder="(XXX)-XXX-XXXX"               
                 />
               </label>
-            </fieldset>
-              <fieldset>
+         </fieldset>
+            <h3>---STEP 02---</h3>
+          <fieldset>
               <legend>Business Info</legend>
               <label class="field">
                 Business Name:
@@ -149,9 +151,10 @@
                 ></textarea>
               </label>           
             </fieldset>
-            <fieldset>
-            <legend>Membership Type</legend>
-              <label class="field">
+          <h3>---STEP 03---</h3>
+          <fieldset>
+          <legend>Membership Type</legend>
+          <label class="field">
                 Membership Type:
                 <select name="region">
                   <option value>Select</option>
@@ -174,7 +177,7 @@
                 Expiration Date:
                 <input type="number" name="expDate" />
               </label>  
-            </fieldset>            
+          </fieldset>            
             <button class="btn" type="submit">Sign Up</button>                
         </form>
           </div>
