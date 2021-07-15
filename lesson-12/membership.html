@@ -50,158 +50,162 @@
     </nav>
 
     <!-- CONTENT HERE -->
-    <main> 
-      <div class="member">  
+    <main>
+      <div class="member">
         <h2>Membership</h2>
-        <h3>Why join the Chamber? </h3>
-        <p>Chamber of Commerce provides opportunities to reach new customers, to increase networking, to develop your business and professional development. Also, only members can be invited to participate of the committees and community improvement. </p>
-        
+        <h3>Why join the Chamber?</h3>
+        <p>
+          Chamber of Commerce provides opportunities to reach new customers, to
+          increase networking, to develop your business and professional
+          development. Also, only members can be invited to participate of the
+          committees and community improvement.
+        </p>
+
         <h3>How to became a member?</h3>
-        <p>Fill the form below with your information,step 1-3, choose your membership level and click on Sign up.
-          Do you still have questions our would prefer talk directly with a committee member,  please contact our office at 333-444-5555. 
-          </p>  
-        <h3> Choose your membership level</h3> 
-        <p>Membership level selection that displays the annual fees (only one option is allowed)
-            There are four options: Non-profit ($100), Bronze ($200), Silver ($400), Gold ($1000)
-            The different levels have different perks which you can explain on the page in a key. Things like directory listings, business trainings, social media posts, luncheon tickets, sponsorships with levels of advertising, etc.</p>  
-         </div> 
-         <div> 
-            <form method="get" action="thanks.html">
+        <p>
+          Fill the form below with your information,step 1-3, choose your
+          membership level and click on Sign up. Do you still have questions our
+          would prefer talk directly with a committee member, please contact our
+          office at 333-444-5555.
+        </p>
+        <h3>Choose your membership level</h3>
+        <p>
+          Membership level selection that displays the annual fees (only one
+          option is allowed) There are four options: Non-profit ($100), Bronze
+          ($200), Silver ($400), Gold ($1000) The different levels have
+          different perks which you can explain on the page in a key. Things
+          like directory listings, business trainings, social media posts,
+          luncheon tickets, sponsorships with levels of advertising, etc.
+        </p>
+      </div>
+      <div>
+        <form method="get" action="thanks.html">
           <h3>---STEP 01---</h3>
-        <fieldset>            
-              <legend>Personal Info</legend>
-              <label class="field">
-                First Name:
-                <input
-                  type="text"
-                  name="firstName"
-                  pattern="^(\w+\s+\w+)"
-                  required
-                />
-              </label>
-              <label class="field">
-                Last Name:
-                <input
-                  type="text"
-                  name="lastName"
-                  pattern="^(\w+\s+\w+)"
-                  required
-                />
-              </label>
-              <label class="field">
-                Title:
-                <input
-                  type="text"
-                  name="title"
-                  pattern="^(\w+\s+\w+)"
-                  required
-                />
-              </label>
-              <label class="field">
-                Email:
-                <input type="email" name="email" placeholder="userId@email.com" required />
-              </label>
-    
-              <label class="field">
-                Phone:
-                <input
-                  type="tel"
-                  name="phone"
-                  placeholder="(XXX)-XXX-XXXX"               
-                />
-              </label>
-         </fieldset>
-            <h3>---STEP 02---</h3>
           <fieldset>
-              <legend>Business Info</legend>
-              <label class="field">
-                Business Name:
-                <input
-                  type="text"
-                  name="businessName"
-                  pattern="^(\w+\s+\w+)"
-                  required
-                />
-              </label>
-              <label class="field">
-                Business Address:
-                <input
-                  type="text"
-                  name="address"
-                  pattern="^(\w+\s+\w+)"               
-                />
-              </label>  
-              <label class="field">
-                Zip Code:
-                <input type="number" name="zipCode" />
-              </label>
-             
-              <label class="field">
-                Business Website:
-                <input type="url" name="url" />
-              </label>  
-              <div>Business Discription:</div>
-              <label>
-                <textarea
-                  id="comments"
-                  name="comments"
-                  cols="38"
-                  rows="5"
-                  placeholder="Comment..."
-                ></textarea>
-              </label>           
-            </fieldset>
+            <legend>Personal Info</legend>
+            <label class="field">
+              First Name:
+              <input
+                type="text"
+                name="firstName"
+                pattern="^(\w+\s+\w+)"
+                required
+              />
+            </label>
+            <label class="field">
+              Last Name:
+              <input
+                type="text"
+                name="lastName"
+                pattern="^(\w+\s+\w+)"
+                required
+              />
+            </label>
+            <label class="field">
+              Title:
+              <input type="text" name="title" pattern="^(\w+\s+\w+)" required />
+            </label>
+            <label class="field">
+              Email:
+              <input
+                type="email"
+                name="email"
+                placeholder="userId@email.com"
+                required
+              />
+            </label>
+
+            <label class="field">
+              Phone:
+              <input type="tel" name="phone" placeholder="(XXX)-XXX-XXXX" />
+            </label>
+          </fieldset>
+          <h3>---STEP 02---</h3>
+          <fieldset>
+            <legend>Business Info</legend>
+            <label class="field">
+              Business Name:
+              <input
+                type="text"
+                name="businessName"
+                pattern="^(\w+\s+\w+)"
+                required
+              />
+            </label>
+            <label class="field">
+              Business Address:
+              <input type="text" name="address" pattern="^(\w+\s+\w+)" />
+            </label>
+            <label class="field">
+              Zip Code:
+              <input type="number" name="zipCode" />
+            </label>
+
+            <label class="field">
+              Business Website:
+              <input type="url" name="url" />
+            </label>
+            <div>Business Discription:</div>
+            <label>
+              <textarea
+                id="comments"
+                name="comments"
+                cols="38"
+                rows="5"
+                placeholder="Comment..."
+              ></textarea>
+            </label>
+          </fieldset>
           <h3>---STEP 03---</h3>
           <fieldset>
-          <legend>Membership Type</legend>
-          <label class="field">
-                Membership Type:
-                <select name="region">
-                  <option value>Select</option>
-                  <option value="non-profit">Non-profit $100</option>
-                  <option value="bronze">Bronze $200</option>
-                  <option value="silver">Silver $400</option>
-                  <option value="gold">Gold $1000</option>
-                </select>
-              </label>
-              <label class="field">
-                Credit Card:
-                <input type="number" name="creditCard" />
-              </label>  
-              <label class="field">
-                Security Code:
-                <input type="number" name="secCode" />
-              </label>  
-                 
-              <label class="field">
-                Expiration Date:
-                <input type="number" name="expDate" />
-              </label>  
-          </fieldset>            
-            <button class="btn" type="submit">Sign Up</button>                
+            <legend>Membership Type</legend>
+            <label class="field">
+              Membership Type:
+              <select name="region">
+                <option value>Select</option>
+                <option value="non-profit">Non-profit $100</option>
+                <option value="bronze">Bronze $200</option>
+                <option value="silver">Silver $400</option>
+                <option value="gold">Gold $1000</option>
+              </select>
+            </label>
+            <label class="field">
+              Credit Card:
+              <input type="number" name="creditCard" />
+            </label>
+            <label class="field">
+              Security Code:
+              <input type="number" name="secCode" />
+            </label>
+
+            <label class="field">
+              Expiration Date:
+              <input type="number" name="expDate" />
+            </label>
+          </fieldset>
+          <button class="btn" type="submit">Sign Up</button>
         </form>
-          </div>
-      <section>       
-        <section class="contact_info">
-          <div>
-            <img src="images/pin_postal_icon.png" alt="icon_address" />
-            <p>201 S Main St</p>
-            <p>Salt Lake City, UT, 84000</p>
-          </div>
-          <div>
-            <img src="images/phone_icon_64px.png" alt="icon_phone" />
-            <p>+1-333-444-5555</p>
-          </div>
-          <div>
-            <img src="images/email_icon_64px.png" alt="icon_email" />
-            <p>contact@slchamber.com</p>
-          </div>
-          <div id="social">
-            <img src="images/facebook_icon.png" alt="icon_facebook" />
-            <img src="images/instagram_icon.png" alt="icon_instagram" />
-            <img src="images/twitter_icon.png" alt="icon_twitter" />
-          </div>
-        </section>
+      </div>
+      <div class="contact_info">
+        <div>
+          <img src="images/pin_postal_icon.png" alt="icon_address" />
+          <p>201 S Main St</p>
+          <p>Salt Lake City, UT, 84000</p>
+        </div>
+        <div>
+          <img src="images/phone_icon_64px.png" alt="icon_phone" />
+          <p>+1-333-444-5555</p>
+        </div>
+        <div>
+          <img src="images/email_icon_64px.png" alt="icon_email" />
+          <p>contact@slchamber.com</p>
+        </div>
+        <div id="social">
+          <img src="images/facebook_icon.png" alt="icon_facebook" />
+          <img src="images/instagram_icon.png" alt="icon_instagram" />
+          <img src="images/twitter_icon.png" alt="icon_twitter" />
+        </div>
+      </div>
     </main>
 
     <!-- FOOTER HERE -->

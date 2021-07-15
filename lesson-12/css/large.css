@@ -42,8 +42,7 @@
   }
 
   .logo {    
-    width: 10%;   
-  
+    width: 10%;    
   }
  
   #forecast {
@@ -89,6 +88,10 @@
 
   .partners {    
     grid-gap: 150px;
+  }
+
+  .contact_info {   
+    font-size: 20px;  
   }
  
 }

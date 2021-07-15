@@ -84,9 +84,10 @@
   } 
   
   .contact_info {
-    height: auto;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;
+    height: auto;  
+    font-size: 16px; 
+    display: flex; 
+
   }
 
   .info {
@@ -99,7 +100,7 @@
   }
 
   .btn {
-  margin-left: -20px;
+  margin-left: auto ;
   }
 
   .chamber{

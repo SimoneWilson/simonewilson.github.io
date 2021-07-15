@@ -65,7 +65,6 @@ nav ul li.active a {
   border-color: #1f363d;
 }
 
-
 .hide {
   display:none;
 }
@@ -86,8 +85,7 @@ main h1 {
 
 main picture img {
   width: 100%;
-  object-fit: contain;
-  
+  object-fit: contain;  
 }
 
 main h2, h3 {
@@ -95,8 +93,7 @@ main h2, h3 {
 }
 
 
-section,
-div,
+ div,
 .city h2,
 .city h3 {
   width: 100%;
@@ -121,9 +118,7 @@ div,
 .member {
   padding: 0px 1rem 1rem 1.3rem;
   text-align: justify;  
-
 }
-
 
 #forecast {
   display: block;
@@ -146,13 +141,16 @@ div,
 
 .contact_info {
   width: 100%;
-  padding: 10px 10px 0px 5px;
-  display: grid;
-  grid-template-columns: 1fr; 
-  justify-items: center;
-  font-size: 16px;
-  line-height: 0.8rem;
+  padding: 25px 10px 0px 5px; 
+  font-size: 18px;
+  line-height: 0.7rem;
   background-color: #70a9a1;  
+}
+
+.contact {
+  padding: 0px 1rem 1rem 1.3rem;
+  text-align: justify; 
+
 }
 
 #social {
