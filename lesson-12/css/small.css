@@ -90,9 +90,10 @@ main picture img {
   
 }
 
-main h2 {
+main h2, h3 {
   text-align: center;
 }
+
 
 section,
 div,
@@ -105,21 +106,31 @@ div,
   text-align: center;
 }
 
+.chamber {
+  padding: 0px 1rem 1rem 1.3rem;
+  text-align: justify;  
+}
+
+.logo {
+  display: block;
+  height: 130px;
+  margin: auto;
+  border: 1px solid #808080;
+}
+
 #comments {
   background-color: #cfe0c3;
 }
-
-
 
 #forecast {
   display: block;
 }
 
-.first {
+/*.first {
   margin-left: 0.7rem;
   padding-right: 1.5rem;
   text-align:justify;
-}
+}*/
 
 .grid-col {
   background-color: #40798c;
@@ -192,21 +203,6 @@ label datalist {
   text-align: center;
   padding: 10px 70px;
   background-color: #cfe0c3;
-}
-
-.nova {
-  display: none;
-}
-
-.home {
-  display: none;
-
-}
-
-
-.home-small {
-
-  display:none;
 }
 
 

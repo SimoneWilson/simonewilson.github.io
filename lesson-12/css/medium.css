@@ -96,7 +96,7 @@
   margin-left: -20px;
   }
 
-  .nova {
+  .chamber{
     display:block;
     font-size: 18px;
     margin-left: 1%;
@@ -104,11 +104,9 @@
   }
 
   
-  .home {
-    display: block;
-    width: 50%;
+  .logo {
+    width: 35%;
     height: auto;
-    border: 1px solid #808080;
     float: right;
     margin: 0 5px 0 15px;
   }

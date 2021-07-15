@@ -40,6 +40,11 @@
     padding-top: 20px;
     padding-left: 43%;
   }
+
+  .logo {    
+    width: 15%;   
+  
+  }
  
   #forecast {
     grid-template-columns: 140px 130px 130px 130px 130px;
@@ -63,7 +68,7 @@
     padding-top: 20px;
   }
 
-   .info {
+  .info {
     font-size: 25px;
     line-height: 6rem;
   }
