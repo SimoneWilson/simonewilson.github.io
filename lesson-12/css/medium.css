@@ -72,9 +72,17 @@
     flex-direction: row-reverse;
   }
 
-  .shop { 
-    display: block;
+  .shop {    
+  display:block;
+  margin: 40px auto;  
   }
+
+  .partners {
+    display: flex;
+    justify-content: center;    
+    grid-gap: 20px;
+  } 
+  
   .contact_info {
     height: auto;
     grid-template-columns: 1fr 1fr 1fr;

@@ -82,7 +82,15 @@
     font-size: 30px;
   }
 
-  /*----------- FOOTER --------------*/
+  .shop {    
+    display:block;
+    margin: 40px auto;  
+    }
+
+  .partners {    
+    grid-gap: 150px;
+  }
+ 
 }
 
 /* end of media query */
