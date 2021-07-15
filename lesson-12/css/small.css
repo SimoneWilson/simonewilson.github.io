@@ -167,6 +167,12 @@ padding-bottom: 5px;
 }
 
 
+form fieldset {
+  width: 350px;
+  height: auto;
+  margin: 3rem auto;
+  background-color: #9ec1a3;
+}
 
 form label.field {
   display:block;
