@@ -153,7 +153,15 @@ main h2, h3 {
 }
 
 .mapouter {
+  margin: auto;
+  border: 1px solid #000;
+}
+
+figure {
+ 
 margin: auto;
+
+
 }
 
 #social {
@@ -201,18 +209,17 @@ label datalist {
 }
 
 .btn {
-  margin-bottom: 1rem;
-  margin-left: auto;
+  margin: 20px auto;
   padding: 10px 70px;
   font-size: 16px;
-  text-align: center;  
-  background-color: #9ec1a3;  
+  background-color: #fff;
 }
 
 .contact_btn {
   margin-bottom: 1rem;
   padding: 10px 70px;
-  font-size: 16px;   
+  font-size: 16px;  
+  background-color: #fff; 
 }
 
 dl { 
