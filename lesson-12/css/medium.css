@@ -103,6 +103,7 @@
   margin-left: auto ;
   }
 
+ 
   .chamber{
     display:block;
     font-size: 18px;
@@ -116,10 +117,9 @@
     float: right;
     margin: 0 5px 0 15px;
   }
-  /*----------- FOOTER --------------*/
+ 
 }
 
-/* end of media query */
 .display_here div section {
   height: 220px;
 }
@@ -130,9 +130,7 @@
 /* iPad Pro */
 @media only screen and (min-width: 1024px) {
 
-#forecast {
-  margin-left: 330px;
-}
-
-
+  #forecast {
+    margin-left: 330px;
+  }
 }

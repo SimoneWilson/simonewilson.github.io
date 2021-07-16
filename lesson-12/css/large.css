@@ -9,8 +9,6 @@
     margin: 0;
   }
 
-  /*----------- HEADER --------------*/
-
   /*----------- NAVIGATION --------------*/
 
   nav ul {
@@ -79,6 +77,15 @@
 
   legend {
     font-size: 30px;
+  }
+  
+  .row {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .column {
+      grid-column-start: 2;
   }
 
   .shop {    
