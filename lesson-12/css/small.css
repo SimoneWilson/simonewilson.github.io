@@ -157,7 +157,7 @@ main h2, h3 {
   border: 1px solid #000;
 }
 
-figure { 
+.board { 
 margin: auto;
 }
 
@@ -226,8 +226,8 @@ textarea {
   background-color: #fff; 
 }
 
-dl { 
- 
+
+dl {  
   margin-right: 1rem;
 }
 

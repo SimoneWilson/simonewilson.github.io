@@ -89,11 +89,11 @@
     display: flex; 
   }
 
-  figure {
-    margin-left: 3.8rem;;
+  .board {    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
- grid-row-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: center;
   }
 
   .info {
@@ -101,14 +101,10 @@
     line-height: 3rem;
   }
 
-  #map_two {
-    display: block;
-  }
 
   .btn {
   margin-left: auto ;
   }
-
  
   .chamber{
     display:block;
@@ -131,6 +127,16 @@
 }
 .display_here div img {
   height: 220px;
+}
+
+.box:hover {
+  width: 175px;
+  box-shadow: 5px 5px 10px 5px #40798c;
+}
+
+.gmap_canvas {
+  margin-bottom: 30px;
+
 }
 
 /* iPad Pro */
