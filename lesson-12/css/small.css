@@ -186,15 +186,10 @@ form label.field {
 form label.field input,
 form label.field select {
   width: 100%;
-
 }
 
 form label.field input:required {
   border-left: 5px solid #ba324f;
-}
-
-form label.field input:required:valid {
-  background-color: #cfe0c3;
 }
 
 legend {
