@@ -55,15 +55,42 @@
         <h3>How to become a member?</h3>
         <p>
           Fill the form below with your information, step 1-3, choose your
-          membership level and click on Sign up. Do you still have questions, or
-          would you prefer to talk directly with a committee member? Please
-          contact our office at 333-444-5555 for assistance.
+          membership level and click on Sign up. You will receive a e-mail
+          confirmation. So, please check your e-mail box. We will analyse your
+          form and within 72 business hours you must receive a payment form on
+          your registered e-mail. Do you still have questions, or would you
+          prefer to talk directly with a committee member? Please contact our
+          office at 333-444-5555 for assistance.
         </p>
         <h3>Choose your membership level</h3>
-        <p>
-          You can choose between one of the following: Non-profit ($100), Bronze
-          ($200), Silver ($400), Gold ($1000).
-        </p>
+        <p>You can choose between one of the following:</p>
+        <dl>
+          <dt>Non-profit - $100</dt>
+          <dd>
+            Member directory listing, access to member directory and access to
+            our LinkedIn Community Group.
+          </dd>
+          <dt>Bronze - $200</dt>
+          <dd>
+            Member directory listing, access to member directory and access to
+            our LinkedIn Community Group, social media announcement animated
+            free access to workshops.
+          </dd>
+          <dt>Silver - $400</dt>
+          <dd>
+            Member directory listing, access to member directory and access to
+            our LinkedIn Community Group, social media announcement, free access
+            to workshops and free access to the events of our Chamber.
+          </dd>
+          <dt>Gold - $1000</dt>
+          <dd>
+            Member directory listing, access to member directory and access to
+            our LinkedIn Community Group, social media announcement, free access
+            to workshops, free access to the events of our Chamber, your
+            business events can be posted on our calendar and full access to
+            benefits and discounts.
+          </dd>
+        </dl>
       </div>
       <div>
         <form method="get" action="thanks.html">
@@ -72,25 +99,15 @@
             <legend>Personal Info</legend>
             <label class="field">
               First Name:
-              <input
-                type="text"
-                name="firstName"
-                pattern="^(\w+\s+\w+)"
-                required
-              />
+              <input type="text" name="firstName" required />
             </label>
             <label class="field">
               Last Name:
-              <input
-                type="text"
-                name="lastName"
-                pattern="^(\w+\s+\w+)"
-                required
-              />
+              <input type="text" name="lastName" required />
             </label>
             <label class="field">
               Title:
-              <input type="text" name="title" pattern="^(\w+\s+\w+)" required />
+              <input type="text" name="title" />
             </label>
             <label class="field">
               Email:
@@ -111,16 +128,11 @@
             <legend>Business Info</legend>
             <label class="field">
               Business Name:
-              <input
-                type="text"
-                name="businessName"
-                pattern="^(\w+\s+\w+)"
-                required
-              />
+              <input type="text" name="businessName" required />
             </label>
             <label class="field">
               Business Address:
-              <input type="text" name="address" pattern="^(\w+\s+\w+)" />
+              <input type="text" name="address" />
             </label>
             <label class="field">
               Zip Code:
@@ -128,7 +140,7 @@
             </label>
             <label class="field">
               Business Website:
-              <input type="url" name="url" />
+              <input type="url" name="url" placeholder="company.com" />
             </label>
             <div>Business Description:</div>
             <label>
@@ -154,17 +166,15 @@
                 <option value="gold">Gold $1000</option>
               </select>
             </label>
-            <label class="field">
-              Credit Card:
-              <input type="number" name="creditCard" />
-            </label>
-            <label class="field">
-              Security Code:
-              <input type="number" name="secCode" />
-            </label>
-            <label class="field">
-              Expiration Date:
-              <input type="number" name="expDate" />
+            <div>Message</div>
+            <label>
+              <textarea
+                id="comments"
+                name="comments"
+                cols="28"
+                rows="5"
+                placeholder="Comment..."
+              ></textarea>
             </label>
             <button class="btn" type="submit">Sign Up</button>
           </fieldset>

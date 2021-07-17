@@ -119,29 +119,32 @@
     float: right;
     margin: 0 5px 0 15px;
   }
- 
-}
 
-.display_here div section {
-  height: 220px;
-}
-.display_here div img {
-  height: 220px;
-}
-
-.box:hover {
-  width: 175px;
-  box-shadow: 5px 5px 10px 5px #40798c;
-}
-
-.gmap_canvas {
-  margin-bottom: 30px;
-}
-
-/* iPad Pro */
-@media only screen and (min-width: 1024px) {
-
-  #forecast {
-    margin-left: 330px;
+  dt {  
+    text-align: left;
+    margin-left: 2.5rem;
   }
-}
+
+  .display_here div section {
+    height: 220px;
+  }
+  .display_here div img {
+    height: 220px;
+  }
+
+  .box:hover {
+    width: 175px;
+    box-shadow: 5px 5px 10px 5px #40798c;
+  }
+
+  .gmap_canvas {
+    margin-bottom: 30px;
+  }
+
+  /* iPad Pro */
+  @media only screen and (min-width: 1024px) {
+
+    #forecast {
+      margin-left: 330px;
+    }
+  }
