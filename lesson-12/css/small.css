@@ -231,7 +231,11 @@ dt {
   text-align: center;
 }
 
-
+.policy {
+  margin-bottom: 700px;
+  padding: 0px 1rem 1rem 1.3rem;
+  text-align:justify; 
+}
 
 
 /*----------- FOOTER --------------*/
