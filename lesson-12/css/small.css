@@ -13,6 +13,7 @@ html {
 
 /*----------- BODY --------------*/
 body {
+  min-height: 100%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -73,6 +74,7 @@ nav ul li.active a {
 
 main {
   width: 100%;
+  min-height: 297px !important;
   min-height: 10rem;
   display: block;
   line-height: 1.5rem;
@@ -98,7 +100,7 @@ main h2, h3 {
 .city h3 {
   width: 100%;
   height: auto;
-  margin: 0;
+  margin: -4px;
   padding: 0;
   text-align: center;
 }
@@ -124,12 +126,6 @@ main h2, h3 {
   display: block;
 }
 
-/*.first {
-  margin-left: 0.7rem;
-  padding-right: 1.5rem;
-  text-align:justify;
-}*/
-
 .grid-col {
   background-color: #40798c;
   margin: 4px auto 4px auto;
@@ -141,7 +137,7 @@ main h2, h3 {
 
 .contact_info {
   width: 100%;
-  padding: 25px 10px 0px 5px; 
+  padding: 25px 0px 10px 0px; 
   font-size: 18px;
   line-height: 0.7rem;
   background-color: #70a9a1;  
@@ -231,18 +227,17 @@ dt {
   text-align: center;
 }
 
-.policy {
-  margin-bottom: 700px;
+.policy { 
   padding: 0px 1rem 1rem 1.3rem;
   text-align:justify; 
 }
 
 
+
 /*----------- FOOTER --------------*/
 footer {
   background-color: #9fc7a5;
-  width: 100%;
-
+  width: 100%;  
   padding: 0.5rem;
   padding-right: unset;
 }
@@ -262,6 +257,4 @@ footer p {
   form fieldset {
     width: 350px;    
   }
-  
  
-}
