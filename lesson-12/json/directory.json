@@ -1,0 +1,54 @@
+{
+    "businesses": [
+        {
+        "businessName": "American First Credit Union",
+        "contact": "Joe Merelli",
+        "phone": "333-444-5555",
+        "website": "americafirst.com",
+        "category": "Banking & Financial"     
+        },
+        {
+        "businessName": "Costco",
+        "contact": "Lisa Williams",
+        "phone": "333-444-5555",
+        "website": "costco.com",
+        "category": "Retail & Services"     
+        },
+        {
+        "businessName": "Home Depot",
+        "contact": "James Caffgan",
+        "phone": "333-444-5555",
+        "website": "homedepot.com",
+        "category": "Retail & Services"
+        },
+        {
+        "businessName": "Ivory Homes",
+        "contact": "Jhn McCoin",
+        "phone": "333-444-5555",
+        "website": "ivoryhomes.com",
+        "category": "Real Estate"
+        },
+        {
+        "businessName": "Jersey Mike's Subs",
+        "contact": "Maria Mendonza",
+        "phone": "333-444-5555",
+        "website": "jerseymikes.com",
+        "category": "Food & Restaurants"
+        },
+        {
+        "businessName": "Rocky Mountain Power",
+        "contact": "Christine Johnson",
+        "phone": "333-444-5555",
+        "website": "rockymountainpower.net",
+        "category": "Power Services"
+        },
+        {
+        "businessName": "Zions Bank",
+        "contact": "William Savassi",
+        "phone": "333-444-5555",
+        "website": "zionsbank.com",
+        "category": "Banking & Financial"
+        }
+    ]
+}
+  

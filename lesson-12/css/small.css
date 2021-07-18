@@ -102,7 +102,6 @@ main h2, h3 {
   height: auto;
   margin: -4px;
   padding: 0;
-  text-align: center;
 }
 
 .chamber {
@@ -232,6 +231,28 @@ dt {
   text-align:justify; 
 }
 
+/*----------- DIRECTORY --------------*/
+.outer_div{
+  justify-items: center;
+}
+
+.hide_class{
+  display: none;
+}
+
+.inner_div_grid{
+  display: grid;
+  line-height: 1.5rem;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.inner_div_list{
+  display: grid;
+  line-height: 1.5rem;
+  padding-left: 30px;
+  text-align: center;
+}
 
 
 /*----------- FOOTER --------------*/
@@ -240,6 +261,7 @@ footer {
   width: 100%;  
   padding: 0.5rem;
   padding-right: unset;
+  text-align: center;
 }
 
 footer p {
@@ -257,4 +279,5 @@ footer p {
   form fieldset {
     width: 350px;    
   }
+}
  

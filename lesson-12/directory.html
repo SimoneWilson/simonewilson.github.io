@@ -53,64 +53,15 @@
     <main>
       <div>
         <h2>Directory</h2>
-        <table>
-          <tr>
-            <th>Business Name</th>
-            <th>Contact</th>
-            <th>Phone</th>
-            <th>Website</th>
-          </tr>
-          <tr>
-            <td>American First Credit Union</td>
-            <td>Joe Merelli</td>
-            <td>333-444-5555</td>
-            <td>www.americafirst.com</td>
-            <td>Banking & Financial Services</td>
-          </tr>
-          <tr>
-            <td>Costco</td>
-            <td>Lisa Williams</td>
-            <td>333-444-5555</td>
-            <td>www.costco.com</td>
-            <td>Retail & Services</td>
-          </tr>
-          <tr>
-            <td>Home Depot</td>
-            <td>James Caffgan</td>
-            <td>333-444-5555</td>
-            <td>www.homedepot.com</td>
-            <td>Retail & Services</td>
-          </tr>
-          <tr>
-            <td>Ivory Homes</td>
-            <td>John McCoin</td>
-            <td>333-444-5555</td>
-            <td>www.ivoryhomes.com</td>
-            <td>Real State</td>
-          </tr>
-          <tr>
-            <td>Jersey Mike's Subs</td>
-            <td>Maria Mendonza</td>
-            <td>333-444-5555</td>
-            <td>www.jerseymikes.com</td>
-            <td>Food & Restaurants</td>
-          </tr>
+        <button class="hide_class" onclick="toggleList()">
+          Switch To List Style
+        </button>
+        <button class="hide_class" onclick="toggleGrid()">
+          Switch To Grid Style
+        </button>
+        <br />
 
-          <tr>
-            <td>Rock Montain</td>
-            <td>Christine Johnson</td>
-            <td>333-444-5555</td>
-            <td>www.rockymountainpower.net/</td>
-            <td>Power Services</td>
-          </tr>
-          <tr>
-            <td>Zions Bank</td>
-            <td>William Savassi</td>
-            <td>333-444-5555</td>
-            <td>www.zionsbank.com</td>
-            <td>Banking & Financial Services</td>
-          </tr>
-        </table>
+        <div id="directory_info"></div>
       </div>
     </main>
     <!-- FOOTER HERE -->
@@ -147,8 +98,7 @@
     </footer>
     <!-- JAVASCRIPT -->
     <script src="js/script.js"></script>
-    <script src="js/index.js"></script>
-    <script src="js/events.js"></script>
+    <script src="js/directory.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({ google: { families: ["Roboto"] } });

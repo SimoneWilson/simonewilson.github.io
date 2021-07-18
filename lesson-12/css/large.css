@@ -100,8 +100,32 @@
   .contact_info {   
     font-size: 20px;  
   } 
+  .hide_class{
+    display: block;
+  }
+    /*----------- DIRECTORY --------------*/
+    
+    .inner_div_grid{
+      display: grid;
+      line-height: 1.5rem;
+      padding-left: 30px;
+      grid-template-rows: 25px 25px 25px 25px 25px;
+      text-align: left;
+      border: 1px solid black;
+    }
   
-  
+    #directory_info {
+      display: grid;
+      padding-left: 20px;
+      grid-column-gap: 40px;
+      padding-right: 20px;
+    }
+  .inner_div_list{
+    display: grid;
+    line-height: 1.5rem;
+    padding-left: 30px;
+      text-align: left;
+  }
 }
 
 /* end of media query */

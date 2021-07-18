@@ -141,6 +141,39 @@
     margin-bottom: 30px;
   }
 
+  .hide_class{
+    display: block;
+  }
+
+  /*----------- DIRECTORY --------------*/
+  .inner_div_grid{
+    display: grid;
+    line-height: 1.5rem;
+    padding-left: 30px;
+    grid-template-rows: 25px 25px 25px 25px 25px;
+    text-align: left;
+    border: 1px solid black;
+  }
+
+  #directory_info {
+    display: grid;
+    padding-left: 20px;
+    grid-column-gap: 40px;
+    padding-right: 20px;
+  }
+
+  .directory_info_row {
+    grid-template-columns: auto auto;
+  }
+
+  .inner_div_list{
+    display: grid;
+    grid-template-columns: 160px 110px 100px 180px 200px;
+    line-height: 1rem;
+      font-size: 12px;
+      padding-left: 20px;
+    text-align: left;
+  }
 
   /* iPad Pro */
   @media only screen and (min-width: 1024px) {
@@ -149,3 +182,4 @@
       margin-left: 330px;
     }
   }
+}
