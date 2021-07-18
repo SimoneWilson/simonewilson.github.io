@@ -34,21 +34,6 @@ d +=
   today.getFullYear();
 document.getElementById("currentDate").innerHTML = d;
 
-/*----------Message Based on the Week Day-----------*/
-
-const hoje = new Date();
-console.log();
-const dayNumber = hoje.getDay();
-console.log(dayNumber);
-const element = document.getElementById("message");
-if (element != null) {
-  if (dayNumber == 5) {
-    element.classList.add("showme");
-  } else {
-    element.classList.add("hideme");
-  }
-}
-
 /*----------Weather Summary----------------*/
 
 const temp = document.getElementById("temp");
@@ -97,10 +82,4 @@ function getNumberOfDays(start, end) {
   let diffInDays = (end - start) / oneDay;
 
   return Math.round(diffInDays);
-}
-
-// Rating Formula
-
-function adjustRating(rating) {
-  document.getElementById("ratingvalue").innerHTML = rating;
 }
