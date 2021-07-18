@@ -3,51 +3,51 @@
         {
         "businessName": "American First Credit Union",
         "contact": "Joe Merelli",
-        "phone": "333-444-5555",
+        "phone": "333-444-6666",
         "website": "americafirst.com",
-        "category": "Banking & Financial"     
+        "category": "Banking&Financial"     
         },
         {
         "businessName": "Costco",
         "contact": "Lisa Williams",
-        "phone": "333-444-5555",
+        "phone": "333-444-7777",
         "website": "costco.com",
-        "category": "Retail & Services"     
+        "category": "Retail&Services"     
         },
         {
         "businessName": "Home Depot",
         "contact": "James Caffgan",
-        "phone": "333-444-5555",
+        "phone": "333-444-8888",
         "website": "homedepot.com",
-        "category": "Retail & Services"
+        "category": "Retail&Services"
         },
         {
         "businessName": "Ivory Homes",
-        "contact": "Jhn McCoin",
-        "phone": "333-444-5555",
+        "contact": "John McCoin",
+        "phone": "333-444-9999",
         "website": "ivoryhomes.com",
         "category": "Real Estate"
         },
         {
         "businessName": "Jersey Mike's Subs",
-        "contact": "Maria Mendonza",
-        "phone": "333-444-5555",
+        "contact": "Maria Melo",
+        "phone": "333-444-0000",
         "website": "jerseymikes.com",
-        "category": "Food & Restaurants"
+        "category": "Food&Restaurants"
         },
         {
         "businessName": "Rocky Mountain Power",
-        "contact": "Christine Johnson",
-        "phone": "333-444-5555",
+        "contact": "Christine Alla",
+        "phone": "333-555-1234",
         "website": "rockymountainpower.net",
         "category": "Power Services"
         },
         {
         "businessName": "Zions Bank",
         "contact": "William Savassi",
-        "phone": "333-444-5555",
+        "phone": "333-888-4321",
         "website": "zionsbank.com",
-        "category": "Banking & Financial"
+        "category": "Banking&Financial"
         }
     ]
 }

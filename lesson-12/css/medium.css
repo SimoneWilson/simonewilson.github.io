@@ -90,7 +90,7 @@
   }
 
   .board {    
-    display: grid;
+    display: grid;    
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 20px;
     justify-items: center;
@@ -132,20 +132,36 @@
     height: 220px;
   }
 
-  .box:hover {
-    width: 175px;
-    box-shadow: 5px 5px 10px 5px #40798c;
-  }
-
   .gmap_canvas {
     margin-bottom: 30px;
+  }
+
+  /*----------- DIRECTORY --------------*/
+
+  .btn_direct {
+    width: 35%;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 16px;
+    margin-left: 16rem;
+    margin-bottom: 4rem;
+   }
+
+  #btn_extra { 
+    padding: 10px 20px; 
+    background: #70a9a1;
+    font-size: 18px;
   }
 
   .hide_class{
     display: block;
   }
 
-  /*----------- DIRECTORY --------------*/
+  .box:hover {
+    width: 175px;
+    box-shadow: 5px 5px 10px 5px #40798c;
+  }
+
   .inner_div_grid{
     display: grid;
     line-height: 1.5rem;
@@ -168,10 +184,11 @@
 
   .inner_div_list{
     display: grid;
-    grid-template-columns: 160px 110px 100px 180px 200px;
+    grid-template-columns: 160px 110px 100px 180px 150px;
+    gap: 4px;
     line-height: 1rem;
-      font-size: 12px;
-      padding-left: 20px;
+    font-size: 12px;
+    padding-left: 20px;
     text-align: left;
   }
 
@@ -181,5 +198,9 @@
     #forecast {
       margin-left: 330px;
     }
+
+    .btn_direct {
+      margin-left: 20rem; 
+     }
   }
 }

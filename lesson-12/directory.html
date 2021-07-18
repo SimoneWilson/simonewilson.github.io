@@ -54,13 +54,14 @@
     <main>
       <div>
         <h2>Directory</h2>
-        <button class="hide_class" onclick="toggleList()">
-          Switch To List Style
-        </button>
-        <button class="hide_class" onclick="toggleGrid()">
-          Switch To Grid Style
-        </button>
-        <br />
+        <div class="btn_direct">
+          <button id="btn_extra" class="hide_class" onclick="toggleList()">
+            List &#9776;
+          </button>
+          <button id="btn_extra" class="hide_class" onclick="toggleGrid()">
+            Grid &#9783;
+          </button>
+        </div>
 
         <div id="directory_info"></div>
       </div>

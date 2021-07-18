@@ -104,27 +104,32 @@
     display: block;
   }
     /*----------- DIRECTORY --------------*/
+
+    .btn_direct {
+      width: 20%;   
+      margin-left: 40%; 
+     }
     
-    .inner_div_grid{
-      display: grid;
+    .inner_div_grid{  
+      grid-template-rows: 25px 25px 25px 25px 25px; 
       line-height: 1.5rem;
-      padding-left: 30px;
-      grid-template-rows: 25px 25px 25px 25px 25px;
-      text-align: left;
+      padding-left: 60px;     
+      text-align: left;    
       border: 1px solid black;
     }
   
-    #directory_info {
-      display: grid;
-      padding-left: 20px;
-      grid-column-gap: 40px;
-      padding-right: 20px;
+    #directory_info {   
+      padding-left: 60px;
     }
+    
+    
   .inner_div_list{
-    display: grid;
+    gap: 60px;
+    grid-template-columns: 220px 130px 130px 180px 150px;
     line-height: 1.5rem;
-    padding-left: 30px;
-      text-align: left;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 18px;
   }
 }
 

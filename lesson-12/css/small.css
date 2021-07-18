@@ -152,9 +152,6 @@ main h2, h3 {
   border: 1px solid #000;
 }
 
-.board { 
-margin: auto;
-}
 
 #social {
 grid-column: 2;
@@ -203,14 +200,14 @@ textarea {
 }
 
 .btn {
-  margin: 20px auto;
+  margin: 20px 0px 20px 60px;
   padding: 10px 70px;
   font-size: 16px;
   background-color: #fff;
 }
 
 .contact_btn {
-  margin-bottom: 1rem;
+  margin: 20px 0px 20px 60px;
   padding: 10px 70px;
   font-size: 16px;  
   background-color: #fff; 
@@ -232,6 +229,11 @@ dt {
 }
 
 /*----------- DIRECTORY --------------*/
+
+.board {
+  margin: auto;
+}
+
 .outer_div{
   justify-items: center;
 }
