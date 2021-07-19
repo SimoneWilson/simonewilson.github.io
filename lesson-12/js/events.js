@@ -1,35 +1,46 @@
-const eventURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+const eventURL = "json/events.json";
 
 fetch(eventURL)
   .then((response) => response.json())
-  .then((dayEvents) => {
-    console.log(dayEvents);
+  .then((events) => {
+    console.log(events);
 
-    for (j = 0; j < dayEvents.towns.length; j++) {
-      let mylist = dayEvents.towns[j].events;
-      let text = "";
-      if (
-        document.getElementById("events") != null &&
-        dayEvents.towns[j].name == "Preston"
-      ) {
-        text = "prestonEvents";
-      } else if (
-        document.getElementById("fishEvents") != null &&
-        dayEvents.towns[j].name == "Fish Haven"
-      ) {
-        text = "fishEvents";
-      } else if (
-        document.getElementById("sodaEvents") != null &&
-        dayEvents.towns[j].name == "Soda Springs"
-      ) {
-        text = "sodaEvents";
-      } else {
-        continue;
-      }
-      for (i = 0; i < mylist.length; i++) {
-        let eventCity = document.createElement("p");
-        eventCity.textContent = mylist[i];
-        document.getElementById(text).appendChild(eventCity);
-      }
+    for (i = 0; i < events.events.length; i++) {
+      console.log(events.events[i]);
+      let name = events.events[i].eventName;
+      let date = events.events[i].eventDate;
+
+      let p = document.createElement("p");
+      p.textContent = name + "-" + date;
+
+      document.getElementById("events").appendChild(p);
     }
   });
+
+function toggleGrid() {
+  let allChildren = document
+    .getElementById("directory_info")
+    .getElementsByClassName("outer_div");
+
+  document.getElementById("directory_info").classList.add("directory_info_row");
+
+  for (i = 0; i < allChildren.length; i++) {
+    allChildren[i].children[0].classList.remove("inner_div_list");
+    allChildren[i].children[0].classList.add("inner_div_grid");
+  }
+}
+
+function toggleList() {
+  let allChildren = document
+    .getElementById("directory_info")
+    .getElementsByClassName("outer_div");
+
+  document
+    .getElementById("directory_info")
+    .classList.remove("directory_info_row");
+
+  for (i = 0; i < allChildren.length; i++) {
+    allChildren[i].children[0].classList.add("inner_div_list");
+    allChildren[i].children[0].classList.remove("inner_div_grid");
+  }
+}

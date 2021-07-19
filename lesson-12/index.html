@@ -72,6 +72,8 @@
           alt="Main Photo"
         />
       </picture>
+      <div id="weatherAlert"></div>
+      <button id="x" onclick="closeAlert()">Close Alert</button>
 
       <article>
         <br />
@@ -99,19 +101,19 @@
         <h2>Forecast</h2>
         <div id="forecast">
           <div class="grid-col">
-            <span class="col-head" id="dia1"></span>
-            <img id="img1" alt="temperature" />
-            <span class="data" id="day1"></span>
+            <span class="col-head" id="temp0"></span><br />
+            <span class="col-head" id="desc0"></span><br />
+            <span class="col-head" id="hum0"></span>
           </div>
           <div class="grid-col">
-            <span class="col-head" id="dia2"></span>
-            <img id="img2" alt="teperature" />
-            <span class="data" id="day2"></span>
+            <span class="col-head" id="temp1"></span><br />
+            <span class="col-head" id="desc1"></span><br />
+            <span class="col-head" id="hum1"></span>
           </div>
           <div class="grid-col">
-            <span class="col-head" id="dia3"></span>
-            <img id="img3" alt="temperature" />
-            <span class="data" id="day3"></span>
+            <span class="col-head" id="temp2"></span><br />
+            <span class="col-head" id="desc2"></span><br />
+            <span class="col-head" id="hum2"></span>
           </div>
         </div>
       </div>
@@ -165,6 +167,7 @@
     <script src="js/script.js"></script>
     <script src="js/index.js"></script>
     <script src="js/events.js"></script>
+    <script src="js/forecast.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({ google: { families: ["Roboto"] } });

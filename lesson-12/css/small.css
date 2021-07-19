@@ -164,6 +164,10 @@ padding-bottom: 5px;
   line-height: 3.5rem;
 }
 
+#events {
+  text-align: center;
+}
+
 form fieldset {
   width: 250px;
   height: auto;
