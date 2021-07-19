@@ -9,7 +9,7 @@ fetch(eventURL)
       let mylist = dayEvents.towns[j].events;
       let text = "";
       if (
-        document.getElementById("prestonEvents") != null &&
+        document.getElementById("events") != null &&
         dayEvents.towns[j].name == "Preston"
       ) {
         text = "prestonEvents";
