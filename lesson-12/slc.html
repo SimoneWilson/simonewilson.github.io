@@ -40,8 +40,8 @@
     <nav class="clearfix">
       <button onclick="toggleMenu()">&#9776; Menu</button>
       <ul id="navigation">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="slc.html">Salt Lake</a></li>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="slc.html">Salt Lake</a></li>
         <li><a href="membership.html">Join</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="contact.html">Contact</a></li>
@@ -72,6 +72,8 @@
           alt="Main Photo"
         />
       </picture>
+      <div id="weatherAlert"></div>
+      <button id="x" onclick="closeAlert()">Close Alert</button>
 
       <article>
         <br />
@@ -99,25 +101,29 @@
         <h2>Forecast</h2>
         <div id="forecast">
           <div class="grid-col">
-            <span class="col-head" id="dia1"></span>
-            <img id="img1" alt="temperature" />
-            <span class="data" id="day1"></span>
+            <span class="col-head" id="day1"></span>
+            <p class="col-head">Currently:<span class="col-head" id="desc0"></span>
+            <p class="col-head">Temperature:<span class="col-head" id="temp0"></span></p>         
+            <p class="col-head">Humidity:<span class="col-head" id="hum0"></span>%</p>
           </div>
           <div class="grid-col">
-            <span class="col-head" id="dia2"></span>
-            <img id="img2" alt="teperature" />
-            <span class="data" id="day2"></span>
+            <span class="col-head" id="day2"></span>
+            <p class="col-head">Currently:<span class="col-head" id="desc1"></span></p>           
+              <p class="col-head">Temperature: <span class="col-head" id="temp1"></span></p>
+                <p class="col-head">Humidity:<span class="col-head" id="hum1">%</span>%</p>
           </div>
           <div class="grid-col">
-            <span class="col-head" id="dia3"></span>
-            <img id="img3" alt="temperature" />
-            <span class="data" id="day3"></span>
+            <span class="col-head" id="day3"></span>
+            <p class="col-head">Temperature:<span class="col-head" id="desc2"></span></p>
+            <p class="col-head">Currently:<span class="col-head" id="temp2"></span></p>
+            
+            <p class="col-head">Humidity:<span class="col-head" id="hum2"></span> %</p>
           </div>
         </div>
       </div>
       <div>
         <h2>Upcoming Events</h2>
-        <div id="prestonEvents"></div>
+        <div id="events"></div>
       </div>
       <div class="shop">
         <h2>Featured Businesses and Partners</h2>
@@ -165,6 +171,7 @@
     <script src="js/script.js"></script>
     <script src="js/index.js"></script>
     <script src="js/events.js"></script>
+    <script src="js/forecast.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
       WebFont.load({ google: { families: ["Roboto"] } });

@@ -40,4 +40,12 @@ fetch(apiURL)
       document.getElementById("weatherAlert").style.display = "block";
       document.getElementById("x").style.display = "block";
     }
+
+    var date1 = new Date(new Date());
+    var date2 = new Date().setDate(date1.getDate() + 1);
+    var date3 = new Date().setDate(date1.getDate() + 2);
+
+    document.getElementById("day1").textContent = date1.toDateString();
+    document.getElementById("day2").textContent = new Date(date2).toDateString();
+    document.getElementById("day3").textContent = new Date(date3).toDateString();
   });

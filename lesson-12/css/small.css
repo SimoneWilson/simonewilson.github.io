@@ -67,7 +67,7 @@ nav ul li.active a {
 }
 
 .hide {
-  display:none;
+  display: none;
 }
 
 /*----------- MAIN --------------*/
@@ -87,15 +87,16 @@ main h1 {
 
 main picture img {
   width: 100%;
-  object-fit: contain;  
+  object-fit: contain;
 }
 
-main h2, h3 {
+main h2,
+h3 {
   text-align: center;
 }
 
 
- div,
+div,
 .city h2,
 .city h3 {
   width: 100%;
@@ -106,7 +107,7 @@ main h2, h3 {
 
 .chamber {
   padding: 0px 1rem 1rem 1.3rem;
-  text-align: justify;  
+  text-align: justify;
 }
 
 .logo {
@@ -118,33 +119,42 @@ main h2, h3 {
 
 .member {
   padding: 0px 1rem 1rem 1.3rem;
-  text-align: justify;  
+  text-align: justify;
 }
 
 #forecast {
   display: block;
+
 }
 
 .grid-col {
-  background-color: #40798c;
-  margin: 4px auto 4px auto;
+  width: 280px;
+  height: auto;
+  background-color: #70a9a1;
+  margin: auto;
+  text-align: center;
 }
 
+.col-head {
+  margin: 2px 0px 2px 2px;
+}
+
+
 .shop {
-  display:none;
+  display: none;
 }
 
 .contact_info {
   width: 100%;
-  padding: 25px 0px 10px 0px; 
+  padding: 25px 0px 10px 0px;
   font-size: 18px;
   line-height: 0.7rem;
-  background-color: #70a9a1;  
+  background-color: #70a9a1;
 }
 
 .contact {
   padding: 0px 1rem 1rem 1.3rem;
-  text-align: justify; 
+  text-align: justify;
 }
 
 .mapouter {
@@ -154,8 +164,8 @@ main h2, h3 {
 
 
 #social {
-grid-column: 2;
-padding-bottom: 5px;
+  grid-column: 2;
+  padding-bottom: 5px;
 }
 
 .info {
@@ -176,7 +186,7 @@ form fieldset {
 }
 
 form label.field {
-  display:block;
+  display: block;
 }
 
 form label.field input,
@@ -200,7 +210,7 @@ textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-   width: 100%;
+  width: 100%;
 }
 
 .btn {
@@ -213,12 +223,12 @@ textarea {
 .contact_btn {
   margin: 20px 0px 20px 60px;
   padding: 10px 70px;
-  font-size: 16px;  
-  background-color: #fff; 
+  font-size: 16px;
+  background-color: #fff;
 }
 
 
-dl {  
+dl {
   margin-right: 1rem;
 }
 
@@ -227,9 +237,9 @@ dt {
   text-align: center;
 }
 
-.policy { 
+.policy {
   padding: 0px 1rem 1rem 1.3rem;
-  text-align:justify; 
+  text-align: justify;
 }
 
 /*----------- DIRECTORY --------------*/
@@ -238,22 +248,22 @@ dt {
   margin: auto;
 }
 
-.outer_div{
+.outer_div {
   justify-items: center;
 }
 
-.hide_class{
+.hide_class {
   display: none;
 }
 
-.inner_div_grid{
+.inner_div_grid {
   display: grid;
   line-height: 1.5rem;
   padding-left: 30px;
   text-align: center;
 }
 
-.inner_div_list{
+.inner_div_list {
   display: grid;
   line-height: 1.5rem;
   padding-left: 30px;
@@ -264,7 +274,7 @@ dt {
 /*----------- FOOTER --------------*/
 footer {
   background-color: #9fc7a5;
-  width: 100%;  
+  width: 100%;
   padding: 0.5rem;
   padding-right: unset;
   text-align: center;
@@ -283,7 +293,6 @@ footer p {
 
 @media only screen and (min-width: 360px) {
   form fieldset {
-    width: 350px;    
+    width: 350px;
   }
 }
- 

@@ -1,5 +1,6 @@
 /* Desktop*/
 @media only screen and (min-width: 1025px) {
+
   /*----------- BODY --------------*/
   header,
   nav,
@@ -39,22 +40,25 @@
     padding-left: 43%;
   }
 
-  .logo {    
-    width: 10%;    
+  .logo {
+    width: 10%;
   }
- 
+
   #forecast {
-    margin-left: 30%;
-    grid-template-columns: 140px 130px 130px 130px 130px;
-    grid-gap: 40px;
-    text-align: center;
+    margin-left: 60px;
   }
 
   .grid-col {
-    background-color: #40798c;
+    width: 300px;
+    font-size: 18px;
   }
 
-   .city {
+  .col-head {
+    margin-top: 10px;
+
+  }
+
+  .city {
     width: 90%;
     margin-left: 5rem;
     display: grid;
@@ -78,9 +82,9 @@
   legend {
     font-size: 30px;
   }
-  
+
   .row {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
@@ -88,42 +92,43 @@
     grid-column-start: 2;
   }
 
-  .shop {    
-    display:block;
-    margin: 40px auto;  
-    }
+  .shop {
+    display: block;
+    margin: 40px auto;
+  }
 
-  .partners {    
+  .partners {
     grid-gap: 150px;
   }
 
-  .contact_info {   
-    font-size: 20px;  
-  } 
-  .hide_class{
+  .contact_info {
+    font-size: 20px;
+  }
+
+  .hide_class {
     display: block;
   }
-    /*----------- DIRECTORY --------------*/
 
-    .btn_direct {
-      width: 20%;   
-      margin-left: 40%; 
-     }
-    
-    .inner_div_grid{  
-      grid-template-rows: 25px 25px 25px 25px 25px; 
-      line-height: 1.5rem;
-      padding-left: 60px;     
-      text-align: left;    
-      border: 1px solid black;
-    }
-  
-    #directory_info {   
-      padding-left: 60px;
-    }
-    
-    
-  .inner_div_list{
+  /*----------- DIRECTORY --------------*/
+
+  .btn_direct {
+    width: 20%;
+    margin-left: 40%;
+  }
+
+  .inner_div_grid {
+    grid-template-rows: 25px 25px 25px 25px 25px;
+    line-height: 1.5rem;
+    padding-left: 60px;
+    text-align: left;
+    border: 1px solid black;
+  }
+
+  #directory_info {
+    padding-left: 60px;
+  }
+
+  .inner_div_list {
     gap: 60px;
     grid-template-columns: 220px 130px 130px 180px 150px;
     line-height: 1.5rem;
