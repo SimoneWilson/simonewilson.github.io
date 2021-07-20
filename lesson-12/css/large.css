@@ -45,16 +45,19 @@
   }
 
   #forecast {
-    margin-left: 60px;
+    margin: auto;
+
   }
 
   .grid-col {
-    width: 300px;
+    width: 350px;
     font-size: 18px;
+    margin-bottom: 30px;
+    ;
   }
 
   .col-head {
-    margin-top: 10px;
+    padding-top: 10px;
 
   }
 
