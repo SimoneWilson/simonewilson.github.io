@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="WDD230 Week12" />
+    <meta name="author" content="Simone McKee" />
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>Final Project: Chamber of Commerce</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta
+      name="viewport"
+      content="width=device-width , initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- STYLE SHEETS -->
+    <link rel="city icon" href="images/favicon_city.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet" />
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet" />
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- HEADER HERE -->
+    <header class="clearfix">
+      <img src="images/logo_icon_128px.png" alt="icon" />
+    </header>
+    <main>
+      <div>
+        <h2>Our Privacy Policy</h2>
+        <article class="policy">
+          <aside>
+            <p>
+              We are committed to keeping your date specifiable. We don't sell
+              your information to anyone or any company. Additionally, we will
+              keep your information safe using encryption or other appropriate
+              security protocols.
+            </p>
+          </aside>
+        </article>
+      </div>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+      <div class="contact_info">
+        <div>
+          <img src="images/pin_postal_icon.png" alt="icon_address" />
+          <p>201 S Main St</p>
+          <p>Salt Lake City, UT, 84000</p>
+        </div>
+        <div>
+          <img src="images/phone_icon_64px.png" alt="icon_phone" />
+          <p>+1-333-444-5555</p>
+        </div>
+        <div>
+          <img src="images/email_icon_64px.png" alt="icon_email" />
+          <p>contact@slchamber.com</p>
+        </div>
+        <div id="social">
+          <img src="images/facebook_icon.png" alt="icon_facebook" />
+          <img src="images/instagram_icon.png" alt="icon_instagram" />
+          <img src="images/twitter_icon.png" alt="icon_twitter" />
+        </div>
+      </div>
+      <p>© <label id="year"></label>Salt Lake City Area Chamber of Commerce</p>
+      <p>Business Hours: 9AM - 5PM</p>
+      <p>
+        <span>All Rights Reserved | </span>
+        <a href="privacy.html">Privacy Policy | </a>
+        <a href="attribution.html">Attributions</a>
+      </p>
+      <p>&nbsp; <span id="currentDate"></span></p>
+      <p>Last visited <span id="lastDate">0</span> days ago</p>
+    </footer>
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/events.js"></script>
+    <script src="js/forecast.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({ google: { families: ["Roboto"] } });
+    </script>
+  </body>
+</html>
