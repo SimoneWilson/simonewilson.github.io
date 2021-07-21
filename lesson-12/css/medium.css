@@ -1,6 +1,5 @@
 /* Tablet */
 @media only screen and (min-width: 768px) {
-
   /*----------- HEADER --------------*/
 
   Header img {
@@ -98,7 +97,6 @@
     line-height: 3rem;
   }
 
-
   .chamber {
     display: block;
     font-size: 18px;
@@ -113,6 +111,17 @@
     margin: 0 5px 0 15px;
   }
 
+  #photo1 {
+    height: 250px;
+  }
+
+  #photo2 {
+    height: 250px;
+  }
+
+  #photo3 {
+    height: 250px;
+  }
   dt {
     text-align: left;
     margin-left: 2.5rem;
@@ -188,7 +197,6 @@
 
   /* iPad Pro */
   @media only screen and (min-width: 1024px) {
-
     #forecast {
       margin-left: 40px;
     }

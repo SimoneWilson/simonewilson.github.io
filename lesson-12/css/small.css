@@ -30,7 +30,6 @@ header img {
   padding-right: 10px;
 }
 
-
 /*----------- NAVIGATION --------------*/
 
 nav button {
@@ -95,7 +94,6 @@ h3 {
   text-align: center;
 }
 
-
 div,
 .city h2,
 .city h3 {
@@ -117,6 +115,24 @@ div,
   border: 1px solid #808080;
 }
 
+#photo1 {
+  height: 130px;
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+#photo2 {
+  height: 130px;
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+#photo3 {
+  height: 130px;
+  float: right;
+  margin: 0 0 0 15px;
+}
+
 .member {
   padding: 0px 1rem 1rem 1.3rem;
   text-align: justify;
@@ -124,7 +140,6 @@ div,
 
 #forecast {
   display: block;
-
 }
 
 .grid-col {
@@ -138,7 +153,6 @@ div,
 .col-head {
   margin: 2px 0px 2px 2px;
 }
-
 
 .shop {
   display: none;
@@ -161,7 +175,6 @@ div,
   margin: auto;
   border: 1px solid #000;
 }
-
 
 #social {
   grid-column: 2;
@@ -227,7 +240,6 @@ textarea {
   background-color: #fff;
 }
 
-
 dl {
   margin-right: 1rem;
 }
@@ -269,7 +281,6 @@ dt {
   padding-left: 30px;
   text-align: center;
 }
-
 
 /*----------- FOOTER --------------*/
 footer {
